@@ -9,9 +9,9 @@ import imgBackgroundImage1 from "../../imports/Home/eef97d1b28e33e30c22ec8dd57c4
 import imgGroup861 from "../../imports/Home/4d34812f7ce186a533793aef0de7e5ca5c9d06c2.png";
 import imgGroup87 from "../../imports/Home/ad623be10964d77eb06617a2d2a72ea92a42d878.png";
 import imgBackgroundImage2 from "../../imports/Home/21a51794e8146afcaea12d5a819d5484d0ac74ca.png";
-import imgMesaDeTrabajo61 from "../../imports/Home/30aebf1fa8674c51e9105f4713f02fecaaf53b7a.png";
+import imgMesaDeTrabajo61 from "../../imports/Home/106-DSC00301.jpg";
 import imgMesaDeTrabajo71 from "../../imports/Home/1d77ae4dd27ff69527be4ec77b56af2875338597.png";
-import imgImageWithFallback from "../../imports/Home/a05a240bb160a8abdfcdc96979260b0d56263c46.png";
+import imgImageWithFallback from "../../imports/Home/106-DSC00301.jpg";
 
 function Hero() {
   return (
@@ -26,7 +26,13 @@ function Hero() {
   );
 }
 
-function FadeInSection({ children, delay = 0 }: { children: React.ReactNode; delay?: number }) {
+function FadeInSection({
+  children,
+  delay = 0,
+}: {
+  children: React.ReactNode;
+  delay?: number;
+}) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [hasAnimated, setHasAnimated] = useState(false);
@@ -78,7 +84,10 @@ function WorkCard({
               {images}
             </div>
             <div className="h-auto min-h-[90px] sm:min-h-[100px] md:min-h-[113px] relative shrink-0 w-full">
-              <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-solid border-t inset-0 pointer-events-none" />
+              <div
+                aria-hidden="true"
+                className="absolute border-[rgba(0,0,0,0.1)] border-solid border-t inset-0 pointer-events-none"
+              />
               <div className="content-stretch flex flex-col items-start pt-4 sm:pt-5 md:pt-[25px] px-4 sm:px-5 md:px-[24px] pb-4 relative size-full">
                 <div className="content-stretch flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-4 relative shrink-0 w-full">
                   <div className="relative flex-1">
@@ -89,7 +98,10 @@ function WorkCard({
                     </div>
                   </div>
                   <div className="h-[30px] relative rounded-full shrink-0">
-                    <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-full" />
+                    <div
+                      aria-hidden="true"
+                      className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-full"
+                    />
                     <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full px-3 sm:px-[13px] py-[5.5px]">
                       <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-xs sm:text-sm md:text-[14px] text-black whitespace-nowrap">
                         {category}
@@ -101,7 +113,10 @@ function WorkCard({
             </div>
           </div>
         </motion.div>
-        <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16px] group-hover:border-[rgba(0,0,0,0.2)] transition-colors duration-300" />
+        <div
+          aria-hidden="true"
+          className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16px] group-hover:border-[rgba(0,0,0,0.2)] transition-colors duration-300"
+        />
       </Link>
     </FadeInSection>
   );
@@ -142,8 +157,15 @@ export default function HomePage() {
             </div>
           </FadeInSection>
 
-          <div ref={selectedWorkRef} id="selected-work" className="relative shrink-0 w-full scroll-mt-[60px]">
-            <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+          <div
+            ref={selectedWorkRef}
+            id="selected-work"
+            className="relative shrink-0 w-full scroll-mt-[60px]"
+          >
+            <div
+              aria-hidden="true"
+              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+            />
             <div className="content-stretch flex flex-col items-start pb-px pt-12 sm:pt-16 md:pt-20 lg:pt-24 px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] relative size-full">
               <div className="content-stretch flex flex-col gap-10 sm:gap-12 md:gap-16 items-start relative shrink-0 w-full">
                 <FadeInSection>
@@ -163,18 +185,33 @@ export default function HomePage() {
                     images={
                       <div className="grid grid-rows-[1fr] leading-[0] relative w-full h-full">
                         <div className="col-1 row-1 relative w-full h-full">
-                          <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-                            <img alt="" className="absolute max-w-none object-cover size-full" src={imgBackgroundImage} />
+                          <div
+                            aria-hidden="true"
+                            className="absolute inset-0 pointer-events-none"
+                          >
+                            <img
+                              alt=""
+                              className="absolute max-w-none object-cover size-full"
+                              src={imgBackgroundImage}
+                            />
                             <div className="absolute bg-[rgba(0,0,0,0.2)] inset-0" />
                           </div>
                         </div>
                         <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[62px] mt-[86px] place-items-start relative row-1">
                           <div className="col-1 h-[265.668px] ml-[59.84px] mt-[19.04px] relative rounded-[8px] row-1 w-[426.157px]">
-                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgSuccess4} />
+                            <img
+                              alt=""
+                              className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                              src={imgSuccess4}
+                            />
                           </div>
                           <div className="col-1 h-[123.314px] ml-0 mt-0 relative rounded-[8px] row-1 shadow-[0px_4px_6px_0px_rgba(0,0,0,0.15)] w-[272.015px]">
                             <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-                              <img alt="" className="absolute h-[264.71%] left-0 max-w-none top-0 w-full" src={imgRevendedorSolicitudAprobada1} />
+                              <img
+                                alt=""
+                                className="absolute h-[264.71%] left-0 max-w-none top-0 w-full"
+                                src={imgRevendedorSolicitudAprobada1}
+                              />
                             </div>
                           </div>
                         </div>
@@ -190,17 +227,32 @@ export default function HomePage() {
                     images={
                       <div className="grid grid-rows-[1fr] leading-[0] relative w-full h-full">
                         <div className="col-1 row-1 relative w-full h-full">
-                          <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-                            <img alt="" className="absolute max-w-none object-cover size-full" src={imgBackgroundImage1} />
+                          <div
+                            aria-hidden="true"
+                            className="absolute inset-0 pointer-events-none"
+                          >
+                            <img
+                              alt=""
+                              className="absolute max-w-none object-cover size-full"
+                              src={imgBackgroundImage1}
+                            />
                             <div className="absolute bg-[rgba(0,0,0,0.2)] inset-0" />
                           </div>
                         </div>
                         <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[62px] mt-[92px] place-items-start relative row-1">
                           <div className="col-1 h-[239.304px] ml-0 mt-0 relative rounded-[8px] row-1 w-[425.019px]">
-                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgGroup861} />
+                            <img
+                              alt=""
+                              className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                              src={imgGroup861}
+                            />
                           </div>
                           <div className="col-1 h-[230.065px] ml-[365.89px] mt-[42.5px] relative rounded-[8px] row-1 w-[120.114px]">
-                            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgGroup87} />
+                            <img
+                              alt=""
+                              className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                              src={imgGroup87}
+                            />
                           </div>
                         </div>
                       </div>
@@ -216,17 +268,32 @@ export default function HomePage() {
                       images={
                         <div className="grid grid-rows-[1fr] leading-[0] relative w-full h-full">
                           <div className="col-1 row-1 relative w-full h-full">
-                            <div aria-hidden="true" className="absolute inset-0 pointer-events-none">
-                              <img alt="" className="absolute max-w-none object-cover size-full" src={imgBackgroundImage2} />
+                            <div
+                              aria-hidden="true"
+                              className="absolute inset-0 pointer-events-none"
+                            >
+                              <img
+                                alt=""
+                                className="absolute max-w-none object-cover size-full"
+                                src={imgBackgroundImage2}
+                              />
                               <div className="absolute bg-[rgba(0,0,0,0.2)] inset-0" />
                             </div>
                           </div>
                           <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[100px] mt-[81px] place-items-start relative row-1">
                             <div className="col-1 ml-0 mt-0 relative rounded-[8px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] size-[216.186px]">
-                              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgMesaDeTrabajo61} />
+                              <img
+                                alt=""
+                                className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                                src={imgMesaDeTrabajo61}
+                              />
                             </div>
                             <div className="col-1 ml-[190.99px] mt-[66.89px] relative rounded-[8px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] size-[219.107px]">
-                              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgMesaDeTrabajo71} />
+                              <img
+                                alt=""
+                                className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                                src={imgMesaDeTrabajo71}
+                              />
                             </div>
                           </div>
                         </div>
@@ -241,7 +308,10 @@ export default function HomePage() {
           <div ref={resumeRef} id="resume" className="scroll-mt-[60px] w-full">
             <FadeInSection>
               <div className="relative shrink-0 w-full">
-                <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+                <div
+                  aria-hidden="true"
+                  className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                />
                 <div className="content-stretch flex flex-col items-start px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] py-8 sm:py-10 md:py-[40px] relative w-full">
                   <p className="font-['Groteska:Bold',sans-serif] leading-tight sm:leading-[48px] md:leading-[60px] not-italic relative shrink-0 text-3xl sm:text-4xl md:text-5xl lg:text-[60px] text-black">
                     Resume
@@ -252,22 +322,31 @@ export default function HomePage() {
 
             <FadeInSection delay={0.1}>
               <div className="relative shrink-0 w-full">
-                <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+                <div
+                  aria-hidden="true"
+                  className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                />
                 <div className="content-stretch flex flex-col items-start pb-px px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] relative size-full">
                   <div className="relative shrink-0 w-full">
-                    <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-l border-r border-solid inset-0 pointer-events-none hidden md:block" />
+                    <div
+                      aria-hidden="true"
+                      className="absolute border-[rgba(0,0,0,0.1)] border-l border-r border-solid inset-0 pointer-events-none hidden md:block"
+                    />
                     <div className="content-stretch flex flex-col items-start px-0 md:px-px relative size-full">
                       <div className="relative shrink-0 w-full grid grid-cols-1 md:grid-cols-[300px_1fr] lg:grid-cols-[415px_1fr] gap-8 md:gap-0">
                         <div className="content-stretch flex flex-col items-start pb-px">
                           <div className="h-auto md:h-[603px] relative shrink-0 w-full">
-                            <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
                             <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full p-[32px]">
                               <div className="bg-[rgba(0,0,0,0.05)] content-stretch flex flex-col items-start overflow-clip rounded-[16px] mb-[24px]">
                                 <div className="h-[437.906px] relative shrink-0 w-full">
                                   <div className="absolute inset-0 overflow-hidden pointer-events-none">
                                     <img
                                       alt="Profile"
-                                      className="absolute h-[128.06%] left-[-30.01%] max-w-none top-[-17.33%] w-[160.08%]"
+                                      className="absolute h-[100%] left-0 max-w-none top-0 w-full"
                                       src={imgImageWithFallback}
                                     />
                                   </div>
@@ -282,7 +361,10 @@ export default function HomePage() {
                             </div>
                           </div>
                           <div className="relative shrink-0 w-full">
-                            <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
                             <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[16px] items-start p-[32px] relative size-full">
                               <h3 className="font-['Groteska:Medium',sans-serif] leading-[28px] not-italic text-[20px] text-black">
                                 Personal Information
@@ -312,7 +394,8 @@ export default function HomePage() {
                                     Interests
                                   </p>
                                   <p className="leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
-                                    Contemporary Art, Architecture, Analog Photography, Vinyl Collecting
+                                    Contemporary Art, Architecture, Analog
+                                    Photography, Vinyl Collecting
                                   </p>
                                 </div>
                               </div>
@@ -345,13 +428,16 @@ export default function HomePage() {
 
                         <div className="content-stretch flex flex-col items-start pb-px">
                           <div className="relative shrink-0 w-full">
-                            <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[40px] relative size-full">
-                                <h2 className="font-['Groteska:Medium',sans-serif] leading-[24px] not-italic text-[24px] text-black">
-                                  Education
-                                </h2>
-                                <div className="content-start flex flex-wrap gap-[6px] items-start relative shrink-0 w-full">
-                                  <div className="content-stretch flex flex-col gap-[6px] items-start px-[24px] py-px border-l-2 border-black w-full sm:w-[236px]">
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[40px] relative size-full">
+                              <h2 className="font-['Groteska:Medium',sans-serif] leading-[24px] not-italic text-[24px] text-black">
+                                Education
+                              </h2>
+                              <div className="content-start flex flex-wrap gap-[6px] items-start relative shrink-0 w-full">
+                                <div className="content-stretch flex flex-col gap-[6px] items-start px-[24px] py-px border-l-2 border-black w-full sm:w-[236px]">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2017 - 2020
                                   </p>
@@ -359,10 +445,11 @@ export default function HomePage() {
                                     Bachelor's Degree
                                   </p>
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
-                                    In Graphic and Multimedia Design, Universidad de la Cuenca del Plata
+                                    In Graphic and Multimedia Design,
+                                    Universidad de la Cuenca del Plata
                                   </p>
                                 </div>
-                                  <div className="content-stretch flex flex-col gap-[9px] items-start px-[24px] py-px border-l-2 border-black w-full sm:w-[236px]">
+                                <div className="content-stretch flex flex-col gap-[9px] items-start px-[24px] py-px border-l-2 border-black w-full sm:w-[236px]">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2021
                                   </p>
@@ -370,11 +457,16 @@ export default function HomePage() {
                                     UX Design/Development
                                   </p>
                                   <div className="font-['Montserrat:Regular',sans-serif] font-normal text-[14px] text-[rgba(10,10,10,0.6)]">
-                                    <p className="leading-[20px]">AI Foundations of UX Design, Google</p>
-                                    <p className="leading-[20px]">Web Development Course (HTML5 & CSS3) — UTN</p>
+                                    <p className="leading-[20px]">
+                                      AI Foundations of UX Design, Google
+                                    </p>
+                                    <p className="leading-[20px]">
+                                      Web Development Course (HTML5 & CSS3) —
+                                      UTN
+                                    </p>
                                   </div>
                                 </div>
-                                  <div className="content-stretch flex flex-col items-start px-[24px] border-l-2 border-black w-full sm:w-[236px]">
+                                <div className="content-stretch flex flex-col items-start px-[24px] border-l-2 border-black w-full sm:w-[236px]">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2018-2020
                                   </p>
@@ -390,8 +482,11 @@ export default function HomePage() {
                           </div>
 
                           <div className="relative shrink-0 w-full grid grid-cols-1 sm:grid-cols-2">
-                            <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                              <div className="content-stretch flex flex-col gap-[24px] items-start pl-4 sm:pl-6 md:pl-[48px] pr-4 sm:pr-6 md:pr-[49px] py-[32px] border-r border-[rgba(0,0,0,0.1)]">
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
+                            <div className="content-stretch flex flex-col gap-[24px] items-start pl-4 sm:pl-6 md:pl-[48px] pr-4 sm:pr-6 md:pr-[49px] py-[32px] border-r border-[rgba(0,0,0,0.1)]">
                               <h3 className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black">
                                 Core Disciplines
                               </h3>
@@ -404,7 +499,10 @@ export default function HomePage() {
                                   "Prototyping & Interaction",
                                   "User Flow and Information Architecture",
                                 ].map((skill) => (
-                                  <div key={skill} className="flex items-center gap-[16px]">
+                                  <div
+                                    key={skill}
+                                    className="flex items-center gap-[16px]"
+                                  >
                                     <div className="bg-black rounded-full size-[6px]" />
                                     <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] text-[16px] text-[rgba(0,0,0,0.8)]">
                                       {skill}
@@ -413,7 +511,7 @@ export default function HomePage() {
                                 ))}
                               </div>
                             </div>
-                              <div className="content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[32px]">
+                            <div className="content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[32px]">
                               <h3 className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black">
                                 Soft Skills
                               </h3>
@@ -423,8 +521,10 @@ export default function HomePage() {
                                     Strategic Thinking
                                   </h4>
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)]">
-                                    Seeing the big picture while obsessing over details. I apply an Atomic Design
-                                    methodology, carefully crafting even the smallest design element.
+                                    Seeing the big picture while obsessing over
+                                    details. I apply an Atomic Design
+                                    methodology, carefully crafting even the
+                                    smallest design element.
                                   </p>
                                 </div>
                                 <div>
@@ -432,8 +532,10 @@ export default function HomePage() {
                                     Adaptability
                                   </h4>
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)]">
-                                    I like to pour my creative energy in each and every project I'm part of. Working on
-                                    different topics, for diverse audiences, delivering a tailored design solution.
+                                    I like to pour my creative energy in each
+                                    and every project I'm part of. Working on
+                                    different topics, for diverse audiences,
+                                    delivering a tailored design solution.
                                   </p>
                                 </div>
                                 <div>
@@ -441,8 +543,9 @@ export default function HomePage() {
                                     Visual Consistency
                                   </h4>
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)]">
-                                    Following branding guidelines help me maintaining coherent identity through different
-                                    platforms.
+                                    Following branding guidelines help me
+                                    maintaining coherent identity through
+                                    different platforms.
                                   </p>
                                 </div>
                                 <div>
@@ -450,8 +553,9 @@ export default function HomePage() {
                                     Cross-Disciplinary Thinking
                                   </h4>
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)]">
-                                    I enjoy combining different design tools, approaching each project as part of a broader
-                                    communication system.
+                                    I enjoy combining different design tools,
+                                    approaching each project as part of a
+                                    broader communication system.
                                   </p>
                                 </div>
                               </div>
@@ -468,16 +572,21 @@ export default function HomePage() {
                                   Design
                                 </p>
                                 <div className="flex flex-col gap-[8px]">
-                                  {["Figma", "Lovable", "Premiere Pro", "After Effects", "Photoshop", "Illustrator"].map(
-                                    (tool) => (
-                                      <p
-                                        key={tool}
-                                        className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]"
-                                      >
-                                        {tool}
-                                      </p>
-                                    )
-                                  )}
+                                  {[
+                                    "Figma",
+                                    "Lovable",
+                                    "Premiere Pro",
+                                    "After Effects",
+                                    "Photoshop",
+                                    "Illustrator",
+                                  ].map((tool) => (
+                                    <p
+                                      key={tool}
+                                      className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]"
+                                    >
+                                      {tool}
+                                    </p>
+                                  ))}
                                 </div>
                               </div>
                               <div className="flex-1">
@@ -485,7 +594,13 @@ export default function HomePage() {
                                   Management
                                 </p>
                                 <div className="flex flex-col gap-[8px]">
-                                  {["Jira", "Notion", "FigJam", "Asana", "Trello"].map((tool) => (
+                                  {[
+                                    "Jira",
+                                    "Notion",
+                                    "FigJam",
+                                    "Asana",
+                                    "Trello",
+                                  ].map((tool) => (
                                     <p
                                       key={tool}
                                       className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]"
@@ -499,12 +614,15 @@ export default function HomePage() {
                           </div>
 
                           <div className="relative shrink-0 w-full">
-                            <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[40px] relative size-full">
-                                <h2 className="font-['Groteska:Medium',sans-serif] leading-[48px] not-italic text-[24px] text-black">
-                                  Experience
-                                </h2>
-                                <div className="content-stretch flex flex-col md:flex-row items-start relative shrink-0 w-full gap-6 md:gap-[24px]">
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[40px] relative size-full">
+                              <h2 className="font-['Groteska:Medium',sans-serif] leading-[48px] not-italic text-[24px] text-black">
+                                Experience
+                              </h2>
+                              <div className="content-stretch flex flex-col md:flex-row items-start relative shrink-0 w-full gap-6 md:gap-[24px]">
                                 <div className="content-stretch flex flex-col gap-[6px] items-start px-[24px] py-px border-l-2 border-black flex-1">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2019 - 2022
@@ -524,7 +642,8 @@ export default function HomePage() {
                                     Senior Graphic Designer - UI Designer
                                   </p>
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
-                                    Subsecretaría de Contenido e Innovación Digital
+                                    Subsecretaría de Contenido e Innovación
+                                    Digital
                                   </p>
                                 </div>
                                 <div className="content-stretch flex flex-col items-start px-[24px] border-l-2 border-black flex-1">
