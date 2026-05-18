@@ -377,7 +377,7 @@ export default function HomePage() {
                                   <div className="absolute inset-0 overflow-hidden pointer-events-none">
                                     <img
                                       alt="Profile"
-                                      className="absolute h-[100%] left-0 max-w-none top-0 w-full"
+                                      className="absolute h-[115%] left-0 max-w-none top-0 w-full"
                                       src={imgImageWithFallback}
                                     />
                                   </div>
