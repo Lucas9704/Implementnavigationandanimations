@@ -121,24 +121,29 @@ function Breadcrumb() {
 
 function Text2() {
   return (
-    <div className="h-[30px] relative rounded-[16777200px] shrink-0 w-[522.961px]" data-name="Text">
+    <div className="relative rounded-[16777200px] shrink-0 py-[5.5px] px-[13px]" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">{`Google & META Ads · Public Sector Communication · Campaign Design`}</p>
+      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">{`Google & META Ads · Public Sector Communication · Campaign Design`}</p>
     </div>
   );
 }
 
 function Heading1() {
   return (
-    <div className="h-[316.781px] relative shrink-0 w-full" data-name="Heading 1">
-      <p className="absolute font-['Groteska:Bold',sans-serif] leading-[96px] left-0 not-italic text-[96px] text-black top-[8.5px] w-[720px]">Public Communication Campaigns</p>
+    <div className="relative shrink-0 w-full" data-name="Heading 1">
+      <p
+        className="font-['Groteska:Bold',sans-serif] not-italic text-black leading-tight"
+        style={{ fontSize: "clamp(2rem, 6vw, 6rem)" }}
+      >
+        Public Communication Campaigns
+      </p>
     </div>
   );
 }
 
 function Text1() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-[714.664px]" data-name="Text">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Text">
       <Text2 />
       <Heading1 />
     </div>
@@ -163,7 +168,7 @@ function Mockups() {
 
 function Container4() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col md:flex-row items-center gap-8 md:gap-12 w-full" data-name="Container">
       <Text1 />
       <Mockups />
     </div>
@@ -173,7 +178,7 @@ function Container4() {
 function Container3() {
   return (
     <div className="relative shrink-0 w-full" data-name="Container">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start justify-center py-[88px] relative size-full">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start justify-center py-16 sm:py-20 md:py-24 relative w-full">
         <Container4 />
       </div>
     </div>
@@ -182,10 +187,10 @@ function Container3() {
 
 function Section() {
   return (
-    <div className="relative shrink-0 w-full min-h-[794px]" data-name="Section">
+    <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="flex flex-col items-center justify-center size-full">
-        <div className="content-stretch flex flex-col items-center justify-center pb-px px-[72px] relative w-full max-w-[1344px]">
+      <div className="flex flex-col items-center justify-center w-full">
+        <div className="content-stretch flex flex-col items-center justify-center pb-px px-6 sm:px-8 md:px-12 xl:px-[72px] relative w-full max-w-[1344px]">
           <Container3 />
         </div>
       </div>
@@ -195,8 +200,8 @@ function Section() {
 
 function Heading2() {
   return (
-    <div className="h-[32px] relative shrink-0 w-[361.664px]" data-name="Heading 2">
-      <p className="absolute font-['Groteska:Medium',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">Project Overview</p>
+    <div className="relative shrink-0" data-name="Heading 2">
+      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">Project Overview</p>
     </div>
   );
 }
@@ -212,7 +217,7 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="content-stretch flex flex-col items-start pl-[32px] pr-[21.336px] relative shrink-0 w-[821.336px]" data-name="Container">
+    <div className="content-stretch flex flex-col items-start pl-[32px] pr-0 relative flex-1 min-w-0" data-name="Container">
       <div className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-full">
         <p className="leading-[32.5px] mb-0">This series of public communication projects was developed with the goal of informing the citizens of Corrientes about government initiatives, public programs, and provincial benefits through clear, accessible, and strategically structured digital experiences. Each campaign combined landing page design with Google and META advertising systems, connecting paid media efforts with informative digital platforms designed to simplify complex information and improve audience reach across diverse user groups.</p>
         <p className="leading-[32.5px]">It was developed by a multidisciplinary team specialized in design, web development, marketing, and SEO optimization,</p>
@@ -223,7 +228,7 @@ function Container7() {
 
 function Container5() {
   return (
-    <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col md:flex-row items-start gap-8 md:gap-0 relative w-full" data-name="Container">
       <Container6 />
       <Container7 />
     </div>
@@ -1632,7 +1637,7 @@ function MainContent() {
 
 function Root() {
   return (
-    <div className="absolute bg-white content-stretch flex flex-col h-[4124.313px] items-start left-0 pt-[60px] top-0 w-[1344px]" data-name="Root">
+    <div className="bg-white content-stretch flex flex-col items-start pt-[60px] relative w-full" data-name="Root">
       <MainContent />
     </div>
   );
@@ -1690,7 +1695,7 @@ function Container9() {
 
 function Navbar() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start left-0 pb-px pt-[16px] px-[48px] top-0 w-[1344px]" data-name="Navbar">
+    <div className="bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start pb-px pt-[16px] px-6 sm:px-8 md:px-12 xl:px-[48px] w-full" data-name="Navbar">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
       <Container9 />
     </div>

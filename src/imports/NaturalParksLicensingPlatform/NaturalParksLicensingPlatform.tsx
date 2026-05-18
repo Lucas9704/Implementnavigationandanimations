@@ -85,21 +85,24 @@ function Breadcrumb() {
 
 function Text1() {
   return (
-    <div className="h-[30px] relative rounded-[16777200px] shrink-0 w-[451.891px]" data-name="Text">
+    <div className="relative rounded-[16777200px] shrink-0 py-[5.5px] px-[13px]" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">UX/UI Design · Government Systems · Digital Product Design</p>
+      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">UX/UI Design · Government Systems · Digital Product Design</p>
     </div>
   );
 }
 
 function Heading1() {
   return (
-    <div className="h-[422.375px] relative shrink-0 w-full" data-name="Heading 1">
-      <div className="absolute font-['Groteska:Bold',sans-serif] leading-[0] left-0 not-italic text-[96px] text-black top-[-0.5px] whitespace-nowrap">
-        <p className="leading-[96px] mb-0 whitespace-pre">{`Natural `}</p>
-        <p className="leading-[96px] mb-0 whitespace-pre">{`Parks `}</p>
-        <p className="leading-[96px] mb-0 whitespace-pre">{`Licensing `}</p>
-        <p className="leading-[96px] whitespace-pre">Platform</p>
+    <div className="relative shrink-0 w-full" data-name="Heading 1">
+      <div
+        className="font-['Groteska:Bold',sans-serif] not-italic text-black leading-tight"
+        style={{ fontSize: "clamp(2.5rem, 7vw, 6rem)" }}
+      >
+        <p className="mb-0">{`Natural`}</p>
+        <p className="mb-0">{`Parks`}</p>
+        <p className="mb-0">{`Licensing`}</p>
+        <p className="mb-0">{`Platform`}</p>
       </div>
     </div>
   );
@@ -116,10 +119,10 @@ function Heading() {
 
 function Container4() {
   return (
-    <div className="content-stretch flex flex-[1_0_0] items-center justify-between min-w-px relative" data-name="Container">
+    <div className="content-stretch flex flex-col md:flex-row w-full items-center gap-8 md:gap-12 relative" data-name="Container">
       <Heading />
-      <div className="h-[443px] relative shrink-0 w-[622px]" data-name="Group 494 (2) 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgGroup49421} />
+      <div className="relative w-full md:w-[45%] shrink-0 aspect-[622/443]" data-name="Group 494 (2) 1">
+        <img alt="" className="absolute inset-0 object-cover pointer-events-none size-full" src={imgGroup49421} />
       </div>
     </div>
   );
@@ -127,8 +130,8 @@ function Container4() {
 
 function Container3() {
   return (
-    <div className="flex-[1_0_0] h-[692px] min-w-px relative" data-name="Container">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-start justify-center pt-[96px] relative size-full">
+    <div className="w-full relative" data-name="Container">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center py-16 sm:py-20 md:py-24 relative w-full">
         <Container4 />
       </div>
     </div>
@@ -137,10 +140,10 @@ function Container3() {
 
 function Section() {
   return (
-    <div className="relative shrink-0 w-full min-h-[799px]" data-name="Section">
+    <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="flex flex-row items-center justify-center size-full">
-        <div className="content-stretch flex items-center justify-center pb-px px-[72px] relative w-full max-w-[1344px]">
+      <div className="flex flex-row items-center justify-center w-full">
+        <div className="content-stretch flex items-center justify-center pb-px px-6 sm:px-8 md:px-12 xl:px-[72px] relative w-full max-w-[1344px]">
           <Container3 />
         </div>
       </div>
@@ -458,7 +461,7 @@ function Root() {
 
 function Body() {
   return (
-    <div className="absolute content-stretch flex flex-col items-start left-0 top-0 w-[1344px]" data-name="Body">
+    <div className="content-stretch flex flex-col items-start w-full" data-name="Body">
       <Root />
     </div>
   );
@@ -516,7 +519,7 @@ function Container23() {
 
 function Navbar() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start left-0 pb-px pt-[16px] px-[48px] top-0 w-[1344px]" data-name="Navbar">
+    <div className="bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start pb-px pt-[16px] px-6 sm:px-8 md:px-12 xl:px-[48px] w-full" data-name="Navbar">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
       <Container23 />
     </div>

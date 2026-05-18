@@ -242,12 +242,10 @@ export default function HomePage() {
             <FadeInSection>
               <div className="relative shrink-0 w-full">
                 <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                <div className="flex flex-col justify-center size-full">
-                  <div className="content-stretch flex flex-col items-start justify-center px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] py-8 sm:py-10 md:py-[40px] relative size-full">
-                    <p className="font-['Groteska:Bold',sans-serif] leading-tight sm:leading-[48px] md:leading-[60px] not-italic relative shrink-0 text-3xl sm:text-4xl md:text-5xl lg:text-[60px] text-black">
-                      Resume
-                    </p>
-                  </div>
+                <div className="content-stretch flex flex-col items-start px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] py-8 sm:py-10 md:py-[40px] relative w-full">
+                  <p className="font-['Groteska:Bold',sans-serif] leading-tight sm:leading-[48px] md:leading-[60px] not-italic relative shrink-0 text-3xl sm:text-4xl md:text-5xl lg:text-[60px] text-black">
+                    Resume
+                  </p>
                 </div>
               </div>
             </FadeInSection>

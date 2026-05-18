@@ -87,24 +87,29 @@ function Breadcrumb() {
 
 function Text1() {
   return (
-    <div className="h-[30px] relative rounded-[16777200px] shrink-0 w-[369.828px]" data-name="Text">
+    <div className="relative rounded-[16777200px] shrink-0 py-[5.5px] px-[13px]" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">Social Media Design · META Ads · Motion Content</p>
+      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">Social Media Design · META Ads · Motion Content</p>
     </div>
   );
 }
 
 function Heading1() {
   return (
-    <div className="h-[316.781px] relative shrink-0 w-full" data-name="Heading 1">
-      <p className="absolute font-['Groteska:Bold',sans-serif] leading-[96px] left-0 not-italic text-[96px] text-black top-[8.5px] w-[715px]">Devlights Digital Campaigns</p>
+    <div className="relative shrink-0 w-full" data-name="Heading 1">
+      <p
+        className="font-['Groteska:Bold',sans-serif] not-italic text-black leading-tight"
+        style={{ fontSize: "clamp(2rem, 6vw, 6rem)" }}
+      >
+        Devlights Digital Campaigns
+      </p>
     </div>
   );
 }
 
 function Heading() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-[714.664px]" data-name="Heading">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Heading">
       <Text1 />
       <Heading1 />
     </div>
@@ -126,7 +131,7 @@ function Devli() {
 
 function Container4() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col md:flex-row items-center gap-8 md:gap-12 w-full" data-name="Container">
       <Heading />
       <Devli />
     </div>
@@ -135,8 +140,8 @@ function Container4() {
 
 function Container3() {
   return (
-    <div className="flex-[1_0_0] min-w-px relative" data-name="Container">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start py-[88px] relative size-full">
+    <div className="w-full relative" data-name="Container">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start py-16 sm:py-20 md:py-24 relative w-full">
         <Container4 />
       </div>
     </div>
@@ -145,10 +150,10 @@ function Container3() {
 
 function Section() {
   return (
-    <div className="relative shrink-0 w-full min-h-[600px]" data-name="Section">
+    <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="flex flex-row items-center justify-center size-full">
-        <div className="content-stretch flex items-center justify-center pb-px px-[72px] relative w-full max-w-[1344px]">
+      <div className="flex flex-row items-center justify-center w-full">
+        <div className="content-stretch flex items-center justify-center pb-px px-6 sm:px-8 md:px-12 xl:px-[72px] relative w-full max-w-[1344px]">
           <Container3 />
         </div>
       </div>
@@ -158,8 +163,8 @@ function Section() {
 
 function Heading2() {
   return (
-    <div className="h-[32px] relative shrink-0 w-[361.664px]" data-name="Heading 2">
-      <p className="absolute font-['Groteska:Medium',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">Project Overview</p>
+    <div className="relative shrink-0" data-name="Heading 2">
+      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">Project Overview</p>
     </div>
   );
 }
@@ -175,7 +180,7 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="content-stretch flex flex-col items-start pl-[32px] pr-[21.336px] relative shrink-0 w-[821.336px]" data-name="Container">
+    <div className="content-stretch flex flex-col items-start pl-[32px] pr-0 relative flex-1 min-w-0" data-name="Container">
       <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[32.5px] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-full">The Devlights META Ads campaign was developed to increase brand visibility and communicate the company’s technology services to potential business clients through targeted digital advertising. Focused on a B2B audience, the project combined static and motion-based content tailored for META platforms.</p>
     </div>
   );
@@ -183,7 +188,7 @@ function Container7() {
 
 function Container5() {
   return (
-    <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col md:flex-row items-start gap-8 md:gap-0 relative w-full" data-name="Container">
       <Container6 />
       <Container7 />
     </div>
@@ -210,9 +215,7 @@ function ReelVideoSection() {
       <div className="content-stretch flex flex-col items-center justify-center px-[72px] py-[48px] pb-[96px] relative size-full">
         <div className="relative">
           <video
-            className="rounded-[16px]"
-            width="342"
-            height="609"
+            className="rounded-[16px] w-full max-w-[342px] h-auto"
             controls
             playsInline
           >
@@ -716,7 +719,7 @@ function Mockup() {
 
 function Root() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[80px] h-[7556px] items-start pt-[60px] relative shrink-0 w-full" data-name="Root">
+    <div className="bg-white content-stretch flex flex-col gap-[80px] items-start pt-[60px] relative w-full" data-name="Root">
       <MainContent />
       <Mockup />
     </div>
@@ -725,7 +728,7 @@ function Root() {
 
 function Body() {
   return (
-    <div className="absolute content-stretch flex flex-col items-start left-0 top-0 w-[1344px]" data-name="Body">
+    <div className="content-stretch flex flex-col items-start w-full" data-name="Body">
       <Root />
     </div>
   );
@@ -783,7 +786,7 @@ function Container13() {
 
 function Navbar() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start left-0 pb-px pt-[16px] px-[48px] top-0 w-[1344px]" data-name="Navbar">
+    <div className="bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start pb-px pt-[16px] px-6 sm:px-8 md:px-12 xl:px-[48px] w-full" data-name="Navbar">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
       <Container13 />
     </div>
