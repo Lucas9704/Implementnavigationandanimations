@@ -143,7 +143,7 @@ function Heading1() {
 
 function Text1() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Text">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative flex-1 min-w-0" data-name="Text">
       <Text2 />
       <Heading1 />
     </div>

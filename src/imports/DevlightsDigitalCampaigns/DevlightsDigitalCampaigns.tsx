@@ -23,6 +23,7 @@ import imgBootcampMobile1 from "./851d64ff942ddff12c38b078a4b4fe30e153e8e5.png";
 import imgBootmockup1 from "./702db0600ec7963e7fb73d354f069cfc9e4ecfc3.png";
 import videoSpotSponsors from "./SpotSponsors.mp4";
 import videoReel from "./Reel_1.mp4";
+import VideoPlayer from "./VideoPlayer";
 
 function Link() {
   return (
@@ -213,17 +214,7 @@ function ReelVideoSection() {
     <div className="relative shrink-0 w-full" data-name="Reel Video Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
       <div className="content-stretch flex flex-col items-center justify-center px-[72px] py-[48px] pb-[96px] relative size-full">
-        <div className="relative">
-          <video
-            className="rounded-[16px] w-full max-w-[342px] h-auto"
-            controls
-            playsInline
-          >
-            <source src={videoReel} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16px]" />
-        </div>
+        <VideoPlayer src={videoReel} maxWidth="342px" className="w-full" />
       </div>
     </div>
   );
@@ -351,17 +342,7 @@ function Container10() {
 function SponsorVideo() {
   return (
     <div className="content-stretch flex flex-col items-center relative shrink-0 w-full" data-name="Sponsor Video Container">
-      <div className="relative w-full max-w-[1248px]">
-        <video
-          className="w-full h-auto rounded-[16px]"
-          controls
-          playsInline
-        >
-          <source src={videoSpotSponsors} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16px]" />
-      </div>
+      <VideoPlayer src={videoSpotSponsors} maxWidth="1248px" className="w-full" />
     </div>
   );
 }
