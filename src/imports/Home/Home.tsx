@@ -7,7 +7,7 @@ import imgGroup87 from "./ad623be10964d77eb06617a2d2a72ea92a42d878.png";
 import imgBackgroundImage2 from "./21a51794e8146afcaea12d5a819d5484d0ac74ca.png";
 import imgMesaDeTrabajo61 from "./30aebf1fa8674c51e9105f4713f02fecaaf53b7a.png";
 import imgMesaDeTrabajo71 from "./1d77ae4dd27ff69527be4ec77b56af2875338597.png";
-import imgImageWithFallback from "./106-DSC00301.jpg";
+import imgImageWithFallback from "./a05a240bb160a8abdfcdc96979260b0d56263c46.png";
 
 function Hero() {
   return (

@@ -9,14 +9,14 @@ import imgBackgroundImage1 from "../../imports/Home/eef97d1b28e33e30c22ec8dd57c4
 import imgGroup861 from "../../imports/Home/4d34812f7ce186a533793aef0de7e5ca5c9d06c2.png";
 import imgGroup87 from "../../imports/Home/ad623be10964d77eb06617a2d2a72ea92a42d878.png";
 import imgBackgroundImage2 from "../../imports/Home/21a51794e8146afcaea12d5a819d5484d0ac74ca.png";
-import imgMesaDeTrabajo61 from "../../imports/Home/106-DSC00301.jpg";
+import imgMesaDeTrabajo61 from "../../imports/Home/30aebf1fa8674c51e9105f4713f02fecaaf53b7a.png";
 import imgMesaDeTrabajo71 from "../../imports/Home/1d77ae4dd27ff69527be4ec77b56af2875338597.png";
 import imgImageWithFallback from "../../imports/Home/106-DSC00301.jpg";
 
 function Hero() {
   return (
     <div
-      className="absolute h-[850px] left-0 top-[60px] w-full"
+      className="absolute left-0 top-[60px] h-[68vh] min-h-[520px] max-h-[850px] w-full"
       style={{
         backgroundImage:
           "linear-gradient(rgba(253, 224, 71, 0.25) 0%, rgba(253, 186, 116, 0.2) 30%, rgba(249, 168, 212, 0.15) 70%, rgb(255, 255, 255) 100%)",
@@ -183,36 +183,45 @@ export default function HomePage() {
                     category="Public Sector"
                     delay={0.1}
                     images={
-                      <div className="grid grid-rows-[1fr] leading-[0] relative w-full h-full">
-                        <div className="col-1 row-1 relative w-full h-full">
-                          <div
-                            aria-hidden="true"
-                            className="absolute inset-0 pointer-events-none"
-                          >
-                            <img
-                              alt=""
-                              className="absolute max-w-none object-cover size-full"
-                              src={imgBackgroundImage}
-                            />
-                            <div className="absolute bg-[rgba(0,0,0,0.2)] inset-0" />
-                          </div>
+                      <div className="relative h-full w-full overflow-hidden">
+                        <div className="absolute inset-0 pointer-events-none">
+                          <img
+                            alt=""
+                            className="absolute size-full max-w-none object-cover"
+                            src={imgBackgroundImage}
+                          />
+                          <div className="absolute inset-0 bg-[rgba(0,0,0,0.2)]" />
                         </div>
-                        <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[62px] mt-[86px] place-items-start relative row-1">
-                          <div className="col-1 h-[265.668px] ml-[59.84px] mt-[19.04px] relative rounded-[8px] row-1 w-[426.157px]">
+                        <div className="relative hidden h-full md:block">
+                          <div className="absolute left-[12%] top-[15%] h-[123.314px] w-[272.015px] overflow-hidden rounded-[8px] shadow-[0px_4px_6px_0px_rgba(0,0,0,0.15)]">
                             <img
                               alt=""
-                              className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                              className="absolute left-0 top-0 h-[264.71%] w-full max-w-none"
+                              src={imgRevendedorSolicitudAprobada1}
+                            />
+                          </div>
+                          <div className="absolute right-[9%] top-[20%] h-[265.668px] w-[426.157px] max-w-[68%] rounded-[8px]">
+                            <img
+                              alt=""
+                              className="absolute inset-0 size-full rounded-[8px] object-cover pointer-events-none"
                               src={imgSuccess4}
                             />
                           </div>
-                          <div className="col-1 h-[123.314px] ml-0 mt-0 relative rounded-[8px] row-1 shadow-[0px_4px_6px_0px_rgba(0,0,0,0.15)] w-[272.015px]">
-                            <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[8px]">
-                              <img
-                                alt=""
-                                className="absolute h-[264.71%] left-0 max-w-none top-0 w-full"
-                                src={imgRevendedorSolicitudAprobada1}
-                              />
-                            </div>
+                        </div>
+                        <div className="relative flex h-full flex-col justify-end gap-3 p-4 md:hidden">
+                          <div className="ml-auto aspect-[426/266] w-[88%] overflow-hidden rounded-[10px] shadow-[0px_8px_20px_0px_rgba(0,0,0,0.16)]">
+                            <img
+                              alt=""
+                              className="size-full object-cover"
+                              src={imgSuccess4}
+                            />
+                          </div>
+                          <div className="aspect-[272/123] w-[70%] overflow-hidden rounded-[10px] bg-white shadow-[0px_6px_16px_0px_rgba(0,0,0,0.12)]">
+                            <img
+                              alt=""
+                              className="h-[264.71%] w-full max-w-none object-top"
+                              src={imgRevendedorSolicitudAprobada1}
+                            />
                           </div>
                         </div>
                       </div>
@@ -225,32 +234,43 @@ export default function HomePage() {
                     category="Public Sector"
                     delay={0.2}
                     images={
-                      <div className="grid grid-rows-[1fr] leading-[0] relative w-full h-full">
-                        <div className="col-1 row-1 relative w-full h-full">
-                          <div
-                            aria-hidden="true"
-                            className="absolute inset-0 pointer-events-none"
-                          >
-                            <img
-                              alt=""
-                              className="absolute max-w-none object-cover size-full"
-                              src={imgBackgroundImage1}
-                            />
-                            <div className="absolute bg-[rgba(0,0,0,0.2)] inset-0" />
-                          </div>
+                      <div className="relative h-full w-full overflow-hidden">
+                        <div className="absolute inset-0 pointer-events-none">
+                          <img
+                            alt=""
+                            className="absolute size-full max-w-none object-cover"
+                            src={imgBackgroundImage1}
+                          />
+                          <div className="absolute inset-0 bg-[rgba(0,0,0,0.2)]" />
                         </div>
-                        <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[62px] mt-[92px] place-items-start relative row-1">
-                          <div className="col-1 h-[239.304px] ml-0 mt-0 relative rounded-[8px] row-1 w-[425.019px]">
+                        <div className="relative hidden h-full md:block">
+                          <div className="absolute left-[12%] top-[16%] h-[239.304px] w-[425.019px] max-w-[68%] rounded-[8px]">
                             <img
                               alt=""
-                              className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                              className="absolute inset-0 size-full rounded-[8px] object-cover pointer-events-none"
                               src={imgGroup861}
                             />
                           </div>
-                          <div className="col-1 h-[230.065px] ml-[365.89px] mt-[42.5px] relative rounded-[8px] row-1 w-[120.114px]">
+                          <div className="absolute right-[11%] top-[26%] h-[230.065px] w-[120.114px] rounded-[8px] shadow-[0px_4px_10px_0px_rgba(0,0,0,0.16)]">
                             <img
                               alt=""
-                              className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                              className="absolute inset-0 size-full rounded-[8px] object-cover pointer-events-none"
+                              src={imgGroup87}
+                            />
+                          </div>
+                        </div>
+                        <div className="relative flex h-full flex-col justify-end gap-3 p-4 md:hidden">
+                          <div className="aspect-[425/239] w-[84%] overflow-hidden rounded-[10px] shadow-[0px_8px_20px_0px_rgba(0,0,0,0.16)]">
+                            <img
+                              alt=""
+                              className="size-full object-cover"
+                              src={imgGroup861}
+                            />
+                          </div>
+                          <div className="ml-auto aspect-[120/230] w-[28%] min-w-[88px] overflow-hidden rounded-[10px] shadow-[0px_6px_16px_0px_rgba(0,0,0,0.14)]">
+                            <img
+                              alt=""
+                              className="size-full object-cover"
                               src={imgGroup87}
                             />
                           </div>
@@ -266,32 +286,43 @@ export default function HomePage() {
                       category="Tech"
                       delay={0.3}
                       images={
-                        <div className="grid grid-rows-[1fr] leading-[0] relative w-full h-full">
-                          <div className="col-1 row-1 relative w-full h-full">
-                            <div
-                              aria-hidden="true"
-                              className="absolute inset-0 pointer-events-none"
-                            >
-                              <img
-                                alt=""
-                                className="absolute max-w-none object-cover size-full"
-                                src={imgBackgroundImage2}
-                              />
-                              <div className="absolute bg-[rgba(0,0,0,0.2)] inset-0" />
-                            </div>
+                        <div className="relative h-full w-full overflow-hidden">
+                          <div className="absolute inset-0 pointer-events-none">
+                            <img
+                              alt=""
+                              className="absolute size-full max-w-none object-cover"
+                              src={imgBackgroundImage2}
+                            />
+                            <div className="absolute inset-0 bg-[rgba(0,0,0,0.2)]" />
                           </div>
-                          <div className="col-1 grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[100px] mt-[81px] place-items-start relative row-1">
-                            <div className="col-1 ml-0 mt-0 relative rounded-[8px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] size-[216.186px]">
+                          <div className="relative hidden h-full md:block">
+                            <div className="absolute left-[18%] top-[15%] size-[216.186px] rounded-[8px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]">
                               <img
                                 alt=""
-                                className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                                className="absolute inset-0 size-full rounded-[8px] object-cover pointer-events-none"
                                 src={imgMesaDeTrabajo61}
                               />
                             </div>
-                            <div className="col-1 ml-[190.99px] mt-[66.89px] relative rounded-[8px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] size-[219.107px]">
+                            <div className="absolute right-[14%] top-[29%] size-[219.107px] rounded-[8px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)]">
                               <img
                                 alt=""
-                                className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full"
+                                className="absolute inset-0 size-full rounded-[8px] object-cover pointer-events-none"
+                                src={imgMesaDeTrabajo71}
+                              />
+                            </div>
+                          </div>
+                          <div className="relative flex h-full flex-col justify-end gap-3 p-4 md:hidden">
+                            <div className="aspect-square w-[56%] overflow-hidden rounded-[10px] shadow-[0px_8px_20px_0px_rgba(0,0,0,0.18)]">
+                              <img
+                                alt=""
+                                className="size-full object-cover"
+                                src={imgMesaDeTrabajo61}
+                              />
+                            </div>
+                            <div className="ml-auto aspect-square w-[58%] overflow-hidden rounded-[10px] shadow-[0px_8px_20px_0px_rgba(0,0,0,0.18)]">
+                              <img
+                                alt=""
+                                className="size-full object-cover"
                                 src={imgMesaDeTrabajo71}
                               />
                             </div>

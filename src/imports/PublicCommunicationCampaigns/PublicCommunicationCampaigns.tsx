@@ -121,9 +121,9 @@ function Breadcrumb() {
 
 function Text2() {
   return (
-    <div className="relative rounded-[16777200px] shrink-0 py-[5.5px] px-[13px]" data-name="Text">
+    <div className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">{`Google & META Ads · Public Sector Communication · Campaign Design`}</p>
+      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">{`Google & META Ads · Public Sector Communication · Campaign Design`}</p>
     </div>
   );
 }
@@ -152,15 +152,15 @@ function Text1() {
 
 function Mockups() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="Mockups">
-      <div className="col-1 h-[375.46px] ml-[65.98px] mt-0 relative rounded-[30px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.15)] w-[281.595px]" data-name="2">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[30px] size-full" src={img2} />
+    <div className="relative grid w-full max-w-[460px] grid-cols-1 gap-4 md:inline-grid md:max-w-none md:grid-cols-[max-content] md:grid-rows-[max-content] md:gap-0 md:place-items-start" data-name="Mockups">
+      <div className="relative ml-auto aspect-[282/375] w-[68%] max-w-[281.595px] rounded-[30px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.15)] md:col-1 md:ml-[65.98px] md:mt-0 md:w-[281.595px]" data-name="2">
+        <img alt="" className="absolute inset-0 size-full rounded-[30px] object-cover pointer-events-none" src={img2} />
       </div>
-      <div className="col-1 h-[144.198px] ml-[39px] mt-[276.15px] relative rounded-[30px] row-1 shadow-[0px_1px_8px_0px_rgba(0,0,0,0.15)] w-[293.158px]">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[30px] size-full" src={imgGroup91} />
+      <div className="relative aspect-[293/144] w-[72%] max-w-[293.158px] rounded-[30px] shadow-[0px_1px_8px_0px_rgba(0,0,0,0.15)] md:col-1 md:ml-[39px] md:mt-[276.15px] md:w-[293.158px]">
+        <img alt="" className="absolute inset-0 size-full rounded-[30px] object-cover pointer-events-none" src={imgGroup91} />
       </div>
-      <div className="col-1 h-[225.14px] ml-0 mt-[74.82px] relative rounded-[30px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.15)] w-[109.509px]" data-name="3">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[30px] size-full" src={img3} />
+      <div className="relative aspect-[110/225] w-[28%] min-w-[92px] max-w-[109.509px] rounded-[30px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.15)] md:col-1 md:ml-0 md:mt-[74.82px] md:w-[109.509px]" data-name="3">
+        <img alt="" className="absolute inset-0 size-full rounded-[30px] object-cover pointer-events-none" src={img3} />
       </div>
     </div>
   );
@@ -208,8 +208,8 @@ function Heading2() {
 
 function Container6() {
   return (
-    <div className="content-stretch flex flex-col items-start pr-[33px] relative self-stretch shrink-0" data-name="Container">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-r border-solid inset-0 pointer-events-none" />
+    <div className="relative shrink-0 self-stretch pr-0 md:pr-[33px]" data-name="Container">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 border-[rgba(0,0,0,0.1)] border-solid max-md:border-b md:border-r" />
       <Heading2 />
     </div>
   );
@@ -217,8 +217,8 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="content-stretch flex flex-col items-start pl-[32px] pr-0 relative flex-1 min-w-0" data-name="Container">
-      <div className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-full">
+    <div className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0" data-name="Container">
+      <div className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
         <p className="leading-[32.5px] mb-0">This series of public communication projects was developed with the goal of informing the citizens of Corrientes about government initiatives, public programs, and provincial benefits through clear, accessible, and strategically structured digital experiences. Each campaign combined landing page design with Google and META advertising systems, connecting paid media efforts with informative digital platforms designed to simplify complex information and improve audience reach across diverse user groups.</p>
         <p className="leading-[32.5px]">It was developed by a multidisciplinary team specialized in design, web development, marketing, and SEO optimization,</p>
       </div>
@@ -239,7 +239,7 @@ function Section1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="content-stretch flex flex-col items-center justify-center px-[71px] py-[48px] relative size-full">
+      <div className="relative flex size-full flex-col items-center justify-center px-4 py-[40px] sm:px-6 md:px-12 md:py-[48px] xl:px-[71px]">
         <div className="w-full max-w-[1344px]">
           <Container5 />
         </div>
@@ -276,27 +276,37 @@ function Group9() {
 
 function Group14() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
-      <div className="col-1 flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center ml-[103px] mt-0 relative row-1 text-[44px] text-black text-center whitespace-nowrap">
+    <div className="flex w-full max-w-[900px] flex-col items-center gap-6 text-center">
+      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center text-[32px] text-black sm:text-[44px]">
         <p className="leading-[normal]">Public Health Landing Page</p>
       </div>
-      <Group12 />
-      <Group9 />
+      <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
+        <a className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid" href="https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=98-25&viewport=495%2C74%2C0.09&t=5M04j2Vj31mWnaOF-1&scaling=scale-down&mode=design" target="_blank">Desktop prototype</a>
+        <a className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid" href="https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=1-2&viewport=495%2C74%2C0.09&t=Aj8PKEfHzdJ04Jo6-1&scaling=scale-down&mode=design" target="_blank">Mobile prototype</a>
+      </div>
+      <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-[minmax(0,2.4fr)_minmax(0,1fr)] sm:items-start">
+        <div className="relative aspect-[712/293] overflow-hidden rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+          <img alt="" className="absolute inset-0 size-full object-cover" src={imgGroup30} />
+        </div>
+        <div className="relative aspect-[247/336] overflow-hidden rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+          <img alt="" className="absolute inset-0 size-full object-cover" src={imgGroup31} />
+        </div>
+      </div>
     </div>
   );
 }
 
 function Row() {
   return (
-    <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Row">
-      <div className="h-[734px] relative shrink-0 w-[735px]" data-name="SALUD-5 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSalud51} />
+    <div className="grid w-full grid-cols-1 gap-[12px] sm:grid-cols-[minmax(0,3.75fr)_minmax(0,1fr)_minmax(0,0.8fr)]" data-name="Row">
+      <div className="relative aspect-[735/734] overflow-hidden" data-name="SALUD-5 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgSalud51} />
       </div>
-      <div className="h-[734px] relative shrink-0 w-[196px]" data-name="SALUD-10 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSalud101} />
+      <div className="relative aspect-[196/734] overflow-hidden" data-name="SALUD-10 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgSalud101} />
       </div>
-      <div className="h-[734px] relative shrink-0 w-[147px]" data-name="SALUD-9 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSalud91} />
+      <div className="relative aspect-[147/734] overflow-hidden" data-name="SALUD-9 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgSalud91} />
       </div>
     </div>
   );
@@ -306,11 +316,11 @@ function SaludAds() {
   return (
     <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0" data-name="Salud-ads">
       <Row />
-      <div className="h-[136px] relative shrink-0 w-[1107px]" data-name="SALUD-7 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSalud71} />
+      <div className="relative aspect-[1107/136] w-full overflow-hidden" data-name="SALUD-7 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgSalud71} />
       </div>
-      <div className="h-[122px] relative shrink-0 w-[392px]" data-name="SALUD-6 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSalud61} />
+      <div className="relative aspect-[392/122] w-full max-w-[392px] overflow-hidden" data-name="SALUD-6 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgSalud61} />
       </div>
     </div>
   );
@@ -353,12 +363,22 @@ function Group10() {
 
 function Group15() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
-      <div className="col-1 flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center ml-0 mt-0 relative row-1 text-[44px] text-black text-center whitespace-nowrap">
+    <div className="flex w-full max-w-[900px] flex-col items-center gap-6 text-center">
+      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center text-[32px] text-black sm:text-[44px]">
         <p className="leading-[normal]">Public Infrastructure Landing Page</p>
       </div>
-      <Group13 />
-      <Group10 />
+      <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
+        <a className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid" href="https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-3&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design" target="_blank">Desktop prototype</a>
+        <a className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid" href="https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-2&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design" target="_blank">Mobile prototype</a>
+      </div>
+      <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-[minmax(0,3fr)_minmax(0,1fr)] sm:items-start">
+        <div className="relative aspect-[516/291] overflow-hidden rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+          <img alt="" className="absolute inset-0 size-full object-cover" src={imgGroup862} />
+        </div>
+        <div className="relative aspect-[175/336] overflow-hidden rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+          <img alt="" className="absolute inset-0 size-full object-cover" src={imgGroup87} />
+        </div>
+      </div>
     </div>
   );
 }
@@ -413,7 +433,7 @@ function Column2() {
 
 function Ads() {
   return (
-    <div className="content-stretch flex gap-[12px] items-start relative shrink-0" data-name="Ads">
+    <div className="grid w-full grid-cols-1 gap-[12px] md:grid-cols-2 xl:grid-cols-3" data-name="Ads">
       <Column />
       <Column1 />
       <Column2 />
@@ -458,12 +478,22 @@ function Group8() {
 
 function Links() {
   return (
-    <div className="content-stretch flex flex-col gap-[16px] items-center leading-[0] relative shrink-0 w-[885.868px]" data-name="Links">
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[44px] text-black text-center whitespace-nowrap">
+    <div className="content-stretch relative flex w-full max-w-[886px] shrink-0 flex-col items-center gap-[16px] leading-[0]" data-name="Links">
+      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
         <p className="leading-[normal]">Education Landing Page</p>
       </div>
-      <Group11 />
-      <Group8 />
+      <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
+        <a className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid" href="https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=202-143&viewport=405%2C1003%2C0.46&t=wJyMNEeGCSnJY1Ph-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design" target="_blank">Desktop prototype</a>
+        <a className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid" href="https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=1-2&viewport=727%2C-1286%2C0.46&t=bcfL6hilJqskBlJd-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design" target="_blank">Mobile prototype</a>
+      </div>
+      <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-[minmax(0,2.4fr)_minmax(0,1fr)]">
+        <div className="relative aspect-[516/291] overflow-hidden rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+          <img alt="" className="absolute inset-0 size-full object-cover" src={imgGroup441} />
+        </div>
+        <div className="relative aspect-[217/248] overflow-hidden rounded-[10px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)]">
+          <img alt="" className="absolute inset-0 size-full object-cover" src={imgMaskGroup1} />
+        </div>
+      </div>
     </div>
   );
 }
@@ -483,16 +513,16 @@ function Column3() {
 
 function Ads1() {
   return (
-    <div className="content-stretch flex gap-[12px] items-center relative shrink-0" data-name="Ads">
+    <div className="grid w-full grid-cols-1 gap-[12px] sm:grid-cols-2 xl:grid-cols-[336px_286px_286px_114px] xl:items-center" data-name="Ads">
       <Column3 />
-      <div className="h-[572px] relative shrink-0 w-[286px]" data-name="EDUCACION3(2) 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEducacion321} />
+      <div className="relative aspect-[286/572] w-full overflow-hidden" data-name="EDUCACION3(2) 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgEducacion321} />
       </div>
-      <div className="h-[572px] relative shrink-0 w-[286px]" data-name="EDUCACION300X600 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEducacion300X6001} />
+      <div className="relative aspect-[286/572] w-full overflow-hidden" data-name="EDUCACION300X600 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgEducacion300X6001} />
       </div>
-      <div className="h-[572px] relative shrink-0 w-[114px]" data-name="EDUCACION3 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgEducacion31} />
+      <div className="relative aspect-[114/572] w-full overflow-hidden" data-name="EDUCACION3 1">
+        <img alt="" className="absolute inset-0 size-full object-cover pointer-events-none" src={imgEducacion31} />
       </div>
     </div>
   );
@@ -573,7 +603,7 @@ function Frame() {
 
 function Ads2() {
   return (
-    <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Ads">
+    <div className="grid w-full grid-cols-1 gap-[12px] sm:grid-cols-2 xl:grid-cols-4" data-name="Ads">
       <Column4 />
       <Column5 />
       <Column6 />
@@ -593,7 +623,7 @@ function Container8() {
 function AdsPolitical() {
   return (
     <div className="content-stretch flex flex-col gap-[48px] items-center justify-center relative shrink-0 w-full" data-name="Ads Political">
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[44px] text-black text-center whitespace-nowrap">
+      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
         <p className="leading-[normal]">Electoral Communication Campaign</p>
       </div>
       <Container8 />
@@ -1592,19 +1622,68 @@ function Frame1() {
 function Plan() {
   return (
     <div className="content-stretch flex flex-col gap-[32px] items-center relative shrink-0" data-name="Plan">
-      <Hero />
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#a1a1a1] text-[16px] uppercase whitespace-nowrap">
+      <div className="hidden w-full xl:flex xl:justify-center">
+        <Hero />
+      </div>
+      <div className="flex w-full max-w-[1100px] flex-col gap-5 xl:hidden">
+        <div className="overflow-hidden rounded-[24px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
+          <img alt="" className="aspect-[1052/684] size-full object-cover" src={imgPlaness1} />
+        </div>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
+          <div className="overflow-hidden rounded-[20px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.1)]">
+            <img alt="" className="aspect-square size-full object-cover" src={imgEllipse28} />
+          </div>
+          <div className="overflow-hidden rounded-[20px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.1)]">
+            <img alt="" className="aspect-square size-full object-cover" src={imgEllipse29} />
+          </div>
+          <div className="overflow-hidden rounded-[20px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.1)] col-span-2 sm:col-span-1">
+            <img alt="" className="aspect-square size-full object-cover" src={imgEllipse30} />
+          </div>
+        </div>
+      </div>
+      <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
         <p className="leading-[41px]">Colors and elements</p>
       </div>
-      <Ads3 />
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#a1a1a1] text-[16px] uppercase whitespace-nowrap">
+      <div className="hidden xl:block">
+        <Ads3 />
+      </div>
+      <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 xl:hidden">
+        {[imgPlanesProductivos10, imgPlanesProductivos6, imgPlanesProductivos7, imgPlanesProductivos, imgPlanesProductivos9, imgPlanesProductivos8].map((src, index) => (
+          <div key={index} className="overflow-hidden rounded-[20px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.08)]">
+            <img alt="" className="aspect-[236/234] size-full object-cover" src={src} />
+          </div>
+        ))}
+      </div>
+      <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
         <p className="leading-[41px]">Colors and elements</p>
       </div>
-      <MainContainer />
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#a1a1a1] text-[16px] uppercase whitespace-nowrap">
+      <div className="hidden xl:block">
+        <MainContainer />
+      </div>
+      <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-2 xl:hidden">
+        {[imgEllipse31, imgImg1842, imgPlanes1, imgImage1].map((src, index) => (
+          <div key={index} className="overflow-hidden rounded-[20px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.08)]">
+            <img alt="" className="aspect-[4/3] size-full object-cover" src={src} />
+          </div>
+        ))}
+      </div>
+      <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
         <p className="leading-[41px]">FONT/BUTTONS</p>
       </div>
-      <Frame1 />
+      <div className="hidden w-full xl:block">
+        <Frame1 />
+      </div>
+      <div className="w-full max-w-[720px] xl:hidden">
+        <div className="rounded-[24px] border border-[rgba(30,30,30,0.12)] bg-[#fcf8f4] p-6 shadow-[0px_8px_24px_0px_rgba(0,0,0,0.06)]">
+          <p className="font-['DM_Sans:Bold',sans-serif] text-[20px] text-[#1e1e1e]">Plan Limon</p>
+          <p className="mt-4 font-['DM_Sans:Regular',sans-serif] text-[18px] leading-[1.5] text-[#1e1e1e]">
+            Trabajamos en mas de 26 localidades de todo Corrientes. Brindamos herramientas de preparacion del suelo y plantacion para beneficiar a los pequenos productores.
+          </p>
+          <a className="mt-6 inline-flex rounded-full border border-[#1e1e1e] px-5 py-3 font-['DM_Sans:Regular',sans-serif] text-[16px] text-[#1e1e1e]" href="https://gustavovaldes.com.ar/planes-productivos/" target="_blank">
+            Mas sobre este plan
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
@@ -1613,7 +1692,7 @@ function Section2() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
       <div className="flex flex-col items-center justify-center overflow-clip rounded-[inherit] size-full">
-        <div className="content-stretch flex flex-col gap-[80px] items-center p-[48px] relative w-full max-w-[1344px]">
+        <div className="content-stretch relative flex w-full max-w-[1344px] flex-col items-center gap-[56px] p-4 sm:p-6 md:gap-[80px] md:p-[48px]">
           <Healthcare />
           <P />
           <Education />

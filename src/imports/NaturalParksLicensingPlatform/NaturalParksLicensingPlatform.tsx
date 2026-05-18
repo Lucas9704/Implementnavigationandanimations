@@ -85,9 +85,9 @@ function Breadcrumb() {
 
 function Text1() {
   return (
-    <div className="relative rounded-[16777200px] shrink-0 py-[5.5px] px-[13px]" data-name="Text">
+    <div className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">UX/UI Design · Government Systems · Digital Product Design</p>
+      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">UX/UI Design · Government Systems · Digital Product Design</p>
     </div>
   );
 }
@@ -161,8 +161,8 @@ function Heading2() {
 
 function Container6() {
   return (
-    <div className="content-stretch flex flex-col items-start mr-[-16px] pr-[33px] relative self-stretch shrink-0" data-name="Container">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-r border-solid inset-0 pointer-events-none" />
+    <div className="relative shrink-0 self-stretch pr-0 md:mr-[-16px] md:pr-[33px]" data-name="Container">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 border-[rgba(0,0,0,0.1)] border-solid max-md:border-b md:border-r" />
       <Heading2 />
     </div>
   );
@@ -170,8 +170,8 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="content-stretch flex flex-col items-start pl-0 md:pl-[32px] relative flex-1 min-w-0" data-name="Container">
-      <div className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-full whitespace-pre-wrap">
+    <div className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0" data-name="Container">
+      <div className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] whitespace-pre-wrap md:text-[20px] md:leading-[32.5px]">
         <p className="leading-[32.5px] mb-0">This project involved the design and implementation of a web-based platform for managing hunting and fishing licenses, conceived as an integrated digital ecosystem. The solution included an administrative backoffice, a mobile application for inspectors, a citizen-facing license management platform, and a modern institutional website providing access to relevant information about parks and natural reserves.</p>
         <p className="leading-[32.5px] mb-0">​</p>
         <p className="leading-[32.5px]">The system was designed to support end-to-end license management, including user registration, payments, license validation, fines, and reporting, ensuring consistency, usability, and efficient workflows across all interfaces.</p>
@@ -204,7 +204,7 @@ function Section1() {
 
 function Heading3() {
   return (
-    <div className="content-stretch flex flex-col gap-[8px] items-start leading-[0] relative shrink-0 text-black whitespace-nowrap" data-name="Heading">
+    <div className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black" data-name="Heading">
       <div className="flex flex-col font-['Groteska:Medium',sans-serif] justify-center not-italic relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Illustrations and avatars</p>
       </div>
@@ -267,12 +267,12 @@ function Container10() {
 
 function Container13() {
   return (
-    <div className="grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 w-full" data-name="Container">
-      <div className="aspect-[1440/900] col-1 ml-0 mt-0 relative rounded-[16px] row-1 shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] w-[50.58%]" data-name="Register 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgRegister1} />
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6" data-name="Container">
+      <div className="relative aspect-[1440/900] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
+        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgRegister1} />
       </div>
-      <div className="aspect-[1440/900] col-1 ml-[50.09%] mt-[24.49px] relative rounded-[16px] row-1 shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] w-[49.91%]" data-name="Unauthorized 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgUnauthorized1} />
+      <div className="relative aspect-[1440/900] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] md:translate-y-6">
+        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgUnauthorized1} />
       </div>
     </div>
   );
@@ -290,11 +290,11 @@ function Container9() {
 
 function Container15() {
   return (
-    <div className="content-stretch flex flex-col gap-[8px] items-start leading-[0] relative shrink-0 text-black w-[300px]" data-name="Container">
-      <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px] whitespace-nowrap">
+    <div className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] leading-[0] text-black" data-name="Container">
+      <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Design System</p>
       </div>
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-[304px]">
+      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-full">
         <p className="leading-[normal]">Field sets</p>
       </div>
     </div>
@@ -316,11 +316,11 @@ function Container14() {
 
 function Container17() {
   return (
-    <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 text-black w-[300px]" data-name="Container">
+    <div className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] text-black" data-name="Container">
       <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px] w-[152px]">
         <p className="leading-[normal]">Desktop</p>
       </div>
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-[304px]">
+      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-full">
         <p className="leading-[normal]">User | License acquisition</p>
       </div>
     </div>
@@ -342,10 +342,18 @@ function Container19() {
 
 function Container18() {
   return (
-    <div className="grid-rows-[max-content] inline-grid place-items-start relative shrink-0 w-full" data-name="Container">
-      <Container19 />
-      <div className="aspect-[1287/815] col-1 ml-[52.47%] mt-0 relative row-1 w-[47.53%]" data-name="Dashboard Revendedor Version 5">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDashboardRevendedorVersion5} />
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6" data-name="Container">
+      <div className="hidden md:block">
+        <Container19 />
+      </div>
+      <div className="relative md:hidden aspect-[1286/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
+        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgAdquirirLicencias} />
+      </div>
+      <div className="relative md:hidden aspect-[810/386] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
+        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgAdquirirLicencias1} />
+      </div>
+      <div className="relative aspect-[1287/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] md:translate-y-6" data-name="Dashboard Revendedor Version 5">
+        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgDashboardRevendedorVersion5} />
       </div>
     </div>
   );
@@ -362,7 +370,7 @@ function Container16() {
 
 function Container21() {
   return (
-    <div className="content-stretch flex flex-col gap-[8px] items-start leading-[0] relative shrink-0 text-black whitespace-nowrap" data-name="Container">
+    <div className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black" data-name="Container">
       <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Mobile</p>
       </div>
@@ -410,8 +418,8 @@ function Container20() {
 function Landing() {
   return (
     <div className="content-stretch flex flex-col items-center py-[48px] relative shrink-0 w-full" data-name="Landing">
-      <div className="h-[4096px] relative shrink-0 w-[1094px]" data-name="Desktop - 1920 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgDesktop19201} />
+      <div className="relative w-full max-w-[1094px] overflow-hidden rounded-[24px] shadow-[0px_10px_28px_0px_rgba(0,0,0,0.08)]" data-name="Desktop - 1920 1">
+        <img alt="" className="block h-auto w-full object-cover pointer-events-none" src={imgDesktop19201} />
       </div>
     </div>
   );
@@ -419,7 +427,7 @@ function Landing() {
 
 function Container8() {
   return (
-    <div className="content-stretch flex flex-col gap-[108px] items-start relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch relative flex shrink-0 w-full flex-col items-start gap-[64px] md:gap-[108px]" data-name="Container">
       <Container9 />
       <Container14 />
       <Container16 />
@@ -432,7 +440,7 @@ function Container8() {
 function Section2() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
-      <div className="content-stretch flex flex-col items-center justify-center pt-[96px] px-6 sm:px-8 md:px-12 xl:px-[48px] pb-[48px] relative size-full">
+      <div className="content-stretch relative flex size-full flex-col items-center justify-center px-4 pb-[40px] pt-[64px] sm:px-6 md:px-12 md:pb-[48px] md:pt-[96px] xl:px-[48px]">
         <div className="w-full max-w-[1344px]">
           <Container8 />
         </div>

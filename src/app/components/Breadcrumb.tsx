@@ -11,49 +11,49 @@ export default function Breadcrumb({ currentPage }: BreadcrumbProps) {
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      className="h-[53px] relative shrink-0 w-full flex items-center justify-center"
+      className="relative flex min-h-[53px] w-full items-center justify-center"
       data-name="Breadcrumb"
     >
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="content-stretch flex flex-col items-start pb-px pt-[16px] px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] relative size-full max-w-[1440px]">
-        <div className="content-stretch flex gap-[8px] h-[20px] items-center relative shrink-0 w-full">
+      <div className="relative flex size-full max-w-[1440px] flex-col items-start px-4 pb-px pt-[16px] sm:px-6 md:px-12 lg:px-16 xl:px-[48px]">
+        <div className="relative flex w-full min-w-0 flex-wrap items-center gap-x-[8px] gap-y-1 pb-3 sm:pb-0">
           <Link
             to="/"
-            className="h-[20px] relative shrink-0 transition-opacity hover:opacity-70"
+            className="relative shrink-0 transition-opacity hover:opacity-70"
           >
-            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-              <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)] tracking-[1.4px] uppercase whitespace-nowrap">
+            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+              <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
                 Home
               </p>
             </div>
           </Link>
-          <div className="h-[20px] relative shrink-0 w-[6.086px]">
-            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-              <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)] tracking-[1.4px] uppercase whitespace-nowrap">
+          <div className="relative shrink-0">
+            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+              <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
                 /
               </p>
             </div>
           </div>
           <Link
             to="/#selected-work"
-            className="h-[20px] relative shrink-0 transition-opacity hover:opacity-70"
+            className="relative shrink-0 transition-opacity hover:opacity-70"
           >
-            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-              <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)] tracking-[1.4px] uppercase whitespace-nowrap">
+            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+              <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
                 Selected Work
               </p>
             </div>
           </Link>
-          <div className="h-[20px] relative shrink-0 w-[6.086px]">
-            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-              <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.5)] tracking-[1.4px] uppercase whitespace-nowrap">
+          <div className="relative shrink-0">
+            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+              <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
                 /
               </p>
             </div>
           </div>
-          <div className="h-[20px] relative shrink-0">
-            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-              <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black tracking-[1.4px] uppercase whitespace-nowrap">
+          <div className="min-w-0 flex-1">
+            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+              <p className="font-['Montserrat:Regular',sans-serif] line-clamp-2 text-[12px] font-normal uppercase tracking-[1.2px] text-black sm:text-[14px] sm:tracking-[1.4px]">
                 {currentPage}
               </p>
             </div>

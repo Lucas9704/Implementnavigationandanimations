@@ -88,9 +88,9 @@ function Breadcrumb() {
 
 function Text1() {
   return (
-    <div className="relative rounded-[16777200px] shrink-0 py-[5.5px] px-[13px]" data-name="Text">
+    <div className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">Social Media Design · META Ads · Motion Content</p>
+      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black max-md:text-balance">Social Media Design · META Ads · Motion Content</p>
     </div>
   );
 }
@@ -119,12 +119,12 @@ function Heading() {
 
 function Devli() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="devli">
-      <div className="col-1 ml-0 mt-0 relative rounded-[20px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] size-[296px]" data-name="Mesa de trabajo 6 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgMesaDeTrabajo61} />
+    <div className="relative grid w-full max-w-[520px] grid-cols-1 gap-4 md:inline-grid md:max-w-none md:grid-cols-[max-content] md:grid-rows-[max-content] md:gap-0 md:place-items-start" data-name="devli">
+      <div className="relative aspect-square w-[72%] max-w-[296px] rounded-[20px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] md:col-1 md:row-1 md:size-[296px]">
+        <img alt="" className="absolute inset-0 size-full rounded-[20px] object-cover pointer-events-none" src={imgMesaDeTrabajo61} />
       </div>
-      <div className="col-1 ml-[193px] mt-[146px] relative rounded-[20px] row-1 shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] size-[300px]" data-name="Mesa de trabajo 7 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[20px] size-full" src={imgMesaDeTrabajo71} />
+      <div className="relative ml-auto aspect-square w-[74%] max-w-[300px] rounded-[20px] shadow-[0px_4px_8px_0px_rgba(0,0,0,0.25)] md:col-1 md:row-1 md:ml-[193px] md:mt-[146px] md:size-[300px]">
+        <img alt="" className="absolute inset-0 size-full rounded-[20px] object-cover pointer-events-none" src={imgMesaDeTrabajo71} />
       </div>
     </div>
   );
@@ -172,8 +172,8 @@ function Heading2() {
 
 function Container6() {
   return (
-    <div className="content-stretch flex flex-col items-start mr-[-16px] pr-[33px] relative self-stretch shrink-0" data-name="Container">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-r border-solid inset-0 pointer-events-none" />
+    <div className="relative shrink-0 self-stretch pr-0 md:mr-[-16px] md:pr-[33px]" data-name="Container">
+      <div aria-hidden="true" className="pointer-events-none absolute inset-0 border-[rgba(0,0,0,0.1)] border-solid max-md:border-b md:border-r" />
       <Heading2 />
     </div>
   );
@@ -181,8 +181,8 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="content-stretch flex flex-col items-start pl-[32px] pr-0 relative flex-1 min-w-0" data-name="Container">
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[32.5px] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-full">The Devlights META Ads campaign was developed to increase brand visibility and communicate the company’s technology services to potential business clients through targeted digital advertising. Focused on a B2B audience, the project combined static and motion-based content tailored for META platforms.</p>
+    <div className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0" data-name="Container">
+      <p className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">The Devlights META Ads campaign was developed to increase brand visibility and communicate the company’s technology services to potential business clients through targeted digital advertising. Focused on a B2B audience, the project combined static and motion-based content tailored for META platforms.</p>
     </div>
   );
 }
@@ -200,7 +200,7 @@ function Section1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="content-stretch flex flex-col items-center justify-center px-[72px] py-[48px] relative size-full">
+      <div className="relative flex size-full flex-col items-center justify-center px-4 py-[40px] sm:px-6 md:px-12 md:py-[48px] xl:px-[72px]">
         <div className="w-full max-w-[1344px]">
           <Container5 />
         </div>
@@ -274,7 +274,7 @@ function RightColumn1() {
 
 function MainContainer() {
   return (
-    <div className="content-stretch flex gap-[12px] items-start relative w-full" data-name="Main Container">
+    <div className="grid w-full grid-cols-1 gap-[12px] sm:grid-cols-2 xl:grid-cols-4" data-name="Main Container">
       <LeftColumn />
       <MiddleColumn />
       <RightColumn />
@@ -295,7 +295,7 @@ function Section2() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="flex flex-col items-center justify-center px-[48px] py-[48px] size-full">
+      <div className="flex size-full flex-col items-center justify-center px-4 py-[40px] sm:px-6 md:px-12 md:py-[48px] xl:px-[48px]">
         <div className="w-full max-w-[1344px]">
           <Container8 />
         </div>
@@ -306,9 +306,9 @@ function Section2() {
 
 function Text2() {
   return (
-    <div className="h-[30px] relative rounded-[16777200px] shrink-0 w-[419.688px]" data-name="Text">
+    <div className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full md:w-fit" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">Event Branding · Landing Page · Digital Communication</p>
+      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:whitespace-nowrap">Event Branding · Landing Page · Digital Communication</p>
     </div>
   );
 }
@@ -316,7 +316,7 @@ function Text2() {
 function Heading3() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 2">
-      <p className="font-['Groteska:Bold',sans-serif] leading-[66px] not-italic text-[60px] text-black whitespace-nowrap">03.1 — HackAIthon</p>
+      <p className="font-['Groteska:Bold',sans-serif] text-[34px] leading-[1] text-black not-italic sm:text-[46px] md:text-[60px] md:leading-[66px]">03.1 - HackAIthon</p>
     </div>
   );
 }
@@ -326,7 +326,7 @@ function Container10() {
     <div className="content-stretch flex flex-col gap-[28px] items-start relative shrink-0 w-full" data-name="Container">
       <Text2 />
       <Heading3 />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] min-w-full relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-[min-content] whitespace-pre-wrap">
+      <p className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
         <span className="leading-[32.5px]">{`HackAIthon was a technology-focused event organized by `}</span>
         <a className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[32.5px] underline" href="https://www.devlights.com/?utm_source=chatgpt.com" target="_blank">
           <span className="[text-decoration-skip-ink:none] decoration-solid underline" href="https://www.devlights.com/?utm_source=chatgpt.com" target="_blank">
@@ -349,7 +349,7 @@ function SponsorVideo() {
 
 function Placas() {
   return (
-    <div className="gap-x-[12px] gap-y-[12px] grid grid-cols-4 relative w-full" data-name="Placas">
+    <div className="relative grid w-full grid-cols-1 gap-[12px] sm:grid-cols-2 xl:grid-cols-4" data-name="Placas">
       <div className="col-1 h-[528px] relative row-1 w-full" data-name="Workshop-Hist-1 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWorkshopHist11} />
       </div>
@@ -382,13 +382,13 @@ function Hack() {
   return (
     <div className="relative shrink-0 w-full" data-name="Hack">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-solid border-t inset-0 pointer-events-none" />
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[32px] items-center py-[48px] relative size-full">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch relative flex size-full flex-col items-center gap-[24px] py-[40px] md:gap-[32px] md:py-[48px]">
         <Container10 />
-        <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#a1a1a1] text-[16px] uppercase whitespace-nowrap">
+        <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
           <p className="leading-[41px]">Sponsor video</p>
         </div>
         <SponsorVideo />
-        <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[#a1a1a1] text-[16px] uppercase whitespace-nowrap">
+        <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
           <p className="leading-[41px]">{`Social media `}</p>
         </div>
         <Placas />
@@ -399,9 +399,9 @@ function Hack() {
 
 function Text3() {
   return (
-    <div className="h-[30px] relative rounded-[16777200px] shrink-0 w-[467.211px]" data-name="Text">
+    <div className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full md:w-fit" data-name="Text">
       <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">Educational Branding · Landing Page · Communication Design</p>
+      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:whitespace-nowrap">Educational Branding · Landing Page · Communication Design</p>
     </div>
   );
 }
@@ -409,7 +409,7 @@ function Text3() {
 function Heading4() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 2">
-      <p className="font-['Groteska:Bold',sans-serif] leading-[66px] not-italic text-[60px] text-black whitespace-nowrap">03.2 — Bootcamp Experience</p>
+      <p className="font-['Groteska:Bold',sans-serif] text-[34px] leading-[1] text-black not-italic sm:text-[46px] md:text-[60px] md:leading-[66px]">03.2 - Bootcamp Experience</p>
     </div>
   );
 }
@@ -420,11 +420,11 @@ function Container12() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[28px] items-start relative size-full">
         <Text3 />
         <Heading4 />
-        <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[32.5px] min-w-full relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-[min-content]">This project involved the design and development of the landing page for the Devlights Bootcamp, with the goal of clearly communicating the value proposition of the program and guiding users through the enrollment process. To streamline collaboration with the developer, the designs were based on the Aceternity UI component library, facilitating a smoother transition from design to code while ensuring consistency and scalability.</p>
-        <a className="block font-['DM_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px] whitespace-nowrap" href="https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=1018-6220&t=NFtxGvZhTkgyZixk-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037" style={{ fontVariationSettings: "'opsz' 14" }} target="_blank">
+        <p className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">This project involved the design and development of the landing page for the Devlights Bootcamp, with the goal of clearly communicating the value proposition of the program and guiding users through the enrollment process. To streamline collaboration with the developer, the designs were based on the Aceternity UI component library, facilitating a smoother transition from design to code while ensuring consistency and scalability.</p>
+        <a className="block font-['DM_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px]" href="https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=1018-6220&t=NFtxGvZhTkgyZixk-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037" style={{ fontVariationSettings: "'opsz' 14" }} target="_blank">
           <p className="cursor-pointer decoration-solid leading-[normal] underline">Desktop Prototype</p>
         </a>
-        <a className="block font-['DM_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px] whitespace-nowrap" href="https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=795-5760&t=0YRtF28haw3wjumK-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037" style={{ fontVariationSettings: "'opsz' 14" }} target="_blank">
+        <a className="block font-['DM_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px]" href="https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=795-5760&t=0YRtF28haw3wjumK-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037" style={{ fontVariationSettings: "'opsz' 14" }} target="_blank">
           <p className="cursor-pointer decoration-solid leading-[normal] underline">Mobile Prototype</p>
         </a>
       </div>
@@ -607,19 +607,34 @@ function Frame2() {
 
 function Group6() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
-      <div className="col-1 h-[915px] ml-0 mt-0 relative rounded-[30px] row-1 w-[663px]" data-name="index1 2">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
-          <img alt="" className="absolute h-[587.66%] left-0 max-w-none top-[-75.47%] w-full" src={imgIndex12} />
+    <div className="w-full">
+      <div className="hidden grid-cols-[max-content] grid-rows-[max-content] leading-[0] place-items-start relative shrink-0 xl:inline-grid">
+        <div className="col-1 h-[915px] ml-0 mt-0 relative rounded-[30px] row-1 w-[663px]" data-name="index1 2">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
+            <img alt="" className="absolute h-[587.66%] left-0 max-w-none top-[-75.47%] w-full" src={imgIndex12} />
+          </div>
+        </div>
+        <Group />
+        <Group5 />
+        <Frame1 />
+        <Frame2 />
+        <div className="col-1 h-[242px] ml-0 mt-[932px] relative rounded-[30px] row-1 w-[663px]" data-name="index1 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
+            <img alt="" className="absolute h-[2226.09%] left-0 max-w-none top-[-1246.74%] w-full" src={imgIndex12} />
+          </div>
         </div>
       </div>
-      <Group />
-      <Group5 />
-      <Frame1 />
-      <Frame2 />
-      <div className="col-1 h-[242px] ml-0 mt-[932px] relative rounded-[30px] row-1 w-[663px]" data-name="index1 1">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
-          <img alt="" className="absolute h-[2226.09%] left-0 max-w-none top-[-1246.74%] w-full" src={imgIndex12} />
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:hidden">
+        <div className="overflow-hidden rounded-[24px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
+          <img alt="" className="aspect-[663/915] size-full object-cover" src={imgIndex12} />
+        </div>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-1">
+          <div className="overflow-hidden rounded-[24px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
+            <img alt="" className="aspect-[324/658] size-full object-cover" src={imgBootcampMobile1} />
+          </div>
+          <div className="overflow-hidden rounded-[24px] shadow-[0px_8px_24px_0px_rgba(0,0,0,0.12)]">
+            <img alt="" className="aspect-[316/572] size-full object-cover" src={imgBootcampMobile2} />
+          </div>
         </div>
       </div>
     </div>
@@ -639,7 +654,7 @@ function Container9() {
 function Section3() {
   return (
     <div className="relative shrink-0 w-full [overflow-x:clip]" data-name="Section">
-      <div className="content-stretch flex flex-col items-center justify-center px-[48px] py-[48px] relative size-full">
+      <div className="relative flex size-full flex-col items-center justify-center px-4 py-[40px] sm:px-6 md:px-12 md:py-[48px] xl:px-[48px]">
         <div className="w-full max-w-[1344px]">
           <Container9 />
         </div>
@@ -700,7 +715,7 @@ function Mockup() {
 
 function Root() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[80px] items-start pt-[60px] relative w-full [overflow-x:clip]" data-name="Root">
+    <div className="bg-white content-stretch relative flex w-full flex-col items-start gap-[56px] overflow-x-clip pt-[60px] md:gap-[80px]" data-name="Root">
       <MainContent />
       <Mockup />
     </div>
