@@ -1,32 +1,30 @@
 @font-face {
-  font-family: "Groteska:Bold";
-  src: url("/fonts/Groteska-Bold.woff") format("woff");
+  font-family: 'Groteska:Bold';
+  src: url('/fonts/Groteska-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Groteska:Medium";
-  src: url("/fonts/Groteska-Medium.woff") format("woff");
+  font-family: 'Groteska:Medium';
+  src: url('/fonts/Groteska-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Montserrat:Regular";
-  src: url("https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2")
-    format("woff2");
+  font-family: 'Montserrat:Regular';
+  src: url('https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Montserrat:Medium";
-  src: url("https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw3JetN.woff2")
-    format("woff2");
+  font-family: 'Montserrat:Medium';
+  src: url('https://fonts.gstatic.com/s/montserrat/v26/JTUSjIg1_i6t8kCHKm459Wlhyw3JetN.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
