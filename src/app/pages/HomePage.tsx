@@ -259,7 +259,7 @@ export default function HomePage() {
                     <div className="content-stretch flex flex-col items-start px-0 md:px-px relative size-full">
                       <div className="relative shrink-0 w-full grid grid-cols-1 md:grid-cols-[300px_1fr] lg:grid-cols-[415px_1fr] gap-8 md:gap-0">
                         <div className="content-stretch flex flex-col items-start pb-px">
-                          <div className="h-[603px] relative shrink-0 w-full">
+                          <div className="h-auto md:h-[603px] relative shrink-0 w-full">
                             <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
                             <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full p-[32px]">
                               <div className="bg-[rgba(0,0,0,0.05)] content-stretch flex flex-col items-start overflow-clip rounded-[16px] mb-[24px]">
@@ -346,12 +346,12 @@ export default function HomePage() {
                         <div className="content-stretch flex flex-col items-start pb-px">
                           <div className="relative shrink-0 w-full">
                             <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-[48px] py-[40px] relative size-full">
-                              <h2 className="font-['Groteska:Medium',sans-serif] leading-[24px] not-italic text-[24px] text-black">
-                                Education
-                              </h2>
-                              <div className="content-start flex flex-wrap gap-[6px] items-start relative shrink-0 w-full">
-                                <div className="content-stretch flex flex-col gap-[6px] items-start px-[24px] py-px border-l-2 border-black w-[236px]">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[40px] relative size-full">
+                                <h2 className="font-['Groteska:Medium',sans-serif] leading-[24px] not-italic text-[24px] text-black">
+                                  Education
+                                </h2>
+                                <div className="content-start flex flex-wrap gap-[6px] items-start relative shrink-0 w-full">
+                                  <div className="content-stretch flex flex-col gap-[6px] items-start px-[24px] py-px border-l-2 border-black w-full sm:w-[236px]">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2017 - 2020
                                   </p>
@@ -362,7 +362,7 @@ export default function HomePage() {
                                     In Graphic and Multimedia Design, Universidad de la Cuenca del Plata
                                   </p>
                                 </div>
-                                <div className="content-stretch flex flex-col gap-[9px] items-start px-[24px] py-px border-l-2 border-black w-[236px]">
+                                  <div className="content-stretch flex flex-col gap-[9px] items-start px-[24px] py-px border-l-2 border-black w-full sm:w-[236px]">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2021
                                   </p>
@@ -374,7 +374,7 @@ export default function HomePage() {
                                     <p className="leading-[20px]">Web Development Course (HTML5 & CSS3) — UTN</p>
                                   </div>
                                 </div>
-                                <div className="content-stretch flex flex-col items-start px-[24px] border-l-2 border-black w-[236px]">
+                                  <div className="content-stretch flex flex-col items-start px-[24px] border-l-2 border-black w-full sm:w-[236px]">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2018-2020
                                   </p>
@@ -389,9 +389,9 @@ export default function HomePage() {
                             </div>
                           </div>
 
-                          <div className="relative shrink-0 w-full grid grid-cols-2">
+                          <div className="relative shrink-0 w-full grid grid-cols-1 sm:grid-cols-2">
                             <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                            <div className="content-stretch flex flex-col gap-[24px] items-start pl-[48px] pr-[49px] py-[32px] border-r border-[rgba(0,0,0,0.1)]">
+                              <div className="content-stretch flex flex-col gap-[24px] items-start pl-4 sm:pl-6 md:pl-[48px] pr-4 sm:pr-6 md:pr-[49px] py-[32px] border-r border-[rgba(0,0,0,0.1)]">
                               <h3 className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black">
                                 Core Disciplines
                               </h3>
@@ -413,7 +413,7 @@ export default function HomePage() {
                                 ))}
                               </div>
                             </div>
-                            <div className="content-stretch flex flex-col gap-[24px] items-start px-[48px] py-[32px]">
+                              <div className="content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[32px]">
                               <h3 className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black">
                                 Soft Skills
                               </h3>
@@ -458,7 +458,7 @@ export default function HomePage() {
                             </div>
                           </div>
 
-                          <div className="relative shrink-0 w-full px-[48px] py-[32px]">
+                          <div className="relative shrink-0 w-full px-4 sm:px-6 md:px-[48px] py-[32px]">
                             <h3 className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black mb-[24px]">
                               Tools & Technologies
                             </h3>
@@ -500,11 +500,11 @@ export default function HomePage() {
 
                           <div className="relative shrink-0 w-full">
                             <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-[48px] py-[40px] relative size-full">
-                              <h2 className="font-['Groteska:Medium',sans-serif] leading-[48px] not-italic text-[24px] text-black">
-                                Experience
-                              </h2>
-                              <div className="content-stretch flex items-start justify-between relative shrink-0 w-full gap-[24px]">
+                              <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-[40px] relative size-full">
+                                <h2 className="font-['Groteska:Medium',sans-serif] leading-[48px] not-italic text-[24px] text-black">
+                                  Experience
+                                </h2>
+                                <div className="content-stretch flex flex-col md:flex-row items-start relative shrink-0 w-full gap-6 md:gap-[24px]">
                                 <div className="content-stretch flex flex-col gap-[6px] items-start px-[24px] py-px border-l-2 border-black flex-1">
                                   <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(10,10,10,0.6)]">
                                     2019 - 2022

@@ -153,8 +153,8 @@ function Section() {
 
 function Heading2() {
   return (
-    <div className="h-[32px] relative shrink-0 w-[361.664px]" data-name="Heading 2">
-      <p className="absolute font-['Groteska:Medium',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">Project Overview</p>
+    <div className="relative shrink-0" data-name="Heading 2">
+      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">Project Overview</p>
     </div>
   );
 }
@@ -170,7 +170,7 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="content-stretch flex flex-col items-start pl-[32px] pr-[21.336px] relative shrink-0 w-[821.336px]" data-name="Container">
+    <div className="content-stretch flex flex-col items-start pl-0 md:pl-[32px] relative flex-1 min-w-0" data-name="Container">
       <div className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.8)] w-full whitespace-pre-wrap">
         <p className="leading-[32.5px] mb-0">This project involved the design and implementation of a web-based platform for managing hunting and fishing licenses, conceived as an integrated digital ecosystem. The solution included an administrative backoffice, a mobile application for inspectors, a citizen-facing license management platform, and a modern institutional website providing access to relevant information about parks and natural reserves.</p>
         <p className="leading-[32.5px] mb-0">​</p>
@@ -182,7 +182,7 @@ function Container7() {
 
 function Container5() {
   return (
-    <div className="content-stretch flex items-start justify-between relative shrink-0 w-full" data-name="Container">
+    <div className="content-stretch flex flex-col md:flex-row items-start gap-8 md:gap-0 relative shrink-0 w-full" data-name="Container">
       <Container6 />
       <Container7 />
     </div>
@@ -193,7 +193,7 @@ function Section1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
-      <div className="content-stretch flex flex-col items-center justify-center px-[72px] py-[48px] relative size-full">
+      <div className="content-stretch flex flex-col items-center justify-center px-6 sm:px-8 md:px-12 xl:px-[72px] py-[48px] relative size-full">
         <div className="w-full max-w-[1344px]">
           <Container5 />
         </div>
@@ -255,7 +255,7 @@ function Container12() {
 
 function Container10() {
   return (
-    <div className="content-stretch flex items-center justify-between relative shrink-0 w-full" data-name="Container">
+    <div className="hidden md:flex items-center justify-between relative shrink-0 w-full" data-name="Container">
       <Container11 />
       <Container12 />
       <div className="h-[200px] relative rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] shrink-0 w-[439px]" data-name="Header-Solicitud 1">
@@ -375,23 +375,23 @@ function Container21() {
 
 function Container22() {
   return (
-    <div className="gap-x-[64px] gap-y-[64px] grid-cols-[repeat(4,fit-content(100%))] grid-rows-[repeat(2,fit-content(100%))] inline-grid relative shrink-0" data-name="Container">
-      <div className="col-1 h-[554px] relative rounded-[16px] row-1 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] shrink-0 w-[256px]" data-name="QR válido - lic vencida (1)">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 relative shrink-0 w-full" data-name="Container">
+      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="QR válido - lic vencida (1)">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgQrValidoLicVencida1} />
       </div>
-      <div className="col-2 h-[554px] relative rounded-[16px] row-1 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] shrink-0 w-[256px]" data-name="Crear acta de infracción">
+      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Crear acta de infracción">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgCrearActaDeInfraccion} />
       </div>
-      <div className="col-3 h-[554px] relative rounded-[16px] row-1 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] shrink-0 w-[256px]" data-name="Fiscalización - Dashboard sin Comision">
+      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Fiscalización - Dashboard sin Comision">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision} />
       </div>
-      <div className="col-4 h-[554px] relative rounded-[16px] row-1 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] shrink-0 w-[256px]" data-name="Fiscalización - Dashboard sin Comision-1">
+      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Fiscalización - Dashboard sin Comision-1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision1} />
       </div>
-      <div className="col-1 h-[555px] relative rounded-[16px] row-2 shrink-0 w-[256px]" data-name="Fiscalización - Dashboard sin Comision-2">
+      <div className="relative rounded-[16px] w-full aspect-[256/555]" data-name="Fiscalización - Dashboard sin Comision-2">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision2} />
       </div>
-      <div className="col-2 h-[554px] relative rounded-[16px] row-2 shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] shrink-0 w-[256px]" data-name="Fiscalización - Dashboard sin Comision-3">
+      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Fiscalización - Dashboard sin Comision-3">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision3} />
       </div>
     </div>
@@ -432,7 +432,7 @@ function Container8() {
 function Section2() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
-      <div className="content-stretch flex flex-col items-center justify-center pt-[96px] px-[48px] pb-[48px] relative size-full">
+      <div className="content-stretch flex flex-col items-center justify-center pt-[96px] px-6 sm:px-8 md:px-12 xl:px-[48px] pb-[48px] relative size-full">
         <div className="w-full max-w-[1344px]">
           <Container8 />
         </div>
@@ -453,7 +453,7 @@ function MainContent() {
 
 function Root() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-start pt-[60px] relative shrink-0 w-full" data-name="Root">
+    <div className="bg-white content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Root">
       <MainContent />
     </div>
   );

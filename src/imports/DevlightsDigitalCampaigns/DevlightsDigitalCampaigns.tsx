@@ -109,7 +109,7 @@ function Heading1() {
 
 function Heading() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Heading">
+    <div className="content-stretch flex flex-col gap-[32px] items-start relative flex-1 min-w-0" data-name="Heading">
       <Text1 />
       <Heading1 />
     </div>
@@ -231,7 +231,7 @@ function ReelVideoSection() {
 
 function LeftColumn() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[300px]" data-name="Left Column">
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative flex-1 min-w-0" data-name="Left Column">
       <div className="aspect-[1080/1920] relative shrink-0 w-full" data-name="Mesa de trabajo 5 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMesaDeTrabajo51} />
       </div>
@@ -244,7 +244,7 @@ function LeftColumn() {
 
 function MiddleColumn() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[300px]" data-name="Middle Column">
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative flex-1 min-w-0" data-name="Middle Column">
       <div className="aspect-[1080/1920] relative shrink-0 w-full" data-name="Orne-metaads copia 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgOrneMetaadsCopia1} />
       </div>
@@ -257,7 +257,7 @@ function MiddleColumn() {
 
 function RightColumn() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-[300px]" data-name="Right Column">
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative flex-1 min-w-0" data-name="Right Column">
       <div className="aspect-[1080/1080] relative shrink-0 w-full" data-name="Mesa de trabajo 9 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMesaDeTrabajo91} />
       </div>
@@ -270,11 +270,11 @@ function RightColumn() {
 
 function RightColumn1() {
   return (
-    <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0" data-name="Right Column">
-      <div className="h-[375px] relative shrink-0 w-[300px]" data-name="Mesa de trabajo 1 2">
+    <div className="content-stretch flex flex-col gap-[12px] items-start relative flex-1 min-w-0" data-name="Right Column">
+      <div className="h-[375px] relative shrink-0 w-full" data-name="Mesa de trabajo 1 2">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMesaDeTrabajo12} />
       </div>
-      <div className="h-[375px] relative shrink-0 w-[300px]" data-name="Mesa de trabajo 11 1">
+      <div className="h-[375px] relative shrink-0 w-full" data-name="Mesa de trabajo 11 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMesaDeTrabajo111} />
       </div>
     </div>
@@ -283,7 +283,7 @@ function RightColumn1() {
 
 function MainContainer() {
   return (
-    <div className="content-stretch flex gap-[12px] items-start relative shrink-0" data-name="Main Container">
+    <div className="content-stretch flex gap-[12px] items-start relative w-full" data-name="Main Container">
       <LeftColumn />
       <MiddleColumn />
       <RightColumn />
@@ -324,8 +324,8 @@ function Text2() {
 
 function Heading3() {
   return (
-    <div className="h-[66px] relative shrink-0 w-[1248px]" data-name="Heading 2">
-      <p className="absolute font-['Groteska:Bold',sans-serif] leading-[66px] left-0 not-italic text-[60px] text-black top-[6px] whitespace-nowrap">03.1 — HackAIthon</p>
+    <div className="relative shrink-0 w-full" data-name="Heading 2">
+      <p className="font-['Groteska:Bold',sans-serif] leading-[66px] not-italic text-[60px] text-black whitespace-nowrap">03.1 — HackAIthon</p>
     </div>
   );
 }
@@ -368,29 +368,29 @@ function SponsorVideo() {
 
 function Placas() {
   return (
-    <div className="gap-x-[12px] gap-y-[12px] grid-cols-[repeat(4,fit-content(100%))] grid-rows-[repeat(2,fit-content(100%))] inline-grid relative shrink-0" data-name="Placas">
-      <div className="col-1 h-[528px] relative row-1 shrink-0 w-[300px]" data-name="Workshop-Hist-1 1">
+    <div className="gap-x-[12px] gap-y-[12px] grid grid-cols-4 relative w-full" data-name="Placas">
+      <div className="col-1 h-[528px] relative row-1 w-full" data-name="Workshop-Hist-1 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWorkshopHist11} />
       </div>
-      <div className="col-2 h-[528px] relative row-1 shrink-0 w-[300px]" data-name="Workshop-Hist 1">
+      <div className="col-2 h-[528px] relative row-1 w-full" data-name="Workshop-Hist 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgWorkshopHist1} />
       </div>
-      <div className="col-3 h-[533px] relative row-1 shrink-0 w-[300px]" data-name="KitParticipante 1">
+      <div className="col-3 h-[533px] relative row-1 w-full" data-name="KitParticipante 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgKitParticipante1} />
       </div>
-      <div className="col-1 h-[528px] relative row-2 shrink-0 w-[300px]" data-name="Tips-1 1">
+      <div className="col-1 h-[528px] relative row-2 w-full" data-name="Tips-1 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgTips11} />
       </div>
-      <div className="col-2 h-[528px] relative row-2 shrink-0 w-[300px]" data-name="Tips-2 1">
+      <div className="col-2 h-[528px] relative row-2 w-full" data-name="Tips-2 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgTips21} />
       </div>
-      <div className="col-3 h-[532px] relative row-2 shrink-0 w-[300px]" data-name="1 1">
+      <div className="col-3 h-[532px] relative row-2 w-full" data-name="1 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img11} />
       </div>
-      <div className="col-4 h-[532px] relative row-2 shrink-0 w-[300px]" data-name="2 25">
+      <div className="col-4 h-[532px] relative row-2 w-full" data-name="2 25">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img225} />
       </div>
-      <div className="aspect-[1080/1920] col-4 justify-self-stretch relative row-1 shrink-0" data-name="FAQs-1 1">
+      <div className="aspect-[1080/1920] col-4 justify-self-stretch relative row-1" data-name="FAQs-1 1">
         <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgFaQs11} />
       </div>
     </div>
@@ -399,7 +399,7 @@ function Placas() {
 
 function Hack() {
   return (
-    <div className="relative shrink-0 w-[1248px]" data-name="Hack">
+    <div className="relative shrink-0 w-full" data-name="Hack">
       <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-solid border-t inset-0 pointer-events-none" />
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[32px] items-center py-[48px] relative size-full">
         <Container10 />
@@ -427,8 +427,8 @@ function Text3() {
 
 function Heading4() {
   return (
-    <div className="h-[66px] relative shrink-0 w-[1248px]" data-name="Heading 2">
-      <p className="absolute font-['Groteska:Bold',sans-serif] leading-[66px] left-0 not-italic text-[60px] text-black top-[6px] whitespace-nowrap">03.2 — Bootcamp Experience</p>
+    <div className="relative shrink-0 w-full" data-name="Heading 2">
+      <p className="font-['Groteska:Bold',sans-serif] leading-[66px] not-italic text-[60px] text-black whitespace-nowrap">03.2 — Bootcamp Experience</p>
     </div>
   );
 }
@@ -657,7 +657,7 @@ function Container9() {
 
 function Section3() {
   return (
-    <div className="relative shrink-0 w-full" data-name="Section">
+    <div className="relative shrink-0 w-full [overflow-x:clip]" data-name="Section">
       <div className="content-stretch flex flex-col items-center justify-center px-[48px] py-[48px] relative size-full">
         <div className="w-full max-w-[1344px]">
           <Container9 />
@@ -719,7 +719,7 @@ function Mockup() {
 
 function Root() {
   return (
-    <div className="bg-white content-stretch flex flex-col gap-[80px] items-start pt-[60px] relative w-full" data-name="Root">
+    <div className="bg-white content-stretch flex flex-col gap-[80px] items-start pt-[60px] relative w-full [overflow-x:clip]" data-name="Root">
       <MainContent />
       <Mockup />
     </div>
