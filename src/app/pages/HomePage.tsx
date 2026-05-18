@@ -9,7 +9,7 @@ import imgBackgroundImage1 from "../../imports/Home/eef97d1b28e33e30c22ec8dd57c4
 import imgGroup861 from "../../imports/Home/4d34812f7ce186a533793aef0de7e5ca5c9d06c2.png";
 import imgGroup87 from "../../imports/Home/ad623be10964d77eb06617a2d2a72ea92a42d878.png";
 import imgBackgroundImage2 from "../../imports/Home/21a51794e8146afcaea12d5a819d5484d0ac74ca.png";
-import imgMesaDeTrabajo61 from "../../imports/Home/106-DSC00301.jpg";
+import imgMesaDeTrabajo61 from "../../imports/Home/30aebf1fa8674c51e9105f4713f02fecaaf53b7a.png";
 import imgMesaDeTrabajo71 from "../../imports/Home/1d77ae4dd27ff69527be4ec77b56af2875338597.png";
 import imgImageWithFallback from "../../imports/Home/106-DSC00301.jpg";
 
@@ -346,7 +346,7 @@ export default function HomePage() {
                                   <div className="absolute inset-0 overflow-hidden pointer-events-none">
                                     <img
                                       alt="Profile"
-                                      className="absolute h-[100%] left-0 max-w-none top-0 w-full"
+                                      className="absolute h-[115%] left-0 max-w-none top-0 w-full"
                                       src={imgImageWithFallback}
                                     />
                                   </div>
