@@ -1,0 +1,76 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - paragraph [ref=e11]: Home
+      - paragraph [ref=e14]: /
+      - link "Selected Work" [ref=e15] [cursor=pointer]:
+        - /url: /#selected-work
+        - paragraph [ref=e17]: Selected Work
+      - paragraph [ref=e20]: /
+      - paragraph [ref=e23]: Devlights Digital Campaigns
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e34]:
+          - paragraph [ref=e36]: Social Media Design · META Ads · Motion Content
+          - paragraph [ref=e38]: Devlights Digital Campaigns
+        - generic [ref=e45]:
+          - paragraph [ref=e48]: Project Overview
+          - paragraph [ref=e50]: The Devlights META Ads campaign was developed to increase brand visibility and communicate the company’s technology services to potential business clients through targeted digital advertising. Focused on a B2B audience, the project combined static and motion-based content tailored for META platforms.
+        - generic [ref=e54]: Your browser does not support the video tag.
+        - generic [ref=e72]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - paragraph [ref=e77]: Event Branding · Landing Page · Digital Communication
+              - paragraph [ref=e79]: 03.1 — HackAIthon
+              - paragraph [ref=e80]:
+                - text: HackAIthon was a technology-focused event organized by
+                - link "Devlights" [ref=e81] [cursor=pointer]:
+                  - /url: https://www.devlights.com/?utm_source=chatgpt.com
+                - text: in Corrientes, bringing together students and professionals to collaborate on projects powered by artificial intelligence. The project involved the development of the event’s visual identity and communication system, including branding, merchandising, social media content, and video advertising campaigns designed to promote the event across the city and digital platforms.
+            - paragraph [ref=e83]: Sponsor video
+            - generic [ref=e86]: Your browser does not support the video tag.
+            - paragraph [ref=e88]: Social media
+          - generic [ref=e99]:
+            - paragraph [ref=e101]: Educational Branding · Landing Page · Communication Design
+            - paragraph [ref=e103]: 03.2 — Bootcamp Experience
+            - paragraph [ref=e104]: This project involved the design and development of the landing page for the Devlights Bootcamp, with the goal of clearly communicating the value proposition of the program and guiding users through the enrollment process. To streamline collaboration with the developer, the designs were based on the Aceternity UI component library, facilitating a smoother transition from design to code while ensuring consistency and scalability.
+            - link "Desktop Prototype" [ref=e105] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=1018-6220&t=NFtxGvZhTkgyZixk-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037
+              - paragraph [ref=e106]: Desktop Prototype
+            - link "Mobile Prototype" [ref=e107] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=795-5760&t=0YRtF28haw3wjumK-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037
+              - paragraph [ref=e108]: Mobile Prototype
+          - generic [ref=e109]:
+            - generic [ref=e112]:
+              - generic [ref=e113]:
+                - img [ref=e115]
+                - img [ref=e118]
+                - paragraph [ref=e121]: "#99FFFE"
+              - generic [ref=e122]:
+                - img [ref=e124]
+                - img [ref=e127]
+                - paragraph [ref=e132]: "#A772FF"
+              - generic [ref=e133]:
+                - img [ref=e135]
+                - img [ref=e138]
+                - paragraph [ref=e141]: "#1C59FF"
+              - generic [ref=e142]:
+                - paragraph [ref=e143]: "#D699FF"
+                - img [ref=e145]
+                - img [ref=e148]
+            - img [ref=e158]
+            - img [ref=e165]
+      - img [ref=e177]
+  - generic [ref=e181]:
+    - link "AnaPaulaChurruarin." [ref=e182] [cursor=pointer]:
+      - /url: /
+      - paragraph [ref=e184]: AnaPaulaChurruarin.
+    - generic [ref=e186] [cursor=pointer]:
+      - link "Work" [ref=e187]:
+        - /url: /#selected-work
+        - paragraph [ref=e189]: Work
+      - link "Resume" [ref=e190]:
+        - /url: /#resume
+        - paragraph [ref=e192]: Resume

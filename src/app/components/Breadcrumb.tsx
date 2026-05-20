@@ -3,9 +3,10 @@ import { motion } from "motion/react";
 
 interface BreadcrumbProps {
   currentPage: string;
+  showSelectedWork?: boolean;
 }
 
-export default function Breadcrumb({ currentPage }: BreadcrumbProps) {
+export default function Breadcrumb({ currentPage, showSelectedWork = true }: BreadcrumbProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: -10 }}
@@ -34,23 +35,27 @@ export default function Breadcrumb({ currentPage }: BreadcrumbProps) {
               </p>
             </div>
           </div>
-          <Link
-            to="/#selected-work"
-            className="relative shrink-0 transition-opacity hover:opacity-70"
-          >
-            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
-              <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
-                Selected Work
-              </p>
-            </div>
-          </Link>
-          <div className="relative shrink-0">
-            <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
-              <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
-                /
-              </p>
-            </div>
-          </div>
+          {showSelectedWork && (
+            <>
+              <Link
+                to="/#selected-work"
+                className="relative shrink-0 transition-opacity hover:opacity-70"
+              >
+                <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+                  <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
+                    Selected Work
+                  </p>
+                </div>
+              </Link>
+              <div className="relative shrink-0">
+                <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
+                  <p className="font-['Montserrat:Regular',sans-serif] text-[12px] font-normal uppercase tracking-[1.2px] text-[rgba(0,0,0,0.5)] sm:text-[14px] sm:tracking-[1.4px]">
+                    /
+                  </p>
+                </div>
+              </div>
+            </>
+          )}
           <div className="min-w-0 flex-1">
             <div className="relative size-full border-0 border-[transparent] bg-clip-padding border-solid">
               <p className="font-['Montserrat:Regular',sans-serif] line-clamp-2 text-[12px] font-normal uppercase tracking-[1.2px] text-black sm:text-[14px] sm:tracking-[1.4px]">

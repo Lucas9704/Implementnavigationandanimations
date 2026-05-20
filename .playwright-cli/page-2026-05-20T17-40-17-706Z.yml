@@ -1,0 +1,140 @@
+- generic [ref=e4]:
+  - main [ref=e5]:
+    - generic [ref=e7]:
+      - paragraph [ref=e8]: Bridging Product Utility & Brand Narrative.
+      - paragraph [ref=e9]: Adapting systems across industries.
+    - generic [ref=e10]:
+      - heading "Selected Work" [level=2] [ref=e13]
+      - generic [ref=e14]:
+        - link "Public Sector Natural Parks Hunting/Fishing Licensing Platform" [ref=e16] [cursor=pointer]:
+          - /url: /natural-parks
+          - generic [ref=e20]:
+            - generic [ref=e22]: Public Sector
+            - heading "Natural Parks Hunting/Fishing Licensing Platform" [level=3] [ref=e23]
+        - link "Tech Devlights Event Communication and Social Media" [ref=e25] [cursor=pointer]:
+          - /url: /devlights-campaigns
+          - generic [ref=e29]:
+            - generic [ref=e31]: Tech
+            - heading "Devlights Event Communication and Social Media" [level=3] [ref=e32]
+        - link "Public Sector Public Communication Campaigns" [ref=e34] [cursor=pointer]:
+          - /url: /public-communication
+          - generic [ref=e38]:
+            - generic [ref=e40]: Public Sector
+            - heading "Public Communication Campaigns" [level=3] [ref=e41]
+        - generic [ref=e56]:
+          - generic [ref=e58]: Tech
+          - heading "Houston Creative Studio Social Media in Content Systems" [level=3] [ref=e59]
+    - generic [ref=e60]:
+      - heading "Resume" [level=2] [ref=e63]
+      - generic [ref=e66]:
+        - img "Ana Paula Churruarin" [ref=e69]
+        - generic [ref=e70]:
+          - heading "Ana Paula Churruarin" [level=2] [ref=e71]
+          - paragraph [ref=e72]: Graphic Designer
+        - generic [ref=e73]:
+          - heading "Personal Information" [level=3] [ref=e74]
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - paragraph [ref=e77]: Location
+              - paragraph [ref=e78]: Corrientes, Argentina
+            - generic [ref=e79]:
+              - paragraph [ref=e80]: Contact
+              - paragraph [ref=e81]: anapau.ch@icloud.com
+              - paragraph [ref=e82]: +549 3777 229333
+            - generic [ref=e83]:
+              - paragraph [ref=e84]: Interests
+              - paragraph [ref=e85]: Contemporary Art, Architecture, Analog Photography, Vinyl Collecting
+        - generic [ref=e86]:
+          - heading "Languages" [level=3] [ref=e87]
+          - generic [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: English
+              - generic [ref=e91]: C2
+            - generic [ref=e92]:
+              - generic [ref=e93]: Spanish
+              - generic [ref=e94]: Native
+        - generic [ref=e95]:
+          - heading "Experience" [level=3] [ref=e96]
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: 2019 - 2022
+              - heading "Junior/Mid-Senior Designer" [level=4] [ref=e100]
+              - paragraph [ref=e101]: Houston Agencia Creativa
+            - generic [ref=e102]:
+              - paragraph [ref=e103]: 2021 - 2024
+              - heading "Senior Graphic Designer - UI Designer" [level=4] [ref=e104]
+              - paragraph [ref=e105]: Subsecretaria de Contenido e Innovacion Digital
+            - generic [ref=e106]:
+              - paragraph [ref=e107]: 2024 - Present
+              - heading "UX/UI Designer" [level=4] [ref=e108]
+              - paragraph [ref=e109]: Devlights
+        - generic [ref=e110]:
+          - heading "Education" [level=3] [ref=e111]
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - paragraph [ref=e114]: 2017 - 2020
+              - heading "Bachelor's Degree" [level=4] [ref=e115]
+              - paragraph [ref=e116]: In Graphic and Multimedia Design, Universidad de la Cuenca del Plata
+            - generic [ref=e117]:
+              - paragraph [ref=e118]: "2021"
+              - heading "UX Design/Development" [level=4] [ref=e119]
+              - generic [ref=e120]:
+                - paragraph [ref=e121]: AI Foundations of UX Design, Google
+                - paragraph [ref=e122]: Web Development Course (HTML5 & CSS3) - UTN
+            - generic [ref=e123]:
+              - paragraph [ref=e124]: 2018 - 2020
+              - heading "UI Design" [level=4] [ref=e125]
+              - paragraph [ref=e126]: User Interface (UI) Design Course - UTN
+        - generic [ref=e127]:
+          - heading "Soft Skills" [level=3] [ref=e128]
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - heading "Strategic Thinking" [level=4] [ref=e131]
+              - paragraph [ref=e132]: Seeing the big picture while obsessing over details. I apply an Atomic Design methodology, carefully crafting even the smallest design element.
+            - generic [ref=e133]:
+              - heading "Adaptability" [level=4] [ref=e134]
+              - paragraph [ref=e135]: I like to pour my creative energy into each project, across different topics and audiences, delivering a tailored design solution.
+            - generic [ref=e136]:
+              - heading "Visual Consistency" [level=4] [ref=e137]
+              - paragraph [ref=e138]: Following branding guidelines helps me maintain a coherent identity through different platforms.
+            - generic [ref=e139]:
+              - heading "Cross-Disciplinary Thinking" [level=4] [ref=e140]
+              - paragraph [ref=e141]: I enjoy combining different design tools, approaching each project as part of a broader communication system.
+        - generic [ref=e142]:
+          - heading "Core Disciplines" [level=3] [ref=e143]
+          - generic [ref=e144]:
+            - paragraph [ref=e147]: UX/UI Design
+            - paragraph [ref=e150]: Design Systems
+            - paragraph [ref=e153]: Brand Identity
+            - paragraph [ref=e156]: Art Direction
+            - paragraph [ref=e159]: Prototyping & Interaction
+            - paragraph [ref=e162]: User Flow and Information Architecture
+        - generic [ref=e163]:
+          - heading "Tools & Technologies" [level=3] [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - paragraph [ref=e167]: Design
+              - generic [ref=e168]:
+                - paragraph [ref=e169]: Figma
+                - paragraph [ref=e170]: Lovable
+                - paragraph [ref=e171]: Premiere Pro
+                - paragraph [ref=e172]: After Effects
+                - paragraph [ref=e173]: Photoshop
+                - paragraph [ref=e174]: Illustrator
+            - generic [ref=e175]:
+              - paragraph [ref=e176]: Management
+              - generic [ref=e177]:
+                - paragraph [ref=e178]: Jira
+                - paragraph [ref=e179]: Notion
+                - paragraph [ref=e180]: FigJam
+                - paragraph [ref=e181]: Asana
+                - paragraph [ref=e182]: Trello
+  - generic [ref=e184]:
+    - link "AnaPaulaChurruarin." [ref=e185] [cursor=pointer]:
+      - /url: /homev2
+      - paragraph [ref=e187]: AnaPaulaChurruarin.
+    - generic [ref=e189] [cursor=pointer]:
+      - button "Work" [ref=e190]:
+        - paragraph [ref=e192]: Work
+      - button "Resume" [ref=e193]:
+        - paragraph [ref=e195]: Resume
