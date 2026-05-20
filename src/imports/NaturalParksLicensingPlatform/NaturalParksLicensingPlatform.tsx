@@ -26,7 +26,7 @@ function Link() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           Home
         </p>
       </div>
@@ -38,7 +38,7 @@ function Text() {
   return (
     <div className="h-[20px] relative shrink-0 w-[6.086px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           /
         </p>
       </div>
@@ -67,7 +67,7 @@ function Container2() {
       data-name="Container"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           Devlights Digital Campaigns
         </p>
       </div>
@@ -111,7 +111,7 @@ function Text1() {
         aria-hidden="true"
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">
+      <p className="font-montserrat text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">
         UX/UI Design · Government Systems · Digital Product Design
       </p>
     </div>
@@ -122,7 +122,7 @@ function Heading1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 1">
       <div
-        className="font-['Groteska:Bold',sans-serif] not-italic text-black leading-tight"
+        className="font-groteska-bold not-italic text-black leading-tight"
         style={{ fontSize: "clamp(2.5rem, 7vw, 6rem)" }}
       >
         <p className="mb-0">{`Natural`}</p>
@@ -196,7 +196,7 @@ function Section() {
 function Heading2() {
   return (
     <div className="relative shrink-0" data-name="Heading 2">
-      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
+      <p className="font-groteska-medium leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
         Project Overview
       </p>
     </div>
@@ -224,7 +224,7 @@ function Container7() {
       className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0"
       data-name="Container"
     >
-      <div className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] whitespace-pre-wrap md:text-[20px] md:leading-[32.5px]">
+      <div className="font-montserrat relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] whitespace-pre-wrap md:text-[20px] md:leading-[32.5px]">
         <p className="leading-[32.5px] mb-0">
           This project involved the design and implementation of a web-based
           platform for managing hunting and fishing licenses, conceived as an
@@ -280,10 +280,10 @@ function Heading3() {
       className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black"
       data-name="Heading"
     >
-      <div className="flex flex-col font-['Groteska:Medium',sans-serif] justify-center not-italic relative shrink-0 text-[24px]">
+      <div className="flex flex-col font-groteska-medium justify-center not-italic relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Illustrations and avatars</p>
       </div>
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px]">
+      <div className="flex flex-col font-montserrat font-normal justify-center relative shrink-0 text-[16px]">
         <p className="leading-[normal]">{`Inspired by native fauna and flora `}</p>
       </div>
     </div>
@@ -455,10 +455,10 @@ function Container15() {
       className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] leading-[0] text-black"
       data-name="Container"
     >
-      <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px]">
+      <div className="flex flex-col font-montserrat-bold font-bold justify-center relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Design System</p>
       </div>
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-full">
+      <div className="flex flex-col font-montserrat font-normal justify-center relative shrink-0 text-[16px] w-full">
         <p className="leading-[normal]">Field sets</p>
       </div>
     </div>
@@ -494,10 +494,10 @@ function Container17() {
       className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] text-black"
       data-name="Container"
     >
-      <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px] w-[152px]">
+      <div className="flex flex-col font-montserrat-bold font-bold justify-center relative shrink-0 text-[24px] w-[152px]">
         <p className="leading-[normal]">Desktop</p>
       </div>
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px] w-full">
+      <div className="flex flex-col font-montserrat font-normal justify-center relative shrink-0 text-[16px] w-full">
         <p className="leading-[normal]">User | License acquisition</p>
       </div>
     </div>
@@ -589,10 +589,10 @@ function Container21() {
       className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black"
       data-name="Container"
     >
-      <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px]">
+      <div className="flex flex-col font-montserrat-bold font-bold justify-center relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Mobile</p>
       </div>
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[16px]">
+      <div className="flex flex-col font-montserrat font-normal justify-center relative shrink-0 text-[16px]">
         <p className="leading-[normal]">Admin | User Details</p>
       </div>
     </div>
@@ -767,7 +767,7 @@ function Link1() {
   return (
     <div className="h-[28px] relative shrink-0 w-[71.953px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Groteska:Medium',sans-serif] leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
+        <p className="absolute font-groteska-medium leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
           AnaPaulaChurruarin.
         </p>
       </div>
@@ -779,7 +779,7 @@ function Link2() {
   return (
     <div className="h-[20px] relative shrink-0 w-[37.445px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
           Work
         </p>
       </div>
@@ -791,7 +791,7 @@ function Link3() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
           Resume
         </p>
       </div>

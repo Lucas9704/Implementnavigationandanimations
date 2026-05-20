@@ -38,16 +38,16 @@ const workItems: WorkItem[] = [
     visual: <NaturalParksVisual />,
   },
   {
-    title: "Devlights Event Communication and Social Media",
-    category: "Tech",
-    to: "/devlights-campaigns",
-    visual: <DevlightsVisual />,
-  },
-  {
     title: "Public Communication Campaigns",
     category: "Public Sector",
     to: "/public-communication",
     visual: <PublicCommunicationVisual />,
+  },
+  {
+    title: "Devlights Event Communication and Social Media",
+    category: "Tech",
+    to: "/devlights-campaigns",
+    visual: <DevlightsVisual />,
   },
   {
     title: "Houston Creative Studio Social Media in Content Systems",
@@ -187,7 +187,7 @@ function FadeInSection({
 function SectionHeader({ title }: { title: string }) {
   return (
     <div className="flex items-center justify-between">
-      <h2 className="font-['Montserrat:Regular',sans-serif] text-[40px] xl:text-[60px] leading-[60px] text-black">
+      <h2 className="font-montserrat text-[40px] xl:text-[60px] leading-[60px] text-black">
         {title}
       </h2>
     </div>
@@ -208,15 +208,15 @@ function WorkCard({ item, index }: { item: WorkItem; index: number }) {
         </div>
       </div>
       <div className="border-[rgba(0,0,0,0.1)] border-solid border-t content-stretch flex flex-col items-start p-[24px] relative shrink-0 w-full">
-        <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full">
-          <div className="border border-[rgba(0,0,0,0.1)] border-solid h-[30px] relative rounded-[16777200px] shrink-0 px-[12px] flex items-center">
-            <span className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">
+        <div className="content-stretch flex flex-col-reverse xl:flex-row xl:justify-between gap-[16px] items-start relative shrink-0 w-full">
+          <h3 className="[word-break:break-word] font-montserrat font-normal leading-[32px] min-w-full xl:min-w-0 relative shrink-0 text-[24px] text-black max-w-[25ch]">
+            {item.title}
+          </h3>
+          <div className="border border-[rgba(0,0,0,0.1)] border-solid h-[30px] relative rounded-[16777200px] shrink-0 px-[12px] flex items-center justify-center">
+            <span className="font-montserrat font-normal leading-[20px] text-[14px] text-black whitespace-nowrap">
               {item.category}
             </span>
           </div>
-          <h3 className="[word-break:break-word] font-['Montserrat:Regular',sans-serif] font-normal leading-[32px] min-w-full relative shrink-0 text-[24px] text-black max-w-[18ch]">
-            {item.title}
-          </h3>
         </div>
       </div>
       {item.to ? (
@@ -254,7 +254,7 @@ function ResumeSection({
         className,
       ].join(" ")}
     >
-      <h3 className="mb-[24px] font-['Montserrat:Regular',sans-serif] font-normal text-[20px] xl:text-[24px] leading-[28px] text-black">
+      <h3 className="mb-[24px] font-montserrat font-normal text-[20px] xl:text-[24px] leading-[28px] text-black">
         {title}
       </h3>
       {children}
@@ -392,10 +392,10 @@ export default function HomeV2Page() {
       <main className="relative mx-auto flex w-full flex-col pb-[70px] pt-[60px] max-w-[430px] sm:max-w-[520px] xl:max-w-[1344px]">
         <FadeInSection>
           <section className="pb-[72px] pt-[98px] px-[32px] xl:px-[48px] xl:pt-[158px] xl:pb-[158px]">
-            <p className="mb-[11px] font-['Montserrat_Alternates',sans-serif] font-medium text-[55px] xl:text-[128px] xl:leading-[128px] leading-[normal] text-black">
+            <p className="mb-[11px] font-montserrat-alternates font-medium text-[55px] xl:text-[128px] xl:leading-[128px] leading-[normal] text-black">
               Bridging Product Utility & Brand Narrative.
             </p>
-            <p className="font-['Montserrat:Regular',sans-serif] text-[20px] leading-[28px] text-[rgba(10,10,10,0.6)]">
+            <p className="font-montserrat text-[20px] leading-[28px] text-[rgba(10,10,10,0.6)]">
               Adapting systems across industries.
             </p>
           </section>
@@ -437,10 +437,10 @@ export default function HomeV2Page() {
                         src={imgImageWithFallback}
                       />
                     </div>
-                    <h2 className="mt-[8px] font-['Montserrat:Regular',sans-serif] font-normal text-[30px] leading-[36px] text-black">
+                    <h2 className="mt-[8px] font-montserrat font-normal text-[30px] leading-[36px] text-black">
                       Ana Paula Churruarin
                     </h2>
-                    <p className="font-['Montserrat:Regular',sans-serif] font-normal text-[14px] leading-[20px] text-[rgba(0,0,0,0.6)]">
+                    <p className="font-montserrat font-normal text-[14px] leading-[20px] text-[rgba(0,0,0,0.6)]">
                       Graphic Designer
                     </p>
                   </div>
@@ -452,11 +452,11 @@ export default function HomeV2Page() {
                     <div className="flex flex-col gap-[16px]">
                       {personalInformation.rows.map((row) => (
                         <div key={row.label} className="relative w-full">
-                          <p className="font-['Montserrat:Regular',sans-serif] text-[12px] uppercase tracking-[0.6px] text-[rgba(0,0,0,0.4)] leading-[16px] mb-[4px]">
+                          <p className="font-montserrat text-[12px] uppercase tracking-[0.6px] text-[rgba(0,0,0,0.4)] leading-[16px] mb-[4px]">
                             {row.label}
                           </p>
                           {Array.isArray(row.value) ? (
-                            <div className="text-[14px] text-[rgba(0,0,0,0.8)] leading-[20px] font-['Montserrat:Regular',sans-serif]">
+                            <div className="text-[14px] text-[rgba(0,0,0,0.8)] leading-[20px] font-montserrat">
                               {row.value.map((entry) => (
                                 <p key={entry} className="leading-[20px] m-0">
                                   {entry}
@@ -464,7 +464,7 @@ export default function HomeV2Page() {
                               ))}
                             </div>
                           ) : (
-                            <p className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(0,0,0,0.8)]">
+                            <p className="font-montserrat text-[14px] leading-[20px] text-[rgba(0,0,0,0.8)]">
                               {row.value}
                             </p>
                           )}
@@ -483,10 +483,10 @@ export default function HomeV2Page() {
                           key={language.name}
                           className="flex items-center justify-between border-b border-[rgba(0,0,0,0.05)] pb-[9px] last:border-b-0 last:pb-0"
                         >
-                          <span className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(0,0,0,0.8)]">
+                          <span className="font-montserrat text-[14px] leading-[20px] text-[rgba(0,0,0,0.8)]">
                             {language.name}
                           </span>
-                          <span className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(0,0,0,0.4)]">
+                          <span className="font-montserrat text-[14px] leading-[20px] text-[rgba(0,0,0,0.4)]">
                             {language.level}
                           </span>
                         </div>
@@ -503,14 +503,14 @@ export default function HomeV2Page() {
                           key={item.title}
                           className="border-l-2 border-black pl-[24px] py-[2px] flex flex-col gap-[6px] xl:flex-1"
                         >
-                          <p className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
+                          <p className="font-montserrat text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
                             {item.years}
                           </p>
-                          <h4 className="font-['Montserrat:Regular',sans-serif] font-normal text-[20px] leading-[28px] text-black">
+                          <h4 className="font-montserrat font-normal text-[20px] leading-[28px] text-black">
                             {item.title}
                           </h4>
                           {Array.isArray(item.description) ? (
-                            <div className="font-['Montserrat:Regular',sans-serif] text-[14px] text-[rgba(10,10,10,0.6)] flex flex-col gap-[4px]">
+                            <div className="font-montserrat text-[14px] text-[rgba(10,10,10,0.6)] flex flex-col gap-[4px]">
                               {item.description.map((line) => (
                                 <p key={line} className="leading-[20px] m-0">
                                   {line}
@@ -518,7 +518,7 @@ export default function HomeV2Page() {
                               ))}
                             </div>
                           ) : (
-                            <p className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
+                            <p className="font-montserrat text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
                               {item.description}
                             </p>
                           )}
@@ -536,13 +536,13 @@ export default function HomeV2Page() {
                           key={item.role}
                           className="border-l-2 border-black pl-[24px] py-[2px] flex flex-col gap-[6px] xl:flex-1"
                         >
-                          <p className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
+                          <p className="font-montserrat text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
                             {item.years}
                           </p>
-                          <h4 className="font-['Montserrat:Regular',sans-serif] font-normal text-[20px] leading-[28px] text-black">
+                          <h4 className="font-montserrat font-normal text-[20px] leading-[28px] text-black">
                             {item.role}
                           </h4>
-                          <p className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
+                          <p className="font-montserrat text-[14px] leading-[20px] text-[rgba(10,10,10,0.6)]">
                             {item.company}
                           </p>
                         </div>
@@ -559,10 +559,10 @@ export default function HomeV2Page() {
                           key={item.title}
                           className="flex flex-col gap-[4px]"
                         >
-                          <h4 className="font-['Montserrat:Medium',sans-serif] font-medium text-[16px] leading-[24px] text-black">
+                          <h4 className="font-montserrat-medium font-medium text-[16px] leading-[24px] text-black">
                             {item.title}
                           </h4>
-                          <p className="font-['Montserrat:Regular',sans-serif] text-[14px] leading-[20px] text-[rgba(0,0,0,0.5)] whitespace-pre-wrap">
+                          <p className="font-montserrat text-[14px] leading-[20px] text-[rgba(0,0,0,0.5)] whitespace-pre-wrap">
                             {item.description}
                           </p>
                         </div>
@@ -580,7 +580,7 @@ export default function HomeV2Page() {
                           className="flex items-center gap-[16px] relative"
                         >
                           <div className="absolute left-0 top-[8px] size-[6px] rounded-[16777200px] bg-black" />
-                          <p className="font-['Montserrat:Regular',sans-serif] font-normal text-[16px] leading-[24px] text-[rgba(0,0,0,0.8)] ml-[22px]">
+                          <p className="font-montserrat font-normal text-[16px] leading-[24px] text-[rgba(0,0,0,0.8)] ml-[22px]">
                             {item}
                           </p>
                         </div>
@@ -594,14 +594,14 @@ export default function HomeV2Page() {
                     <div className="flex flex-col xl:flex-row gap-[24px]">
                       {Object.entries(tools).map(([group, entries]) => (
                         <div key={group} className="flex-1">
-                          <p className="mb-[8px] font-['Montserrat:Medium',sans-serif] font-medium text-[12px] uppercase tracking-[1.2px] text-[rgba(0,0,0,0.4)] leading-[16px]">
+                          <p className="mb-[8px] font-montserrat-medium font-medium text-[12px] uppercase tracking-[1.2px] text-[rgba(0,0,0,0.4)] leading-[16px]">
                             {group}
                           </p>
                           <div className="flex flex-col gap-[8px]">
                             {entries.map((entry) => (
                               <p
                                 key={entry}
-                                className="font-['Montserrat:Regular',sans-serif] font-normal text-[14px] leading-[20px] text-[rgba(0,0,0,0.8)]"
+                                className="font-montserrat font-normal text-[14px] leading-[20px] text-[rgba(0,0,0,0.8)]"
                               >
                                 {entry}
                               </p>

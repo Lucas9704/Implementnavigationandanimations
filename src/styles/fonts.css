@@ -31,3 +31,12 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: "Montserrat_Alternates";
+  src: url("https://fonts.gstatic.com/s/montserratalternates/v18/mFTiWacfw6zH4dthXcyms1lPpC8I_b0juU0xGITFB7xG.woff2")
+    format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

@@ -92,7 +92,7 @@ function WorkCard({
 								<div className="content-stretch flex flex-col items-start gap-2 sm:gap-3 relative shrink-0 w-full">
 									<div className="relative flex-1 min-w-0">
 										<div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-											<div className="font-['Groteska:Medium',sans-serif] not-italic text-base sm:text-lg md:text-xl lg:text-[24px] leading-tight sm:leading-snug text-black truncate">
+											<div className="font-groteska-medium not-italic text-base sm:text-lg md:text-xl lg:text-[24px] leading-tight sm:leading-snug text-black truncate">
 												{title}
 											</div>
 										</div>
@@ -103,7 +103,7 @@ function WorkCard({
 											className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-full"
 										/>
 										<div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full px-2.5 sm:px-3 md:px-[13px] py-[3px] sm:py-[5.5px]">
-											<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[18px] sm:leading-[20px] text-[11px] sm:text-xs md:text-sm text-black whitespace-nowrap">
+											<p className="font-montserrat font-normal leading-[18px] sm:leading-[20px] text-[11px] sm:text-xs md:text-sm text-black whitespace-nowrap">
 												{category}
 											</p>
 										</div>
@@ -147,10 +147,10 @@ export default function HomePage() {
 					<FadeInSection>
 						<div className="relative shrink-0 w-full">
 							<div className="content-stretch flex flex-col gap-3 sm:gap-[11px] items-start px-5 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] py-12 sm:py-16 md:py-32 lg:py-40 relative size-full">
-								<h1 className="font-['Groteska:Bold',sans-serif] leading-[1.1] md:leading-[96px] lg:leading-[128px] not-italic relative shrink-0 text-[2rem] sm:text-[2.5rem] md:text-6xl lg:text-7xl xl:text-[128px] text-black max-w-full">
+								<h1 className="font-groteska-bold leading-[1.1] md:leading-[96px] lg:leading-[128px] not-italic relative shrink-0 text-[2rem] sm:text-[2.5rem] md:text-6xl lg:text-7xl xl:text-[128px] text-black max-w-full">
 									Bridging Product Utility & Brand Narrative.
 								</h1>
-								<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.4] sm:leading-[28px] relative shrink-0 text-[1rem] sm:text-lg md:text-[20px] text-[rgba(10,10,10,0.6)]">
+								<p className="font-montserrat font-normal leading-[1.4] sm:leading-[28px] relative shrink-0 text-[1rem] sm:text-lg md:text-[20px] text-[rgba(10,10,10,0.6)]">
 									Adapting systems across industries.
 								</p>
 							</div>
@@ -170,7 +170,7 @@ export default function HomePage() {
 							<div className="content-stretch flex flex-col gap-10 sm:gap-12 md:gap-16 items-start relative shrink-0 w-full">
 								<FadeInSection>
 									<div className="relative shrink-0 w-full">
-										<p className="font-['Groteska:Bold',sans-serif] leading-tight sm:leading-[48px] md:leading-[60px] not-italic text-3xl sm:text-4xl md:text-5xl lg:text-[60px] text-black">
+										<p className="font-groteska-bold leading-tight sm:leading-[48px] md:leading-[60px] not-italic text-3xl sm:text-4xl md:text-5xl lg:text-[60px] text-black">
 											Selected Work
 										</p>
 									</div>
@@ -344,7 +344,7 @@ export default function HomePage() {
 									className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
 								/>
 								<div className="content-stretch flex flex-col items-start px-5 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] py-6 sm:py-8 md:py-10 lg:py-[40px] relative w-full">
-									<h2 className="font-['Groteska:Bold',sans-serif] leading-tight sm:leading-[48px] md:leading-[60px] not-italic text-2xl sm:text-3xl md:text-4xl lg:text-[60px] text-black">
+									<h2 className="font-groteska-bold leading-tight sm:leading-[48px] md:leading-[60px] not-italic text-2xl sm:text-3xl md:text-4xl lg:text-[60px] text-black">
 										Resume
 									</h2>
 								</div>
@@ -383,10 +383,10 @@ export default function HomePage() {
 																	</div>
 																</div>
 															</div>
-															<h2 className="font-['Groteska:Medium',sans-serif] leading-[1.3] sm:leading-[36px] not-italic text-xl sm:text-2xl md:text-[30px] text-black mb-1 sm:mb-2 lg:mb-[8px]">
+															<h2 className="font-groteska-medium leading-[1.3] sm:leading-[36px] not-italic text-xl sm:text-2xl md:text-[30px] text-black mb-1 sm:mb-2 lg:mb-[8px]">
 																Ana Paula Churruarin
 															</h2>
-															<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.6)]">
+															<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.6)]">
 																Graphic Designer
 															</p>
 														</div>
@@ -397,10 +397,10 @@ export default function HomePage() {
 															className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
 														/>
 														<div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-4 sm:gap-5 lg:gap-[16px] items-start p-5 sm:p-6 md:p-8 lg:p-[32px] relative size-full">
-															<h3 className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+															<h3 className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																Personal Information
 															</h3>
-															<div className="content-stretch flex flex-col font-['Montserrat:Regular',sans-serif] font-normal gap-4 sm:gap-5 lg:gap-[16px] items-start relative shrink-0 w-full">
+															<div className="content-stretch flex flex-col font-montserrat font-normal gap-4 sm:gap-5 lg:gap-[16px] items-start relative shrink-0 w-full">
 																<div className="w-full">
 																	<p className="leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-1 lg:mb-[4px]">
 																		Location
@@ -433,23 +433,23 @@ export default function HomePage() {
 														</div>
 													</div>
 													<div className="relative shrink-0 w-full p-5 sm:p-6 md:p-8 lg:p-[32px]">
-														<h3 className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black mb-4 lg:mb-[16px]">
+														<h3 className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black mb-4 lg:mb-[16px]">
 															Languages
 														</h3>
 														<div className="content-stretch flex flex-col gap-3 sm:gap-4 lg:gap-[12px] items-start relative shrink-0 w-full">
 															<div className="content-stretch flex items-center justify-between pb-2 sm:pb-[9px] relative shrink-0 w-full border-b border-[rgba(0,0,0,0.05)]">
-																<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
+																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
 																	English
 																</p>
-																<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.4)]">
+																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.4)]">
 																	C2
 																</p>
 															</div>
 															<div className="content-stretch flex items-center justify-between pb-2 sm:pb-[9px] relative shrink-0 w-full border-b border-[rgba(0,0,0,0.05)]">
-																<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
+																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
 																	Spanish
 																</p>
-																<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.4)]">
+																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.4)]">
 																	Native
 																</p>
 															</div>
@@ -464,30 +464,30 @@ export default function HomePage() {
 															className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
 														/>
 														<div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-5 sm:gap-6 lg:gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-6 sm:py-8 lg:py-[40px] relative size-full">
-															<h2 className="font-['Groteska:Medium',sans-serif] leading-[1.3] sm:leading-[24px] not-italic text-lg sm:text-xl lg:text-[24px] text-black">
+															<h2 className="font-groteska-medium leading-[1.3] sm:leading-[24px] not-italic text-lg sm:text-xl lg:text-[24px] text-black">
 																Education
 															</h2>
 															<div className="content-start flex flex-col gap-4 sm:gap-5 lg:gap-[6px] items-start relative shrink-0 w-full">
 																<div className="content-stretch flex flex-col gap-1.5 sm:gap-2 lg:gap-[6px] items-start px-4 sm:px-5 lg:px-[24px] py-2 sm:py-px border-l-2 border-black w-full">
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		2017 - 2020
 																	</p>
-																	<p className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+																	<p className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																		Bachelor's Degree
 																	</p>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		In Graphic and Multimedia Design,
 																		Universidad de la Cuenca del Plata
 																	</p>
 																</div>
 																<div className="content-stretch flex flex-col gap-2 sm:gap-[9px] items-start px-4 sm:px-5 lg:px-[24px] py-2 sm:py-px border-l-2 border-black w-full">
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		2021
 																	</p>
-																	<p className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+																	<p className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																		UX Design/Development
 																	</p>
-																	<div className="font-['Montserrat:Regular',sans-serif] font-normal text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<div className="font-montserrat font-normal text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		<p className="leading-[1.5] sm:leading-[20px]">
 																			AI Foundations of UX Design, Google
 																		</p>
@@ -498,13 +498,13 @@ export default function HomePage() {
 																	</div>
 																</div>
 																<div className="content-stretch flex flex-col gap-2 items-start px-4 sm:px-5 lg:px-[24px] py-2 border-l-2 border-black w-full">
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		2018-2020
 																	</p>
-																	<p className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+																	<p className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																		UI Design
 																	</p>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		User Interface (UI) Design Course — UTN
 																	</p>
 																</div>
@@ -518,7 +518,7 @@ export default function HomePage() {
 															className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none hidden lg:block"
 														/>
 														<div className="content-stretch flex flex-col gap-5 sm:gap-6 lg:gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-6 sm:py-8 lg:py-[32px] border-b lg:border-b-0 border-[rgba(0,0,0,0.1)] lg:border-r">
-															<h3 className="font-['Groteska:Medium',sans-serif] leading-[1.3] sm:leading-[32px] not-italic text-base sm:text-xl lg:text-[24px] text-black">
+															<h3 className="font-groteska-medium leading-[1.3] sm:leading-[32px] not-italic text-base sm:text-xl lg:text-[24px] text-black">
 																Core Disciplines
 															</h3>
 															<div className="content-stretch flex flex-col gap-4 sm:gap-5 lg:gap-[24px] items-start w-full">
@@ -535,7 +535,7 @@ export default function HomePage() {
 																		className="flex items-center gap-3 sm:gap-4 lg:gap-[16px]"
 																	>
 																		<div className="bg-black rounded-full size-[5px] sm:size-[6px]" />
-																		<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-[rgba(0,0,0,0.8)]">
+																		<p className="font-montserrat font-normal leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-[rgba(0,0,0,0.8)]">
 																			{skill}
 																		</p>
 																	</div>
@@ -543,15 +543,15 @@ export default function HomePage() {
 															</div>
 														</div>
 														<div className="content-stretch flex flex-col gap-5 sm:gap-6 lg:gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-6 sm:py-8 lg:py-[32px]">
-															<h3 className="font-['Groteska:Medium',sans-serif] leading-[1.3] sm:leading-[32px] not-italic text-base sm:text-xl lg:text-[24px] text-black">
+															<h3 className="font-groteska-medium leading-[1.3] sm:leading-[32px] not-italic text-base sm:text-xl lg:text-[24px] text-black">
 																Soft Skills
 															</h3>
 															<div className="content-stretch flex flex-col gap-4 sm:gap-5 lg:gap-[21px] items-start w-full">
 																<div>
-																	<h4 className="font-['Montserrat:Medium',sans-serif] font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
+																	<h4 className="font-montserrat-medium font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
 																		Strategic Thinking
 																	</h4>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
 																		Seeing the big picture while obsessing over
 																		details. I apply an Atomic Design
 																		methodology, carefully crafting even the
@@ -559,10 +559,10 @@ export default function HomePage() {
 																	</p>
 																</div>
 																<div>
-																	<h4 className="font-['Montserrat:Medium',sans-serif] font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
+																	<h4 className="font-montserrat-medium font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
 																		Adaptability
 																	</h4>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
 																		I like to pour my creative energy in each
 																		and every project I'm part of. Working on
 																		different topics, for diverse audiences,
@@ -570,20 +570,20 @@ export default function HomePage() {
 																	</p>
 																</div>
 																<div>
-																	<h4 className="font-['Montserrat:Medium',sans-serif] font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
+																	<h4 className="font-montserrat-medium font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
 																		Visual Consistency
 																	</h4>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
 																		Following branding guidelines help me
 																		maintaining coherent identity through
 																		different platforms.
 																	</p>
 																</div>
 																<div>
-																	<h4 className="font-['Montserrat:Medium',sans-serif] font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
+																	<h4 className="font-montserrat-medium font-medium leading-[1.5] sm:leading-[24px] text-[13px] sm:text-[16px] text-black mb-1 lg:mb-[4px]">
 																		Cross-Disciplinary Thinking
 																	</h4>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.5)]">
 																		I enjoy combining different design tools,
 																		approaching each project as part of a
 																		broader communication system.
@@ -594,12 +594,12 @@ export default function HomePage() {
 													</div>
 
 													<div className="relative shrink-0 w-full px-4 sm:px-6 md:px-[48px] py-6 sm:py-8 lg:py-[32px] border-t border-[rgba(0,0,0,0.1)]">
-														<h3 className="font-['Groteska:Medium',sans-serif] leading-[1.3] sm:leading-[32px] not-italic text-base sm:text-xl lg:text-[24px] text-black mb-4 sm:mb-6 lg:mb-[24px]">
+														<h3 className="font-groteska-medium leading-[1.3] sm:leading-[32px] not-italic text-base sm:text-xl lg:text-[24px] text-black mb-4 sm:mb-6 lg:mb-[24px]">
 															Tools & Technologies
 														</h3>
 														<div className="flex flex-col sm:flex-row gap-6 sm:gap-[24px]">
 															<div className="flex-1">
-																<p className="font-['Montserrat:Medium',sans-serif] font-medium leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[1.2px] uppercase mb-2 sm:mb-3 lg:mb-[8px]">
+																<p className="font-montserrat-medium font-medium leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[1.2px] uppercase mb-2 sm:mb-3 lg:mb-[8px]">
 																	Design
 																</p>
 																<div className="flex flex-col gap-2 sm:gap-[8px]">
@@ -613,7 +613,7 @@ export default function HomePage() {
 																	].map((tool) => (
 																		<p
 																			key={tool}
-																			className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.8)]"
+																			className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.8)]"
 																		>
 																			{tool}
 																		</p>
@@ -621,7 +621,7 @@ export default function HomePage() {
 																</div>
 															</div>
 															<div className="flex-1">
-																<p className="font-['Montserrat:Medium',sans-serif] font-medium leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[1.2px] uppercase mb-2 sm:mb-3 lg:mb-[8px]">
+																<p className="font-montserrat-medium font-medium leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[1.2px] uppercase mb-2 sm:mb-3 lg:mb-[8px]">
 																	Management
 																</p>
 																<div className="flex flex-col gap-2 sm:gap-[8px]">
@@ -634,7 +634,7 @@ export default function HomePage() {
 																	].map((tool) => (
 																		<p
 																			key={tool}
-																			className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.8)]"
+																			className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(0,0,0,0.8)]"
 																		>
 																			{tool}
 																		</p>
@@ -650,41 +650,41 @@ export default function HomePage() {
 															className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
 														/>
 														<div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-5 sm:gap-6 lg:gap-[24px] items-start px-4 sm:px-6 md:px-[48px] py-6 sm:py-8 lg:py-[40px] relative size-full">
-															<h2 className="font-['Groteska:Medium',sans-serif] leading-[1.3] sm:leading-[48px] not-italic text-lg sm:text-xl lg:text-[24px] text-black">
+															<h2 className="font-groteska-medium leading-[1.3] sm:leading-[48px] not-italic text-lg sm:text-xl lg:text-[24px] text-black">
 																Experience
 															</h2>
 															<div className="content-stretch flex flex-col lg:flex-row items-start relative shrink-0 w-full gap-5 lg:gap-[24px]">
 																<div className="content-stretch flex flex-col gap-1.5 sm:gap-2 lg:gap-[6px] items-start px-4 sm:px-5 lg:px-[24px] py-2 border-l-2 border-black flex-1 w-full">
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		2019 - 2022
 																	</p>
-																	<p className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+																	<p className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																		Junior/Mid-Senior Designer
 																	</p>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		Houston Agencia Creativa
 																	</p>
 																</div>
 																<div className="content-stretch flex flex-col gap-1.5 sm:gap-2 lg:gap-[6px] items-start px-4 sm:px-5 lg:px-[24px] py-2 border-l-2 border-black flex-1 w-full">
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		2021 - 2024
 																	</p>
-																	<p className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+																	<p className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																		Senior Graphic Designer - UI Designer
 																	</p>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		Subsecretaría de Contenido e Innovación
 																		Digital
 																	</p>
 																</div>
 																<div className="content-stretch flex flex-col gap-1.5 sm:gap-2 lg:gap-[6px] items-start px-4 sm:px-5 lg:px-[24px] py-2 border-l-2 border-black flex-1 w-full">
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		2024 - Present
 																	</p>
-																	<p className="font-['Groteska:Medium',sans-serif] leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
+																	<p className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
 																		UX/UI Designer
 																	</p>
-																	<p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
+																	<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[12px] sm:text-[14px] text-[rgba(10,10,10,0.6)]">
 																		Devlights
 																	</p>
 																</div>

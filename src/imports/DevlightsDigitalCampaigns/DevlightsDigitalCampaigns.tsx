@@ -29,7 +29,7 @@ function Link() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           Home
         </p>
       </div>
@@ -41,7 +41,7 @@ function Text() {
   return (
     <div className="h-[20px] relative shrink-0 w-[6.086px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           /
         </p>
       </div>
@@ -70,7 +70,7 @@ function Container2() {
       data-name="Container"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           Devlights Digital Campaigns
         </p>
       </div>
@@ -114,7 +114,7 @@ function Text1() {
         aria-hidden="true"
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black max-md:text-balance">
+      <p className="font-montserrat text-[13px] font-normal leading-[20px] text-black max-md:text-balance">
         Social Media Design · META Ads · Motion Content
       </p>
     </div>
@@ -125,7 +125,7 @@ function Heading1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 1">
       <p
-        className="font-['Groteska:Bold',sans-serif] not-italic text-black leading-tight"
+        className="font-groteska-bold not-italic text-black leading-tight"
         style={{ fontSize: "clamp(2rem, 6vw, 6rem)" }}
       >
         Devlights Digital Campaigns
@@ -211,7 +211,7 @@ function Section() {
 function Heading2() {
   return (
     <div className="relative shrink-0" data-name="Heading 2">
-      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
+      <p className="font-groteska-medium leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
         Project Overview
       </p>
     </div>
@@ -239,7 +239,7 @@ function Container7() {
       className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0"
       data-name="Container"
     >
-      <p className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
+      <p className="font-montserrat relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
         The Devlights META Ads campaign was developed to increase brand
         visibility and communicate the company’s technology services to
         potential business clients through targeted digital advertising. Focused
@@ -463,7 +463,7 @@ function Text2() {
         aria-hidden="true"
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:whitespace-nowrap">
+      <p className="font-montserrat text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:whitespace-nowrap">
         Event Branding · Landing Page · Digital Communication
       </p>
     </div>
@@ -473,7 +473,7 @@ function Text2() {
 function Heading3() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 2">
-      <p className="font-['Groteska:Bold',sans-serif] text-[34px] leading-[1] text-black not-italic sm:text-[46px] md:text-[60px] md:leading-[66px]">
+      <p className="font-groteska-bold text-[34px] leading-[1] text-black not-italic sm:text-[46px] md:text-[60px] md:leading-[66px]">
         03.1 - HackAIthon
       </p>
     </div>
@@ -488,7 +488,7 @@ function Container10() {
     >
       <Text2 />
       <Heading3 />
-      <p className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
+      <p className="font-montserrat relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
         <span className="leading-[32.5px]">{`HackAIthon was a technology-focused event organized by `}</span>
         <a
           className="[text-decoration-skip-ink:none] cursor-pointer decoration-solid leading-[32.5px] underline"
@@ -617,11 +617,11 @@ function Hack() {
       />
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch relative flex size-full flex-col items-center gap-[24px] py-[40px] md:gap-[32px] md:py-[48px]">
         <Container10 />
-        <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
+        <div className="relative shrink-0 text-center font-montserrat text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
           <p className="leading-[41px]">Sponsor video</p>
         </div>
         <SponsorVideo />
-        <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
+        <div className="relative shrink-0 text-center font-montserrat text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
           <p className="leading-[41px]">{`Social media `}</p>
         </div>
         <Placas />
@@ -640,7 +640,7 @@ function Text3() {
         aria-hidden="true"
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:whitespace-nowrap">
+      <p className="font-montserrat text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:whitespace-nowrap">
         Educational Branding · Landing Page · Communication Design
       </p>
     </div>
@@ -650,7 +650,7 @@ function Text3() {
 function Heading4() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 2">
-      <p className="font-['Groteska:Bold',sans-serif] text-[34px] leading-[1] text-black not-italic sm:text-[46px] md:text-[60px] md:leading-[66px]">
+      <p className="font-groteska-bold text-[34px] leading-[1] text-black not-italic sm:text-[46px] md:text-[60px] md:leading-[66px]">
         03.2 - Bootcamp Experience
       </p>
     </div>
@@ -663,7 +663,7 @@ function Container12() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[28px] items-start relative size-full">
         <Text3 />
         <Heading4 />
-        <p className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
+        <p className="font-montserrat relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
           This project involved the design and development of the landing page
           for the Devlights Bootcamp, with the goal of clearly communicating the
           value proposition of the program and guiding users through the
@@ -673,7 +673,7 @@ function Container12() {
           consistency and scalability.
         </p>
         <a
-          className="block font-['DM_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px]"
+          className="block font-dm-sans-bold font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px]"
           href="https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=1018-6220&t=NFtxGvZhTkgyZixk-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037"
           style={{ fontVariationSettings: "'opsz' 14" }}
           target="_blank"
@@ -683,7 +683,7 @@ function Container12() {
           </p>
         </a>
         <a
-          className="block font-['DM_Sans:Bold',sans-serif] font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px]"
+          className="block font-dm-sans-bold font-bold leading-[0] relative shrink-0 text-[#1c59ff] text-[16px]"
           href="https://www.figma.com/proto/VmHzh0FNY3baWnV9RcjGj3/Bootcamp-3.0?node-id=795-5760&t=0YRtF28haw3wjumK-1&scaling=min-zoom&content-scaling=fixed&page-id=795%3A4273&starting-point-node-id=795%3A5037"
           style={{ fontVariationSettings: "'opsz' 14" }}
           target="_blank"
@@ -740,7 +740,7 @@ function Group3() {
         }}
       />
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #99FFFE
@@ -790,7 +790,7 @@ function Group2() {
         </div>
       </div>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #A772FF
@@ -836,7 +836,7 @@ function Group1() {
       </div>
       <div className="bg-gradient-to-b col-1 from-[#1c59ff] h-[167.126px] ml-[1.95px] mt-[112.86px] relative rounded-[140px] row-1 to-[#d699ff] to-[63.467%] w-[62.672px]" />
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #1C59FF
@@ -849,7 +849,7 @@ function Group4() {
   return (
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-0 mt-0 relative row-1 text-[16px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #D699FF
@@ -1265,7 +1265,7 @@ function Link1() {
   return (
     <div className="h-[28px] relative shrink-0 w-[71.953px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Groteska:Medium',sans-serif] leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
+        <p className="absolute font-groteska-medium leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
           AnaPaulaChurruarin.
         </p>
       </div>
@@ -1277,7 +1277,7 @@ function Link2() {
   return (
     <div className="h-[20px] relative shrink-0 w-[37.445px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
           Work
         </p>
       </div>
@@ -1289,7 +1289,7 @@ function Link3() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
           Resume
         </p>
       </div>

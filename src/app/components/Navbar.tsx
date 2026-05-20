@@ -44,7 +44,7 @@ export default function Navbar({
       <div className="content-stretch flex h-[28px] items-center justify-between relative shrink-0 w-full max-w-[1440px]">
         <Link to={homePath} className="h-[28px] relative shrink-0 w-[71.953px]">
           <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-            <p className="absolute font-['Montserrat:Bold',sans-serif] font-bold leading-[28px] left-0 not-italic text-[14px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
+            <p className="absolute font-montserrat-bold font-bold leading-[28px] left-0 not-italic text-[14px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
               AnaPaulaChurruarin.
             </p>
           </div>
@@ -57,7 +57,7 @@ export default function Navbar({
                 className="h-[20px] relative shrink-0 w-[37.445px]"
               >
                 <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-                  <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
+                  <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
                     Work
                   </p>
                 </div>
@@ -68,7 +68,7 @@ export default function Navbar({
                 className="h-[20px] relative shrink-0 w-[37.445px]"
               >
                 <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-                  <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
+                  <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
                     Work
                   </p>
                 </div>
@@ -80,7 +80,7 @@ export default function Navbar({
                 className="flex-[1_0_0] h-[20px] min-w-px relative"
               >
                 <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-                  <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
+                  <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
                     Resume
                   </p>
                 </div>
@@ -91,7 +91,7 @@ export default function Navbar({
                 className="flex-[1_0_0] h-[20px] min-w-px relative"
               >
                 <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-                  <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
+                  <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] text-left top-[0.5px] whitespace-nowrap transition-colors hover:text-black">
                     Resume
                   </p>
                 </div>

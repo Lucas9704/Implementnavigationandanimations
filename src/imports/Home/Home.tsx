@@ -26,8 +26,8 @@ function Hero1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Hero">
       <div className="content-stretch flex flex-col gap-[11px] items-start px-[48px] py-[158px] relative size-full">
-        <p className="font-['Helony:Regular',sans-serif] leading-[128px] not-italic relative shrink-0 text-[128px] text-black w-[1248px]">{`Bridging Product Utility & Brand Narrative.`}</p>
-        <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[28px] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.6)] whitespace-nowrap">
+        <p className="font-helony leading-[128px] not-italic relative shrink-0 text-[128px] text-black w-[1248px]">{`Bridging Product Utility & Brand Narrative.`}</p>
+        <p className="font-montserrat font-normal leading-[28px] relative shrink-0 text-[20px] text-[rgba(10,10,10,0.6)] whitespace-nowrap">
           Adapting systems across industries.
         </p>
       </div>
@@ -38,7 +38,7 @@ function Hero1() {
 function Heading() {
   return (
     <div className="h-[60px] relative shrink-0 w-full" data-name="Heading 2">
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[60px] left-0 not-italic text-[60px] text-black top-[6px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[60px] left-0 not-italic text-[60px] text-black top-[6px] whitespace-nowrap">
         Selected Work
       </p>
     </div>
@@ -122,7 +122,7 @@ function Heading1() {
       data-name="Heading 3"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <div className="absolute font-['Helony:Regular',sans-serif] leading-[0] left-0 not-italic text-[24px] text-black top-[2.5px] w-[428px]">
+        <div className="absolute font-helony leading-[0] left-0 not-italic text-[24px] text-black top-[2.5px] w-[428px]">
           <p className="leading-[32px] mb-0">Natural Parks</p>
           <p className="leading-[32px]">Hunting/Fishing Licensing Platform</p>
         </div>
@@ -142,7 +142,7 @@ function Text() {
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">
           Public Sector
         </p>
       </div>
@@ -282,7 +282,7 @@ function Heading2() {
       data-name="Heading 3"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Helony:Regular',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] w-[428px]">
+        <p className="absolute font-helony leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] w-[428px]">
           Public Communication Campaigns
         </p>
       </div>
@@ -301,7 +301,7 @@ function Text1() {
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">
           Public Sector
         </p>
       </div>
@@ -444,7 +444,7 @@ function Heading3() {
       data-name="Heading 3"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <div className="absolute font-['Helony:Regular',sans-serif] leading-[0] left-0 not-italic text-[24px] text-black top-[2.5px] w-[488px]">
+        <div className="absolute font-helony leading-[0] left-0 not-italic text-[24px] text-black top-[2.5px] w-[488px]">
           <p className="leading-[32px] mb-0">Devlights</p>
           <p className="leading-[32px]">Event Communication and Social Media</p>
         </div>
@@ -464,7 +464,7 @@ function Text2() {
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-[13px] text-[14px] text-black top-[5.5px] whitespace-nowrap">
           Tech
         </p>
       </div>
@@ -580,7 +580,7 @@ function Section() {
       />
       <div className="flex flex-col justify-center size-full">
         <div className="content-stretch flex flex-col items-start justify-center px-[48px] py-[40px] relative size-full">
-          <p className="font-['Helony:Regular',sans-serif] leading-[60px] not-italic relative shrink-0 text-[60px] text-black whitespace-nowrap">
+          <p className="font-helony leading-[60px] not-italic relative shrink-0 text-[60px] text-black whitespace-nowrap">
             Resume
           </p>
         </div>
@@ -623,7 +623,7 @@ function Heading4() {
       className="absolute h-[36px] left-[32px] top-[493.91px] w-[350.328px]"
       data-name="Heading 2"
     >
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[36px] left-0 not-italic text-[30px] text-black top-[2.5px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[36px] left-0 not-italic text-[30px] text-black top-[2.5px] whitespace-nowrap">
         Ana Paula Churruarin
       </p>
     </div>
@@ -636,7 +636,7 @@ function Paragraph() {
       className="absolute h-[20px] left-[32px] top-[537.91px] w-[350.328px]"
       data-name="Paragraph"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.6)] top-[0.5px] whitespace-nowrap">{`Graphic Designer `}</p>
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.6)] top-[0.5px] whitespace-nowrap">{`Graphic Designer `}</p>
     </div>
   );
 }
@@ -663,7 +663,7 @@ function Container11() {
 function Heading5() {
   return (
     <div className="h-[28px] relative shrink-0 w-full" data-name="Heading 3">
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[28px] left-0 not-italic text-[20px] text-black top-[1.5px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[28px] left-0 not-italic text-[20px] text-black top-[1.5px] whitespace-nowrap">
         Personal Information
       </p>
     </div>
@@ -716,7 +716,7 @@ function ListItem2() {
 function List() {
   return (
     <div
-      className="content-stretch flex flex-col font-['Montserrat:Regular',sans-serif] font-normal gap-[16px] h-[192px] items-start relative shrink-0 w-full"
+      className="content-stretch flex flex-col font-montserrat font-normal gap-[16px] h-[192px] items-start relative shrink-0 w-full"
       data-name="List"
     >
       <ListItem />
@@ -744,7 +744,7 @@ function Container13() {
 function Heading6() {
   return (
     <div className="h-[28px] relative shrink-0 w-full" data-name="Heading 3">
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[28px] left-0 not-italic text-[20px] text-black top-[1.5px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[28px] left-0 not-italic text-[20px] text-black top-[1.5px] whitespace-nowrap">
         Languages
       </p>
     </div>
@@ -755,7 +755,7 @@ function Text3() {
   return (
     <div className="h-[20px] relative shrink-0 w-[52.289px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
           English
         </p>
       </div>
@@ -774,7 +774,7 @@ function ListItem3() {
         className="absolute border-[rgba(0,0,0,0.05)] border-b border-solid inset-0 pointer-events-none"
       />
       <Text3 />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.4)] whitespace-nowrap">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.4)] whitespace-nowrap">
         C2
       </p>
     </div>
@@ -785,7 +785,7 @@ function Text4() {
   return (
     <div className="h-[20px] relative shrink-0 w-[55.867px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
           Spanish
         </p>
       </div>
@@ -797,7 +797,7 @@ function Text5() {
   return (
     <div className="h-[20px] relative shrink-0 w-[45.656px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.4)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.4)] top-[0.5px] whitespace-nowrap">
           Native
         </p>
       </div>
@@ -864,7 +864,7 @@ function Container10() {
 function Heading7() {
   return (
     <div className="h-[48px] relative shrink-0 w-full" data-name="Heading 2">
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[48px] left-0 not-italic text-[24px] text-black top-[5px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[48px] left-0 not-italic text-[24px] text-black top-[5px] whitespace-nowrap">
         Experience
       </p>
     </div>
@@ -881,13 +881,13 @@ function Container17() {
         aria-hidden="true"
         className="absolute border-black border-l-2 border-solid inset-0 pointer-events-none"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
         2019 - 2022
       </p>
-      <p className="font-['Helony:Regular',sans-serif] leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-full">
+      <p className="font-helony leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-full">
         Junior/Mid-Senior Designer
       </p>
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
         Houston Agencia Creativa
       </p>
     </div>
@@ -904,13 +904,13 @@ function Container18() {
         aria-hidden="true"
         className="absolute border-black border-l-2 border-solid inset-0 pointer-events-none"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
+      <p className="font-montserrat font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
         2021 - 2024
       </p>
-      <p className="font-['Helony:Regular',sans-serif] leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-[236px]">
+      <p className="font-helony leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-[236px]">
         Senior Graphic Designer - UI Designer.
       </p>
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
+      <p className="font-montserrat font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
         Subsecretaría de Contenido e Innovación Digital
       </p>
     </div>
@@ -927,13 +927,13 @@ function Container19() {
         aria-hidden="true"
         className="absolute border-black border-l-2 border-solid inset-0 pointer-events-none"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
+      <p className="font-montserrat font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
         2024 - Present
       </p>
-      <p className="font-['Helony:Regular',sans-serif] leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-[236px]">
+      <p className="font-helony leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-[236px]">
         UX/UI Designer
       </p>
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
+      <p className="font-montserrat font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
         Devlights
       </p>
     </div>
@@ -986,7 +986,7 @@ function Heading8() {
       className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full"
       data-name="Heading 2"
     >
-      <p className="font-['Helony:Regular',sans-serif] leading-[24px] not-italic relative shrink-0 text-[24px] text-black whitespace-nowrap">
+      <p className="font-helony leading-[24px] not-italic relative shrink-0 text-[24px] text-black whitespace-nowrap">
         Education
       </p>
     </div>
@@ -1003,13 +1003,13 @@ function Container23() {
         aria-hidden="true"
         className="absolute border-black border-l-2 border-solid inset-0 pointer-events-none"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
         2017 - 2020
       </p>
-      <p className="font-['Helony:Regular',sans-serif] leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-full">
+      <p className="font-helony leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-full">
         Bachelor’s Degree
       </p>
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
+      <p className="font-montserrat font-normal leading-[0] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-full">
         <span className="leading-[20px]">In</span>
         <span className="leading-[20px]">{` Graphic and Multimedia Design, Universidad de la Cuenca del Plata`}</span>
         <span className="leading-[20px]">.</span>
@@ -1028,16 +1028,16 @@ function Container24() {
         aria-hidden="true"
         className="absolute border-black border-l-2 border-solid inset-0 pointer-events-none"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
+      <p className="font-montserrat font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
         2021
       </p>
-      <p className="font-['Helony:Regular',sans-serif] leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-[186px]">
+      <p className="font-helony leading-[28px] not-italic relative shrink-0 text-[20px] text-black w-[186px]">
         UX Design/Development
       </p>
-      <div className="font-['Montserrat:Regular',sans-serif] font-normal leading-[0] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[203px]">
+      <div className="font-montserrat font-normal leading-[0] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[203px]">
         <p className="mb-0">
           <span className="leading-[20px]">{`AI `}</span>
-          <span className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px]">
+          <span className="font-montserrat font-normal leading-[20px]">
             Foundations of UX Design, Google
           </span>
           <span className="leading-[20px]">.</span>
@@ -1058,13 +1058,13 @@ function Container25() {
         aria-hidden="true"
         className="absolute border-black border-l-2 border-solid inset-0 pointer-events-none"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
+      <p className="font-montserrat font-normal leading-[20px] min-w-full relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[min-content]">
         2018-2020
       </p>
-      <p className="font-['Helony:Regular',sans-serif] leading-[28px] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap">
+      <p className="font-helony leading-[28px] not-italic relative shrink-0 text-[20px] text-black whitespace-nowrap">
         UI Design
       </p>
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[161px]">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(10,10,10,0.6)] w-[161px]">
         User Interface (UI) Design Course — UTN
       </p>
     </div>
@@ -1113,7 +1113,7 @@ function Experience1() {
 function Heading9() {
   return (
     <div className="h-[32px] relative shrink-0 w-full" data-name="Heading 3">
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">
         Core Disciplines
       </p>
     </div>
@@ -1135,7 +1135,7 @@ function Text6() {
       className="absolute h-[24px] left-[22px] top-0 w-[186.438px]"
       data-name="Text"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">
         UX/UI Design
       </p>
     </div>
@@ -1166,7 +1166,7 @@ function Text7() {
       className="absolute h-[24px] left-[22px] top-0 w-[231.703px]"
       data-name="Text"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">{`Design Systems `}</p>
+      <p className="absolute font-montserrat font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">{`Design Systems `}</p>
     </div>
   );
 }
@@ -1195,7 +1195,7 @@ function Text8() {
       className="absolute h-[24px] left-[22px] top-0 w-[200.633px]"
       data-name="Text"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">{`Brand Identity `}</p>
+      <p className="absolute font-montserrat font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">{`Brand Identity `}</p>
     </div>
   );
 }
@@ -1224,7 +1224,7 @@ function Text9() {
       className="absolute h-[24px] left-[22px] top-0 w-[102.984px]"
       data-name="Text"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">
         Art Direction
       </p>
     </div>
@@ -1255,7 +1255,7 @@ function Text10() {
       className="absolute h-[24px] left-[22px] top-0 w-[201.703px]"
       data-name="Text"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">{`Prototyping & Interaction`}</p>
+      <p className="absolute font-montserrat font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">{`Prototyping & Interaction`}</p>
     </div>
   );
 }
@@ -1284,7 +1284,7 @@ function Text11() {
       className="absolute h-[24px] left-[22px] top-0 w-[192.078px]"
       data-name="Text"
     >
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[24px] left-0 text-[16px] text-[rgba(0,0,0,0.8)] top-0 whitespace-nowrap">
         User Flow and Information Architecture
       </p>
     </div>
@@ -1335,7 +1335,7 @@ function Container27() {
 function Heading10() {
   return (
     <div className="h-[32px] relative shrink-0 w-full" data-name="Heading 3">
-      <p className="absolute font-['Helony:Regular',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">
+      <p className="absolute font-helony leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">
         Soft Skills
       </p>
     </div>
@@ -1345,7 +1345,7 @@ function Heading10() {
 function Heading11() {
   return (
     <div className="h-[24px] relative shrink-0 w-full" data-name="Heading 4">
-      <p className="absolute font-['Montserrat:Medium',sans-serif] font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat-medium font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
         Strategic Thinking
       </p>
     </div>
@@ -1358,7 +1358,7 @@ function Paragraph1() {
       className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full"
       data-name="Paragraph"
     >
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px]">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px]">
         Seeing the big picture while obsessing over details. I apply an Atomic
         Design methodology, carefully crafting even the smallest design element.
       </p>
@@ -1381,7 +1381,7 @@ function Container43() {
 function Heading12() {
   return (
     <div className="h-[24px] relative shrink-0 w-full" data-name="Heading 4">
-      <p className="absolute font-['Montserrat:Medium',sans-serif] font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat-medium font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
         Adaptability
       </p>
     </div>
@@ -1394,7 +1394,7 @@ function Paragraph2() {
       className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full"
       data-name="Paragraph"
     >
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px] whitespace-pre-wrap">{`I like to pour my creative energy in each and every project I’m part of.  Working on  different topics, for diverse audiences, delivering a tailored design solution.`}</p>
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px] whitespace-pre-wrap">{`I like to pour my creative energy in each and every project I’m part of.  Working on  different topics, for diverse audiences, delivering a tailored design solution.`}</p>
     </div>
   );
 }
@@ -1414,7 +1414,7 @@ function Container44() {
 function Heading13() {
   return (
     <div className="h-[24px] relative shrink-0 w-full" data-name="Heading 4">
-      <p className="absolute font-['Montserrat:Medium',sans-serif] font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat-medium font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
         Visual Consistency
       </p>
     </div>
@@ -1427,7 +1427,7 @@ function Paragraph3() {
       className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full"
       data-name="Paragraph"
     >
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px]">{`Following branding guidelines help me maintaining coherent identity through different platforms. `}</p>
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px]">{`Following branding guidelines help me maintaining coherent identity through different platforms. `}</p>
     </div>
   );
 }
@@ -1447,7 +1447,7 @@ function Container45() {
 function Heading14() {
   return (
     <div className="h-[24px] relative shrink-0 w-full" data-name="Heading 4">
-      <p className="absolute font-['Montserrat:Medium',sans-serif] font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
+      <p className="absolute font-montserrat-medium font-medium leading-[24px] left-0 text-[16px] text-black top-0 whitespace-nowrap">
         Cross-Disciplinary Thinking
       </p>
     </div>
@@ -1460,7 +1460,7 @@ function Paragraph4() {
       className="content-stretch flex flex-col items-center justify-center relative shrink-0 w-full"
       data-name="Paragraph"
     >
-      <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px]">
+      <p className="font-montserrat font-normal leading-[20px] relative shrink-0 text-[14px] text-[rgba(0,0,0,0.5)] w-[320px]">
         I enjoy combining different design tools, approaching each project as
         part of a broader communication system.
       </p>
@@ -1528,7 +1528,7 @@ function Heading15() {
       data-name="Heading 3"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Helony:Regular',sans-serif] leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">{`Tools & Technologies`}</p>
+        <p className="absolute font-helony leading-[32px] left-0 not-italic text-[24px] text-black top-[2.5px] whitespace-nowrap">{`Tools & Technologies`}</p>
       </div>
     </div>
   );
@@ -1537,7 +1537,7 @@ function Heading15() {
 function Heading16() {
   return (
     <div className="h-[16px] relative shrink-0 w-full" data-name="Heading 4">
-      <p className="absolute font-['Montserrat:Medium',sans-serif] font-medium leading-[16px] left-0 text-[12px] text-[rgba(0,0,0,0.4)] top-[0.5px] tracking-[1.2px] uppercase whitespace-nowrap">
+      <p className="absolute font-montserrat-medium font-medium leading-[16px] left-0 text-[12px] text-[rgba(0,0,0,0.4)] top-[0.5px] tracking-[1.2px] uppercase whitespace-nowrap">
         Design
       </p>
     </div>
@@ -1547,7 +1547,7 @@ function Heading16() {
 function ListItem5() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Figma
       </p>
     </div>
@@ -1557,7 +1557,7 @@ function ListItem5() {
 function ListItem6() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Lovable
       </p>
     </div>
@@ -1567,7 +1567,7 @@ function ListItem6() {
 function ListItem7() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Premiere Pro
       </p>
     </div>
@@ -1577,7 +1577,7 @@ function ListItem7() {
 function ListItem8() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         After Effects
       </p>
     </div>
@@ -1587,7 +1587,7 @@ function ListItem8() {
 function ListItem9() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Photoshop
       </p>
     </div>
@@ -1597,7 +1597,7 @@ function ListItem9() {
 function ListItem10() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Illustrator
       </p>
     </div>
@@ -1635,7 +1635,7 @@ function Container49() {
 function Heading17() {
   return (
     <div className="h-[16px] relative shrink-0 w-full" data-name="Heading 4">
-      <p className="absolute font-['Montserrat:Medium',sans-serif] font-medium leading-[16px] left-0 text-[12px] text-[rgba(0,0,0,0.4)] top-[0.5px] tracking-[1.2px] uppercase whitespace-nowrap">
+      <p className="absolute font-montserrat-medium font-medium leading-[16px] left-0 text-[12px] text-[rgba(0,0,0,0.4)] top-[0.5px] tracking-[1.2px] uppercase whitespace-nowrap">
         Management
       </p>
     </div>
@@ -1645,7 +1645,7 @@ function Heading17() {
 function ListItem11() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Jira
       </p>
     </div>
@@ -1655,7 +1655,7 @@ function ListItem11() {
 function ListItem12() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Notion
       </p>
     </div>
@@ -1665,7 +1665,7 @@ function ListItem12() {
 function ListItem13() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         FigJam
       </p>
     </div>
@@ -1675,7 +1675,7 @@ function ListItem13() {
 function ListItem14() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Asana
       </p>
     </div>
@@ -1685,7 +1685,7 @@ function ListItem14() {
 function ListItem15() {
   return (
     <div className="h-[20px] relative shrink-0 w-full" data-name="List Item">
-      <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+      <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
         Trello
       </p>
     </div>
@@ -1847,7 +1847,7 @@ function Link3() {
   return (
     <div className="h-[28px] relative shrink-0 w-[71.953px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Helony:Regular',sans-serif] leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
+        <p className="absolute font-helony leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
           AnaPaulaChurruarin.
         </p>
       </div>
@@ -1862,7 +1862,7 @@ function Link4() {
       data-name="Link"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.6)] text-left top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.6)] text-left top-[0.5px] whitespace-nowrap">
           Work
         </p>
       </div>
@@ -1877,7 +1877,7 @@ function Link5() {
       data-name="Link"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.6)] text-left top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.6)] text-left top-[0.5px] whitespace-nowrap">
           Resume
         </p>
       </div>

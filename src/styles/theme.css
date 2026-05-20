@@ -79,6 +79,18 @@
 }
 
 @theme inline {
+  --font-groteska-bold: "Groteska:Bold", sans-serif;
+  --font-groteska-medium: "Groteska:Medium", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-montserrat-medium: "Montserrat", sans-serif;
+  --font-montserrat-semibold: "Montserrat", sans-serif;
+  --font-montserrat-bold: "Montserrat", sans-serif;
+  --font-helony: "Helony:Regular", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-dm-sans-bold: "DM Sans", sans-serif;
+  --font-dm-sans-extralight: "DM Sans", sans-serif;
+  --font-dm-sans-black: "DM Sans", sans-serif;
+  --font-montserrat-alternates: "Montserrat Alternates", sans-serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

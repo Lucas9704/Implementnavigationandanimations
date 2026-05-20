@@ -62,7 +62,7 @@ function Link() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           Home
         </p>
       </div>
@@ -74,7 +74,7 @@ function Text() {
   return (
     <div className="h-[20px] relative shrink-0 w-[6.086px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           /
         </p>
       </div>
@@ -103,7 +103,7 @@ function Container2() {
       data-name="Container"
     >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
           Public Communication Campaigns
         </p>
       </div>
@@ -147,7 +147,7 @@ function Text2() {
         aria-hidden="true"
         className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
       />
-      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">{`Google & META Ads · Public Sector Communication · Campaign Design`}</p>
+      <p className="font-montserrat text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">{`Google & META Ads · Public Sector Communication · Campaign Design`}</p>
     </div>
   );
 }
@@ -156,7 +156,7 @@ function Heading1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Heading 1">
       <p
-        className="font-['Groteska:Bold',sans-serif] not-italic text-black leading-tight"
+        className="font-groteska-bold not-italic text-black leading-tight"
         style={{ fontSize: "clamp(2rem, 6vw, 6rem)" }}
       >
         Public Communication Campaigns
@@ -255,7 +255,7 @@ function Section() {
 function Heading2() {
   return (
     <div className="relative shrink-0" data-name="Heading 2">
-      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
+      <p className="font-groteska-medium leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
         Project Overview
       </p>
     </div>
@@ -283,7 +283,7 @@ function Container7() {
       className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0"
       data-name="Container"
     >
-      <div className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
+      <div className="font-montserrat relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] md:text-[20px] md:leading-[32.5px]">
         <p className="leading-[32.5px] mb-0">
           This series of public communication projects was developed with the
           goal of informing the citizens of Corrientes about government
@@ -333,7 +333,7 @@ function Section1() {
 
 function Group12() {
   return (
-    <div className="col-1 cursor-pointer font-['Montserrat:Medium',sans-serif] font-medium grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[135px] mt-[72px] place-items-start relative row-1 text-[#76b729] text-[16px]">
+    <div className="col-1 cursor-pointer font-montserrat-medium font-medium grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[135px] mt-[72px] place-items-start relative row-1 text-[#76b729] text-[16px]">
       <a
         className="col-1 flex flex-col justify-center ml-0 mt-0 relative row-1 w-[211.221px]"
         href="https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=98-25&viewport=495%2C74%2C0.09&t=5M04j2Vj31mWnaOF-1&scaling=scale-down&mode=design"
@@ -380,19 +380,19 @@ function Group9() {
 function Group14() {
   return (
     <div className="flex w-full max-w-[900px] flex-col items-center gap-6 text-center">
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center text-[32px] text-black sm:text-[44px]">
+      <div className="flex flex-col font-montserrat font-normal justify-center text-[32px] text-black sm:text-[44px]">
         <p className="leading-[normal]">Public Health Landing Page</p>
       </div>
       <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
         <a
-          className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid"
+          className="font-montserrat-medium text-[16px] font-medium underline decoration-solid"
           href="https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=98-25&viewport=495%2C74%2C0.09&t=5M04j2Vj31mWnaOF-1&scaling=scale-down&mode=design"
           target="_blank"
         >
           Desktop prototype
         </a>
         <a
-          className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid"
+          className="font-montserrat-medium text-[16px] font-medium underline decoration-solid"
           href="https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=1-2&viewport=495%2C74%2C0.09&t=Aj8PKEfHzdJ04Jo6-1&scaling=scale-down&mode=design"
           target="_blank"
         >
@@ -504,7 +504,7 @@ function Healthcare() {
 
 function Group13() {
   return (
-    <div className="col-1 cursor-pointer font-['Montserrat:Medium',sans-serif] font-medium grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[186px] mt-[72px] place-items-start relative row-1 text-[#76b729] text-[16px] whitespace-nowrap">
+    <div className="col-1 cursor-pointer font-montserrat-medium font-medium grid-cols-[max-content] grid-rows-[max-content] inline-grid ml-[186px] mt-[72px] place-items-start relative row-1 text-[#76b729] text-[16px] whitespace-nowrap">
       <a
         className="col-1 flex flex-col justify-center ml-0 mt-0 relative row-1"
         href="https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-3&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design"
@@ -554,19 +554,19 @@ function Group10() {
 function Group15() {
   return (
     <div className="flex w-full max-w-[900px] flex-col items-center gap-6 text-center">
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center text-[32px] text-black sm:text-[44px]">
+      <div className="flex flex-col font-montserrat font-normal justify-center text-[32px] text-black sm:text-[44px]">
         <p className="leading-[normal]">Public Infrastructure Landing Page</p>
       </div>
       <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
         <a
-          className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid"
+          className="font-montserrat-medium text-[16px] font-medium underline decoration-solid"
           href="https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-3&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design"
           target="_blank"
         >
           Desktop prototype
         </a>
         <a
-          className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid"
+          className="font-montserrat-medium text-[16px] font-medium underline decoration-solid"
           href="https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-2&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design"
           target="_blank"
         >
@@ -740,7 +740,7 @@ function P() {
 
 function Group11() {
   return (
-    <div className="cursor-pointer font-['Montserrat:Medium',sans-serif] font-medium grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 text-[#76b729] text-[16px] whitespace-nowrap">
+    <div className="cursor-pointer font-montserrat-medium font-medium grid-cols-[max-content] grid-rows-[max-content] inline-grid place-items-start relative shrink-0 text-[#76b729] text-[16px] whitespace-nowrap">
       <a
         className="col-1 flex flex-col justify-center ml-0 mt-0 relative row-1"
         href="https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=202-143&viewport=405%2C1003%2C0.46&t=wJyMNEeGCSnJY1Ph-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design"
@@ -796,19 +796,19 @@ function Links() {
       className="content-stretch relative flex w-full max-w-[886px] shrink-0 flex-col items-center gap-[16px] leading-[0]"
       data-name="Links"
     >
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
+      <div className="flex flex-col font-montserrat font-normal justify-center relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
         <p className="leading-[normal]">Education Landing Page</p>
       </div>
       <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
         <a
-          className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid"
+          className="font-montserrat-medium text-[16px] font-medium underline decoration-solid"
           href="https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=202-143&viewport=405%2C1003%2C0.46&t=wJyMNEeGCSnJY1Ph-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design"
           target="_blank"
         >
           Desktop prototype
         </a>
         <a
-          className="font-['Montserrat:Medium',sans-serif] text-[16px] font-medium underline decoration-solid"
+          className="font-montserrat-medium text-[16px] font-medium underline decoration-solid"
           href="https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=1-2&viewport=727%2C-1286%2C0.46&t=bcfL6hilJqskBlJd-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design"
           target="_blank"
         >
@@ -1106,7 +1106,7 @@ function AdsPolitical() {
       className="content-stretch flex flex-col gap-[48px] items-center justify-center relative shrink-0 w-full"
       data-name="Ads Political"
     >
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
+      <div className="flex flex-col font-montserrat font-normal justify-center leading-[0] relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
         <p className="leading-[normal]">Electoral Communication Campaign</p>
       </div>
       <Container8 />
@@ -1175,10 +1175,10 @@ function Heading() {
       className="content-stretch flex flex-col gap-[16px] items-start leading-[0] relative shrink-0 text-[#1e1e1e] w-[289.66px]"
       data-name="Heading"
     >
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center relative shrink-0 text-[24px] w-full">
+      <div className="flex flex-col font-montserrat font-normal justify-center relative shrink-0 text-[24px] w-full">
         <p className="leading-[normal]">Design Focus</p>
       </div>
-      <div className="flex flex-col font-['Groteska:Medium',sans-serif] justify-center not-italic relative shrink-0 text-[44px] w-full">
+      <div className="flex flex-col font-groteska-medium justify-center not-italic relative shrink-0 text-[44px] w-full">
         <p className="leading-[normal]">Landing page</p>
       </div>
     </div>
@@ -1217,7 +1217,7 @@ function Link2() {
       target="_blank"
       data-name="link2"
     >
-      <div className="flex flex-col font-['Montserrat:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#ee9336] text-[16px] text-left whitespace-nowrap">
+      <div className="flex flex-col font-montserrat-medium font-medium justify-center leading-[0] relative shrink-0 text-[#ee9336] text-[16px] text-left whitespace-nowrap">
         <p className="[text-decoration-skip-ink:none] decoration-solid leading-[36px] underline">
           Desktop prototype
         </p>
@@ -1271,7 +1271,7 @@ function Link1() {
       target="_blank"
       data-name="link1"
     >
-      <div className="flex flex-col font-['Montserrat:Medium',sans-serif] font-medium justify-center leading-[0] relative shrink-0 text-[#ee9336] text-[16px] text-left whitespace-nowrap">
+      <div className="flex flex-col font-montserrat-medium font-medium justify-center leading-[0] relative shrink-0 text-[#ee9336] text-[16px] text-left whitespace-nowrap">
         <p className="[text-decoration-skip-ink:none] decoration-solid leading-[36px] underline">
           Landing page
         </p>
@@ -1301,7 +1301,7 @@ function Text3() {
       data-name="Text"
     >
       <Heading />
-      <div className="flex flex-col font-['Montserrat:Regular',sans-serif] font-normal justify-center leading-[0] min-w-full relative shrink-0 text-[#1e1e1e] text-[21px] w-[min-content]">
+      <div className="flex flex-col font-montserrat font-normal justify-center leading-[0] min-w-full relative shrink-0 text-[#1e1e1e] text-[21px] w-[min-content]">
         <p className="leading-[36px]">
           A scalable visual system built around a dynamic design language,
           adapted across a landing page and multiple Meta and Google Ads formats
@@ -1614,7 +1614,7 @@ function TextContainer() {
       data-name="Text Container"
     >
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_10.42%_33.82%_36.25%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_10.42%_33.82%_36.25%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Plan Limón</p>
@@ -1752,7 +1752,7 @@ function TextContainer1() {
       data-name="Text Container"
     >
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_10.42%_33.82%_36.25%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_10.42%_33.82%_36.25%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Plan Palta</p>
@@ -1900,7 +1900,7 @@ function TextContainer2() {
       data-name="Text Container"
     >
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_10.42%_33.82%_36.25%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_10.42%_33.82%_36.25%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Plan Pacu</p>
@@ -2064,7 +2064,7 @@ function TextContainer3() {
       data-name="Text Container"
     >
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_6.33%_33.82%_29%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_6.33%_33.82%_29%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Plan Nuez Pecán</p>
@@ -2358,37 +2358,37 @@ function ColorPaletteContainer() {
         </svg>
       </div>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-[135.59px] mt-[494.41px] relative row-1 text-[24px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-[135.59px] mt-[494.41px] relative row-1 text-[24px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #EE9336
       </p>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-[131.9px] mt-0 relative row-1 text-[24px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-[131.9px] mt-0 relative row-1 text-[24px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #ECD9C7
       </p>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-[6.46px] mt-[494.41px] relative row-1 text-[24px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-[6.46px] mt-[494.41px] relative row-1 text-[24px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #D0E571
       </p>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-[4.61px] mt-0 relative row-1 text-[24px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-[4.61px] mt-0 relative row-1 text-[24px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #FCF673
       </p>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-[267.5px] mt-[494.41px] relative row-1 text-[24px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-[267.5px] mt-[494.41px] relative row-1 text-[24px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #FCF8F4
       </p>
       <p
-        className="col-1 font-['DM_Sans:ExtraLight',sans-serif] font-extralight leading-[normal] ml-[277.64px] mt-0 relative row-1 text-[24px] text-white whitespace-nowrap"
+        className="col-1 font-dm-sans-extralight font-extralight leading-[normal] ml-[277.64px] mt-0 relative row-1 text-[24px] text-white whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         #1E1E1E
@@ -2431,19 +2431,19 @@ function Group6() {
     <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
       <div className="bg-[#ecd9c7] col-1 h-[51px] ml-0 mt-0 relative rounded-[60px] row-1 w-[631px]" />
       <div
-        className="col-1 flex flex-col font-['DM_Sans:Bold',sans-serif] font-bold h-[37px] justify-center ml-[22px] mt-[7px] relative row-1 text-[#1e1e1e] text-[24px] text-center w-[587px]"
+        className="col-1 flex flex-col font-dm-sans-bold font-bold h-[37px] justify-center ml-[22px] mt-[7px] relative row-1 text-[#1e1e1e] text-[24px] text-center w-[587px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p>
           <span
-            className="font-['DM_Sans:Black',sans-serif] font-black leading-[130px]"
+            className="font-dm-sans-black font-black leading-[130px]"
             style={{ fontVariationSettings: "'opsz' 14" }}
           >
             DM Sans Black
           </span>
           <span className="leading-[130px]">{` / DM Sans Bold / `}</span>
           <span
-            className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[130px]"
+            className="font-dm-sans font-normal leading-[130px]"
             style={{ fontVariationSettings: "'opsz' 14" }}
           >
             DM Sans Regular
@@ -2489,7 +2489,7 @@ function Palta() {
         </defs>
       </svg>
       <div
-        className="absolute font-['DM_Sans:Regular',sans-serif] font-normal inset-[27.54%_29.71%_27.54%_30.43%] leading-[0] text-[#1e1e1e] text-[24px] text-center whitespace-nowrap"
+        className="absolute font-dm-sans font-normal inset-[27.54%_29.71%_27.54%_30.43%] leading-[0] text-[#1e1e1e] text-[24px] text-center whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[normal] mb-0">Plan</p>
@@ -2520,7 +2520,7 @@ function Palta1() {
         />
       </svg>
       <div
-        className="absolute font-['DM_Sans:Regular',sans-serif] font-normal inset-[27.54%_29.71%_27.54%_30.43%] leading-[0] text-[#1e1e1e] text-[24px] text-center whitespace-nowrap"
+        className="absolute font-dm-sans font-normal inset-[27.54%_29.71%_27.54%_30.43%] leading-[0] text-[#1e1e1e] text-[24px] text-center whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[normal] mb-0">Plan</p>
@@ -2617,7 +2617,7 @@ function Group() {
   return (
     <div className="absolute contents inset-[33.82%_12.64%_33.82%_12.93%]">
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_21.26%_33.82%_12.93%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_21.26%_33.82%_12.93%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Más sobre este plan</p>
@@ -2707,7 +2707,7 @@ function Group1() {
   return (
     <div className="absolute contents inset-[33.82%_12.64%_33.82%_12.93%]">
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_21.26%_33.82%_12.93%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_21.26%_33.82%_12.93%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Más sobre este plan</p>
@@ -2726,7 +2726,7 @@ function Mas1() {
       <Group4 />
       <Group1 />
       <p
-        className="absolute font-['DM_Sans:Regular',sans-serif] font-normal inset-[-97.06%_45.69%_166.18%_37.64%] leading-[normal] text-[#2b2b2b] text-[16px] whitespace-nowrap"
+        className="absolute font-dm-sans font-normal inset-[-97.06%_45.69%_166.18%_37.64%] leading-[normal] text-[#2b2b2b] text-[16px] whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         Inactive
@@ -2743,19 +2743,19 @@ function Group7() {
       <Mas />
       <Mas1 />
       <p
-        className="col-1 font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] ml-[3px] mt-[89px] relative row-1 text-[#2b2b2b] text-[16px] whitespace-nowrap"
+        className="col-1 font-dm-sans font-normal leading-[normal] ml-[3px] mt-[89px] relative row-1 text-[#2b2b2b] text-[16px] whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         Botón primario
       </p>
       <p
-        className="col-1 font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] ml-[3px] mt-[264px] relative row-1 text-[#2b2b2b] text-[16px] whitespace-nowrap"
+        className="col-1 font-dm-sans font-normal leading-[normal] ml-[3px] mt-[264px] relative row-1 text-[#2b2b2b] text-[16px] whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         Botón secundario
       </p>
       <p
-        className="col-1 font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] ml-[736px] mt-0 relative row-1 text-[#2b2b2b] text-[16px] whitespace-nowrap"
+        className="col-1 font-dm-sans font-normal leading-[normal] ml-[736px] mt-0 relative row-1 text-[#2b2b2b] text-[16px] whitespace-nowrap"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         Hover
@@ -2850,7 +2850,7 @@ function Group2() {
   return (
     <div className="absolute contents inset-[33.82%_12.64%_33.82%_12.93%]">
       <div
-        className="absolute flex flex-col font-['DM_Sans:Regular',sans-serif] font-normal inset-[33.82%_21.26%_33.82%_12.93%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
+        className="absolute flex flex-col font-dm-sans font-normal inset-[33.82%_21.26%_33.82%_12.93%] justify-center leading-[0] text-[#1e1e1e] text-[24px]"
         style={{ fontVariationSettings: "'opsz' 14" }}
       >
         <p className="leading-[41px]">Más sobre este plan</p>
@@ -2875,7 +2875,7 @@ function Frame1() {
       <div className="content-stretch flex flex-col gap-[24px] items-start px-[48px] relative size-full">
         <Group6 />
         <p
-          className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#2b2b2b] text-[16px] whitespace-nowrap"
+          className="font-dm-sans font-normal leading-[normal] relative shrink-0 text-[#2b2b2b] text-[16px] whitespace-nowrap"
           style={{ fontVariationSettings: "'opsz' 14" }}
         >
           Títulos 128pt
@@ -2899,7 +2899,7 @@ function Frame1() {
           </div>
         </div>
         <div
-          className="flex flex-col font-['DM_Sans:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#1e1e1e] text-[128px] whitespace-nowrap"
+          className="flex flex-col font-dm-sans-bold font-bold justify-center leading-[0] relative shrink-0 text-[#1e1e1e] text-[128px] whitespace-nowrap"
           style={{ fontVariationSettings: "'opsz' 14" }}
         >
           <p className="leading-[130px] mb-0">Plan</p>
@@ -2907,7 +2907,7 @@ function Frame1() {
         </div>
         <Group7 />
         <p
-          className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#2b2b2b] text-[16px] whitespace-nowrap"
+          className="font-dm-sans font-normal leading-[normal] relative shrink-0 text-[#2b2b2b] text-[16px] whitespace-nowrap"
           style={{ fontVariationSettings: "'opsz' 14" }}
         >
           Texto 32pt
@@ -2931,7 +2931,7 @@ function Frame1() {
           </div>
         </div>
         <p
-          className="font-['DM_Sans:Regular',sans-serif] font-normal h-[204px] leading-[normal] relative shrink-0 text-[#1e1e1e] text-[32px] w-[602px]"
+          className="font-dm-sans font-normal h-[204px] leading-[normal] relative shrink-0 text-[#1e1e1e] text-[32px] w-[602px]"
           style={{ fontVariationSettings: "'opsz' 14" }}
         >
           Trabajamos en más de 26 localidades de todo Corrientes. Brindamos
@@ -2939,7 +2939,7 @@ function Frame1() {
           los pequeños productores.
         </p>
         <p
-          className="font-['DM_Sans:Regular',sans-serif] font-normal leading-[normal] relative shrink-0 text-[#2b2b2b] text-[16px] whitespace-nowrap"
+          className="font-dm-sans font-normal leading-[normal] relative shrink-0 text-[#2b2b2b] text-[16px] whitespace-nowrap"
           style={{ fontVariationSettings: "'opsz' 14" }}
         >
           Botones 24pt
@@ -3009,7 +3009,7 @@ function Plan() {
           </div>
         </div>
       </div>
-      <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
+      <div className="relative shrink-0 text-center font-montserrat text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
         <p className="leading-[41px]">Colors and elements</p>
       </div>
       <div className="hidden xl:block">
@@ -3036,7 +3036,7 @@ function Plan() {
           </div>
         ))}
       </div>
-      <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
+      <div className="relative shrink-0 text-center font-montserrat text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
         <p className="leading-[41px]">Colors and elements</p>
       </div>
       <div className="hidden xl:block">
@@ -3056,7 +3056,7 @@ function Plan() {
           </div>
         ))}
       </div>
-      <div className="relative shrink-0 text-center font-['Montserrat:Regular',sans-serif] text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
+      <div className="relative shrink-0 text-center font-montserrat text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
         <p className="leading-[41px]">FONT/BUTTONS</p>
       </div>
       <div className="hidden w-full xl:block">
@@ -3064,16 +3064,16 @@ function Plan() {
       </div>
       <div className="w-full max-w-[720px] xl:hidden">
         <div className="rounded-[24px] border border-[rgba(30,30,30,0.12)] bg-[#fcf8f4] p-6 shadow-[0px_8px_24px_0px_rgba(0,0,0,0.06)]">
-          <p className="font-['DM_Sans:Bold',sans-serif] text-[20px] text-[#1e1e1e]">
+          <p className="font-dm-sans-bold text-[20px] text-[#1e1e1e]">
             Plan Limon
           </p>
-          <p className="mt-4 font-['DM_Sans:Regular',sans-serif] text-[18px] leading-[1.5] text-[#1e1e1e]">
+          <p className="mt-4 font-dm-sans text-[18px] leading-[1.5] text-[#1e1e1e]">
             Trabajamos en mas de 26 localidades de todo Corrientes. Brindamos
             herramientas de preparacion del suelo y plantacion para beneficiar a
             los pequenos productores.
           </p>
           <a
-            className="mt-6 inline-flex rounded-full border border-[#1e1e1e] px-5 py-3 font-['DM_Sans:Regular',sans-serif] text-[16px] text-[#1e1e1e]"
+            className="mt-6 inline-flex rounded-full border border-[#1e1e1e] px-5 py-3 font-dm-sans text-[16px] text-[#1e1e1e]"
             href="https://gustavovaldes.com.ar/planes-productivos/"
             target="_blank"
           >
@@ -3129,7 +3129,7 @@ function Link3() {
   return (
     <div className="h-[28px] relative shrink-0 w-[71.953px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Groteska:Medium',sans-serif] leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
+        <p className="absolute font-groteska-medium leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
           AnaPaulaChurruarin.
         </p>
       </div>
@@ -3141,7 +3141,7 @@ function Link4() {
   return (
     <div className="h-[20px] relative shrink-0 w-[37.445px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
           Work
         </p>
       </div>
@@ -3153,7 +3153,7 @@ function Link5() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
+        <p className="absolute font-montserrat font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
           Resume
         </p>
       </div>
