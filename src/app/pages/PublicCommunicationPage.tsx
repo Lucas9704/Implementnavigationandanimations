@@ -11,7 +11,7 @@ export default function PublicCommunicationPage() {
       transition={{ duration: 0.5 }}
       className="bg-white relative size-full overflow-y-auto"
     >
-      <div className="pt-[60px]">
+      <div className="md:pt-[60px] sm:pt-0">
         <Breadcrumb currentPage="Public Communication Campaigns" />
         <PublicCommunicationCampaigns />
       </div>

@@ -26,7 +26,9 @@ function Link() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">Home</p>
+        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+          Home
+        </p>
       </div>
     </div>
   );
@@ -36,7 +38,9 @@ function Text() {
   return (
     <div className="h-[20px] relative shrink-0 w-[6.086px]" data-name="Text">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">/</p>
+        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+          /
+        </p>
       </div>
     </div>
   );
@@ -44,7 +48,10 @@ function Text() {
 
 function Container1() {
   return (
-    <div className="h-[20px] relative shrink-0 w-[65.563px]" data-name="Container">
+    <div
+      className="h-[20px] relative shrink-0 w-[65.563px]"
+      data-name="Container"
+    >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[8px] items-center relative size-full">
         <Link />
         <Text />
@@ -55,9 +62,14 @@ function Container1() {
 
 function Container2() {
   return (
-    <div className="h-[20px] relative shrink-0 w-[270.945px]" data-name="Container">
+    <div
+      className="h-[20px] relative shrink-0 w-[270.945px]"
+      data-name="Container"
+    >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">Devlights Digital Campaigns</p>
+        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-black top-[0.5px] tracking-[1.4px] uppercase whitespace-nowrap">
+          Devlights Digital Campaigns
+        </p>
       </div>
     </div>
   );
@@ -65,7 +77,10 @@ function Container2() {
 
 function Container() {
   return (
-    <div className="content-stretch flex gap-[8px] h-[20px] items-center relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex gap-[8px] h-[20px] items-center relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Container1 />
       <Container2 />
     </div>
@@ -75,7 +90,10 @@ function Container() {
 function Breadcrumb() {
   return (
     <div className="h-[53px] relative shrink-0 w-full" data-name="Breadcrumb">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+      <div
+        aria-hidden="true"
+        className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+      />
       <div className="content-stretch flex flex-col items-start pb-px pt-[16px] px-[48px] relative size-full">
         <Container />
       </div>
@@ -85,9 +103,17 @@ function Breadcrumb() {
 
 function Text1() {
   return (
-    <div className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full" data-name="Text">
-      <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]" />
-      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">UX/UI Design · Government Systems · Digital Product Design</p>
+    <div
+      className="relative shrink-0 rounded-[16777200px] px-[13px] py-[5.5px] max-md:max-w-full"
+      data-name="Text"
+    >
+      <div
+        aria-hidden="true"
+        className="absolute border border-[rgba(0,0,0,0.1)] border-solid inset-0 pointer-events-none rounded-[16777200px]"
+      />
+      <p className="font-['Montserrat:Regular',sans-serif] text-[13px] font-normal leading-[20px] text-black md:text-[14px] md:text-balance">
+        UX/UI Design · Government Systems · Digital Product Design
+      </p>
     </div>
   );
 }
@@ -110,7 +136,10 @@ function Heading1() {
 
 function Heading() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0" data-name="Heading">
+    <div
+      className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0"
+      data-name="Heading"
+    >
       <Text1 />
       <Heading1 />
     </div>
@@ -119,10 +148,20 @@ function Heading() {
 
 function Container4() {
   return (
-    <div className="content-stretch flex flex-col md:flex-row w-full items-center gap-8 md:gap-12 relative" data-name="Container">
+    <div
+      className="content-stretch flex flex-col md:flex-row w-full items-center gap-8 md:gap-12 relative"
+      data-name="Container"
+    >
       <Heading />
-      <div className="relative w-full md:w-[45%] shrink-0 aspect-[622/443]" data-name="Group 494 (2) 1">
-        <img alt="" className="absolute inset-0 object-cover pointer-events-none size-full" src={imgGroup49421} />
+      <div
+        className="relative w-full md:w-[45%] shrink-0 aspect-[622/443]"
+        data-name="Group 494 (2) 1"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 object-cover pointer-events-none size-full"
+          src={imgGroup49421}
+        />
       </div>
     </div>
   );
@@ -131,7 +170,7 @@ function Container4() {
 function Container3() {
   return (
     <div className="w-full relative" data-name="Container">
-      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center py-16 sm:py-20 md:py-24 relative w-full">
+      <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex items-center justify-center py-8 sm:py-20 md:py-24 relative w-full">
         <Container4 />
       </div>
     </div>
@@ -141,7 +180,10 @@ function Container3() {
 function Section() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+      <div
+        aria-hidden="true"
+        className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+      />
       <div className="flex flex-row items-center justify-center w-full">
         <div className="content-stretch flex items-center justify-center pb-px px-6 sm:px-8 md:px-12 xl:px-[72px] relative w-full max-w-[1344px]">
           <Container3 />
@@ -154,15 +196,23 @@ function Section() {
 function Heading2() {
   return (
     <div className="relative shrink-0" data-name="Heading 2">
-      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">Project Overview</p>
+      <p className="font-['Groteska:Medium',sans-serif] leading-[32px] not-italic text-[24px] text-black whitespace-nowrap">
+        Project Overview
+      </p>
     </div>
   );
 }
 
 function Container6() {
   return (
-    <div className="relative shrink-0 self-stretch pr-0 md:mr-[-16px] md:pr-[33px]" data-name="Container">
-      <div aria-hidden="true" className="pointer-events-none absolute inset-0 border-[rgba(0,0,0,0.1)] border-solid max-md:border-b md:border-r" />
+    <div
+      className="relative shrink-0 self-stretch pr-0 md:mr-[-16px] md:pr-[33px]"
+      data-name="Container"
+    >
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 border-[rgba(0,0,0,0.1)] border-solid max-md:border-b md:border-r"
+      />
       <Heading2 />
     </div>
   );
@@ -170,11 +220,27 @@ function Container6() {
 
 function Container7() {
   return (
-    <div className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0" data-name="Container">
+    <div
+      className="relative flex-1 min-w-0 pl-0 pt-6 md:pl-[32px] md:pt-0"
+      data-name="Container"
+    >
       <div className="font-['Montserrat:Regular',sans-serif] relative w-full text-[17px] font-normal leading-[30px] text-[rgba(10,10,10,0.8)] whitespace-pre-wrap md:text-[20px] md:leading-[32.5px]">
-        <p className="leading-[32.5px] mb-0">This project involved the design and implementation of a web-based platform for managing hunting and fishing licenses, conceived as an integrated digital ecosystem. The solution included an administrative backoffice, a mobile application for inspectors, a citizen-facing license management platform, and a modern institutional website providing access to relevant information about parks and natural reserves.</p>
+        <p className="leading-[32.5px] mb-0">
+          This project involved the design and implementation of a web-based
+          platform for managing hunting and fishing licenses, conceived as an
+          integrated digital ecosystem. The solution included an administrative
+          backoffice, a mobile application for inspectors, a citizen-facing
+          license management platform, and a modern institutional website
+          providing access to relevant information about parks and natural
+          reserves.
+        </p>
         <p className="leading-[32.5px] mb-0">​</p>
-        <p className="leading-[32.5px]">The system was designed to support end-to-end license management, including user registration, payments, license validation, fines, and reporting, ensuring consistency, usability, and efficient workflows across all interfaces.</p>
+        <p className="leading-[32.5px]">
+          The system was designed to support end-to-end license management,
+          including user registration, payments, license validation, fines, and
+          reporting, ensuring consistency, usability, and efficient workflows
+          across all interfaces.
+        </p>
       </div>
     </div>
   );
@@ -182,7 +248,10 @@ function Container7() {
 
 function Container5() {
   return (
-    <div className="content-stretch flex flex-col md:flex-row items-start gap-8 md:gap-0 relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex flex-col md:flex-row items-start gap-8 md:gap-0 relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Container6 />
       <Container7 />
     </div>
@@ -192,7 +261,10 @@ function Container5() {
 function Section1() {
   return (
     <div className="relative shrink-0 w-full" data-name="Section">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+      <div
+        aria-hidden="true"
+        className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+      />
       <div className="content-stretch flex flex-col items-center justify-center px-6 sm:px-8 md:px-12 xl:px-[72px] py-[48px] relative size-full">
         <div className="w-full max-w-[1344px]">
           <Container5 />
@@ -204,7 +276,10 @@ function Section1() {
 
 function Heading3() {
   return (
-    <div className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black" data-name="Heading">
+    <div
+      className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black"
+      data-name="Heading"
+    >
       <div className="flex flex-col font-['Groteska:Medium',sans-serif] justify-center not-italic relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Illustrations and avatars</p>
       </div>
@@ -217,15 +292,39 @@ function Heading3() {
 
 function Container11() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="Container">
-      <div className="col-1 h-[89.467px] ml-[0.8px] mt-[100.13px] relative row-1 w-[177.863px]" data-name="MosaicoNatural 2">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMosaicoNatural2} />
+    <div
+      className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0"
+      data-name="Container"
+    >
+      <div
+        className="col-1 h-[89.467px] ml-[0.8px] mt-[100.13px] relative row-1 w-[177.863px]"
+        data-name="MosaicoNatural 2"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgMosaicoNatural2}
+        />
       </div>
-      <div className="col-1 h-[89.534px] ml-0 mt-0 relative row-1 w-[178.532px]" data-name="MosaicoNatural 4">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMosaicoNatural4} />
+      <div
+        className="col-1 h-[89.534px] ml-0 mt-0 relative row-1 w-[178.532px]"
+        data-name="MosaicoNatural 4"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgMosaicoNatural4}
+        />
       </div>
-      <div className="col-1 h-[189.6px] ml-[184.92px] mt-0 relative row-1 w-[95.085px]" data-name="MosaicoNatural1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMosaicoNatural1} />
+      <div
+        className="col-1 h-[189.6px] ml-[184.92px] mt-0 relative row-1 w-[95.085px]"
+        data-name="MosaicoNatural1"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgMosaicoNatural1}
+        />
       </div>
     </div>
   );
@@ -233,21 +332,59 @@ function Container11() {
 
 function Container12() {
   return (
-    <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-name="Container">
-      <div className="col-1 h-[61.279px] ml-0 mt-0 relative row-1 w-[74.938px]" data-name="Surubi">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSurubi} />
+    <div
+      className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0"
+      data-name="Container"
+    >
+      <div
+        className="col-1 h-[61.279px] ml-0 mt-0 relative row-1 w-[74.938px]"
+        data-name="Surubi"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgSurubi}
+        />
       </div>
-      <div className="col-1 h-[60px] ml-[103.22px] mt-0 relative row-1 w-[78.375px]" data-name="yacare">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgYacare} />
+      <div
+        className="col-1 h-[60px] ml-[103.22px] mt-0 relative row-1 w-[78.375px]"
+        data-name="yacare"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgYacare}
+        />
       </div>
-      <div className="col-1 h-[59.905px] ml-[115.67px] mt-[102.62px] relative row-1 w-[54.289px]" data-name="zorrito">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgZorrito} />
+      <div
+        className="col-1 h-[59.905px] ml-[115.67px] mt-[102.62px] relative row-1 w-[54.289px]"
+        data-name="zorrito"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgZorrito}
+        />
       </div>
-      <div className="col-1 ml-0 mt-[102.49px] relative row-1 size-[59.665px]" data-name="carpincho">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCarpincho} />
+      <div
+        className="col-1 ml-0 mt-[102.49px] relative row-1 size-[59.665px]"
+        data-name="carpincho"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgCarpincho}
+        />
       </div>
-      <div className="col-1 h-[161.826px] ml-[210.14px] mt-0 relative row-1 w-[131.747px]" data-name="ciervo">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCiervo} />
+      <div
+        className="col-1 h-[161.826px] ml-[210.14px] mt-0 relative row-1 w-[131.747px]"
+        data-name="ciervo"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgCiervo}
+        />
       </div>
     </div>
   );
@@ -255,11 +392,21 @@ function Container12() {
 
 function Container10() {
   return (
-    <div className="hidden md:flex items-center justify-between relative shrink-0 w-full" data-name="Container">
+    <div
+      className="hidden md:flex items-center justify-between relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Container11 />
       <Container12 />
-      <div className="h-[200px] relative rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] shrink-0 w-[439px]" data-name="Header-Solicitud 1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgHeaderSolicitud1} />
+      <div
+        className="h-[200px] relative rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] shrink-0 w-[439px]"
+        data-name="Header-Solicitud 1"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgHeaderSolicitud1}
+        />
       </div>
     </div>
   );
@@ -267,12 +414,23 @@ function Container10() {
 
 function Container13() {
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6" data-name="Container">
+    <div
+      className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6"
+      data-name="Container"
+    >
       <div className="relative aspect-[1440/900] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
-        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgRegister1} />
+        <img
+          alt=""
+          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
+          src={imgRegister1}
+        />
       </div>
       <div className="relative aspect-[1440/900] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] md:translate-y-6">
-        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgUnauthorized1} />
+        <img
+          alt=""
+          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
+          src={imgUnauthorized1}
+        />
       </div>
     </div>
   );
@@ -280,7 +438,10 @@ function Container13() {
 
 function Container9() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Heading3 />
       <Container10 />
       <Container13 />
@@ -290,7 +451,10 @@ function Container9() {
 
 function Container15() {
   return (
-    <div className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] leading-[0] text-black" data-name="Container">
+    <div
+      className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] leading-[0] text-black"
+      data-name="Container"
+    >
       <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Design System</p>
       </div>
@@ -303,11 +467,21 @@ function Container15() {
 
 function Container14() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Container15 />
-      <div className="aspect-[1186/719] relative rounded-[30px] shrink-0 w-full" data-name="Labels & Badges 1">
+      <div
+        className="aspect-[1186/719] relative rounded-[30px] shrink-0 w-full"
+        data-name="Labels & Badges 1"
+      >
         <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[30px]">
-          <img alt="" className="absolute h-[105.09%] left-[-2.61%] max-w-none top-[-1.19%] w-[105.23%]" src={imgLabelsBadges1} />
+          <img
+            alt=""
+            className="absolute h-[105.09%] left-[-2.61%] max-w-none top-[-1.19%] w-[105.23%]"
+            src={imgLabelsBadges1}
+          />
         </div>
       </div>
     </div>
@@ -316,7 +490,10 @@ function Container14() {
 
 function Container17() {
   return (
-    <div className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] text-black" data-name="Container">
+    <div
+      className="content-stretch relative flex w-full max-w-[300px] shrink-0 flex-col items-start gap-[8px] text-black"
+      data-name="Container"
+    >
       <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px] w-[152px]">
         <p className="leading-[normal]">Desktop</p>
       </div>
@@ -329,12 +506,29 @@ function Container17() {
 
 function Container19() {
   return (
-    <div className="col-1 grid-rows-[max-content] inline-grid ml-0 mt-[0.76px] place-items-start relative row-1 w-[50.03%]" data-name="Container">
-      <div className="aspect-[1286/815] col-1 ml-0 mt-0 relative row-1 w-[94.87%]" data-name="Adquirir Licencias">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgAdquirirLicencias} />
+    <div
+      className="col-1 grid-rows-[max-content] inline-grid ml-0 mt-[0.76px] place-items-start relative row-1 w-[50.03%]"
+      data-name="Container"
+    >
+      <div
+        className="aspect-[1286/815] col-1 ml-0 mt-0 relative row-1 w-[94.87%]"
+        data-name="Adquirir Licencias"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgAdquirirLicencias}
+        />
       </div>
-      <div className="aspect-[810/386] col-1 ml-[40.29%] mt-[224.14px] relative row-1 w-[59.71%]" data-name="Adquirir Licencias-1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgAdquirirLicencias1} />
+      <div
+        className="aspect-[810/386] col-1 ml-[40.29%] mt-[224.14px] relative row-1 w-[59.71%]"
+        data-name="Adquirir Licencias-1"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+          src={imgAdquirirLicencias1}
+        />
       </div>
     </div>
   );
@@ -342,18 +536,36 @@ function Container19() {
 
 function Container18() {
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6" data-name="Container">
+    <div
+      className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6"
+      data-name="Container"
+    >
       <div className="hidden md:block">
         <Container19 />
       </div>
       <div className="relative md:hidden aspect-[1286/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
-        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgAdquirirLicencias} />
+        <img
+          alt=""
+          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
+          src={imgAdquirirLicencias}
+        />
       </div>
       <div className="relative md:hidden aspect-[810/386] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
-        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgAdquirirLicencias1} />
+        <img
+          alt=""
+          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
+          src={imgAdquirirLicencias1}
+        />
       </div>
-      <div className="relative aspect-[1287/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] md:translate-y-6" data-name="Dashboard Revendedor Version 5">
-        <img alt="" className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none" src={imgDashboardRevendedorVersion5} />
+      <div
+        className="relative aspect-[1287/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] md:translate-y-6"
+        data-name="Dashboard Revendedor Version 5"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
+          src={imgDashboardRevendedorVersion5}
+        />
       </div>
     </div>
   );
@@ -361,7 +573,10 @@ function Container18() {
 
 function Container16() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start leading-[0] relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex flex-col gap-[32px] items-start leading-[0] relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Container17 />
       <Container18 />
     </div>
@@ -370,7 +585,10 @@ function Container16() {
 
 function Container21() {
   return (
-    <div className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black" data-name="Container">
+    <div
+      className="content-stretch relative flex shrink-0 flex-col items-start gap-[8px] leading-[0] text-black"
+      data-name="Container"
+    >
       <div className="flex flex-col font-['Montserrat:Bold',sans-serif] font-bold justify-center relative shrink-0 text-[24px]">
         <p className="leading-[normal]">Mobile</p>
       </div>
@@ -383,24 +601,69 @@ function Container21() {
 
 function Container22() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 relative shrink-0 w-full" data-name="Container">
-      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="QR válido - lic vencida (1)">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgQrValidoLicVencida1} />
+    <div
+      className="grid grid-cols-2 md:grid-cols-4 gap-4 relative shrink-0 w-full"
+      data-name="Container"
+    >
+      <div
+        className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]"
+        data-name="QR válido - lic vencida (1)"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgQrValidoLicVencida1}
+        />
       </div>
-      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Crear acta de infracción">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgCrearActaDeInfraccion} />
+      <div
+        className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]"
+        data-name="Crear acta de infracción"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgCrearActaDeInfraccion}
+        />
       </div>
-      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Fiscalización - Dashboard sin Comision">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision} />
+      <div
+        className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]"
+        data-name="Fiscalización - Dashboard sin Comision"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgFiscalizacionDashboardSinComision}
+        />
       </div>
-      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Fiscalización - Dashboard sin Comision-1">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision1} />
+      <div
+        className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]"
+        data-name="Fiscalización - Dashboard sin Comision-1"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgFiscalizacionDashboardSinComision1}
+        />
       </div>
-      <div className="relative rounded-[16px] w-full aspect-[256/555]" data-name="Fiscalización - Dashboard sin Comision-2">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision2} />
+      <div
+        className="relative rounded-[16px] w-full aspect-[256/555]"
+        data-name="Fiscalización - Dashboard sin Comision-2"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgFiscalizacionDashboardSinComision2}
+        />
       </div>
-      <div className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]" data-name="Fiscalización - Dashboard sin Comision-3">
-        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full" src={imgFiscalizacionDashboardSinComision3} />
+      <div
+        className="relative rounded-[16px] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.1)] w-full aspect-[256/554]"
+        data-name="Fiscalización - Dashboard sin Comision-3"
+      >
+        <img
+          alt=""
+          className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[16px] size-full"
+          src={imgFiscalizacionDashboardSinComision3}
+        />
       </div>
     </div>
   );
@@ -408,7 +671,10 @@ function Container22() {
 
 function Container20() {
   return (
-    <div className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex flex-col gap-[32px] items-start relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Container21 />
       <Container22 />
     </div>
@@ -417,9 +683,19 @@ function Container20() {
 
 function Landing() {
   return (
-    <div className="content-stretch flex flex-col items-center py-[48px] relative shrink-0 w-full" data-name="Landing">
-      <div className="relative w-full max-w-[1094px] overflow-hidden rounded-[24px] shadow-[0px_10px_28px_0px_rgba(0,0,0,0.08)]" data-name="Desktop - 1920 1">
-        <img alt="" className="block h-auto w-full object-cover pointer-events-none" src={imgDesktop19201} />
+    <div
+      className="content-stretch flex flex-col items-center py-[48px] relative shrink-0 w-full"
+      data-name="Landing"
+    >
+      <div
+        className="relative w-full max-w-[1094px] overflow-hidden rounded-[24px] shadow-[0px_10px_28px_0px_rgba(0,0,0,0.08)]"
+        data-name="Desktop - 1920 1"
+      >
+        <img
+          alt=""
+          className="block h-auto w-full object-cover pointer-events-none"
+          src={imgDesktop19201}
+        />
       </div>
     </div>
   );
@@ -427,7 +703,10 @@ function Landing() {
 
 function Container8() {
   return (
-    <div className="content-stretch relative flex shrink-0 w-full flex-col items-start gap-[64px] md:gap-[108px]" data-name="Container">
+    <div
+      className="content-stretch relative flex shrink-0 w-full flex-col items-start gap-[64px] md:gap-[108px]"
+      data-name="Container"
+    >
       <Container9 />
       <Container14 />
       <Container16 />
@@ -451,7 +730,10 @@ function Section2() {
 
 function MainContent() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Main Content">
+    <div
+      className="bg-white content-stretch flex flex-col items-start relative shrink-0 w-full"
+      data-name="Main Content"
+    >
       <Section />
       <Section1 />
       <Section2 />
@@ -461,7 +743,10 @@ function MainContent() {
 
 function Root() {
   return (
-    <div className="bg-white content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="Root">
+    <div
+      className="bg-white content-stretch flex flex-col items-start relative shrink-0 w-full"
+      data-name="Root"
+    >
       <MainContent />
     </div>
   );
@@ -469,7 +754,10 @@ function Root() {
 
 function Body() {
   return (
-    <div className="content-stretch flex flex-col items-start w-full" data-name="Body">
+    <div
+      className="content-stretch flex flex-col items-start w-full"
+      data-name="Body"
+    >
       <Root />
     </div>
   );
@@ -479,7 +767,9 @@ function Link1() {
   return (
     <div className="h-[28px] relative shrink-0 w-[71.953px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Groteska:Medium',sans-serif] leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">AnaPaulaChurruarin.</p>
+        <p className="absolute font-['Groteska:Medium',sans-serif] leading-[28px] left-0 not-italic text-[18px] text-black top-[2.5px] tracking-[-0.45px] whitespace-nowrap">
+          AnaPaulaChurruarin.
+        </p>
       </div>
     </div>
   );
@@ -489,7 +779,9 @@ function Link2() {
   return (
     <div className="h-[20px] relative shrink-0 w-[37.445px]" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">Work</p>
+        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.8)] top-[0.5px] whitespace-nowrap">
+          Work
+        </p>
       </div>
     </div>
   );
@@ -499,7 +791,9 @@ function Link3() {
   return (
     <div className="flex-[1_0_0] h-[20px] min-w-px relative" data-name="Link">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full">
-        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">Resume</p>
+        <p className="absolute font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] left-0 text-[14px] text-[rgba(0,0,0,0.5)] top-[0.5px] whitespace-nowrap">
+          Resume
+        </p>
       </div>
     </div>
   );
@@ -507,7 +801,10 @@ function Link3() {
 
 function Container24() {
   return (
-    <div className="h-[20px] relative shrink-0 w-[179.617px]" data-name="Container">
+    <div
+      className="h-[20px] relative shrink-0 w-[179.617px]"
+      data-name="Container"
+    >
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex gap-[24px] items-start relative size-full">
         <Link2 />
         <Link3 />
@@ -518,7 +815,10 @@ function Container24() {
 
 function Container23() {
   return (
-    <div className="content-stretch flex h-[28px] items-center justify-between relative shrink-0 w-full" data-name="Container">
+    <div
+      className="content-stretch flex h-[28px] items-center justify-between relative shrink-0 w-full"
+      data-name="Container"
+    >
       <Link1 />
       <Container24 />
     </div>
@@ -527,8 +827,14 @@ function Container23() {
 
 function Navbar() {
   return (
-    <div className="bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start pb-px pt-[16px] px-6 sm:px-8 md:px-12 xl:px-[48px] w-full" data-name="Navbar">
-      <div aria-hidden="true" className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none" />
+    <div
+      className="bg-[rgba(255,255,255,0.9)] content-stretch flex flex-col h-[61px] items-start pb-px pt-[16px] px-6 sm:px-8 md:px-12 xl:px-[48px] w-full"
+      data-name="Navbar"
+    >
+      <div
+        aria-hidden="true"
+        className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+      />
       <Container23 />
     </div>
   );
@@ -536,7 +842,10 @@ function Navbar() {
 
 export default function NaturalParksLicensingPlatform() {
   return (
-    <div className="bg-white relative w-full" data-name="Natural  Parks  Licensing  Platform">
+    <div
+      className="bg-white relative w-full"
+      data-name="Natural  Parks  Licensing  Platform"
+    >
       <Body />
     </div>
   );
