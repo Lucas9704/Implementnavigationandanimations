@@ -20,6 +20,8 @@ import imgFrase1 from "../../imports/5ce322d2ed826a0331f9c7c8a28e1478e814ba4c.pn
 import imgGcard1 from "../../imports/1917f0c14f9900ff05a796509fba6786be595672.png";
 import imgHorarios1 from "../../imports/45ea35858b861a85ed044f928b15baacf5576e96.png";
 import imgMesaDeTrabajo52 from "../../imports/e783c61e5785ac03bf6bb96a0cf57b60e7b8d316.png";
+import videoReel from "../../imports/HEELS-1.mp4";
+import VideoPlayer from "../components/VideoPlayer";
 
 export default function SocialMediaContentSystemsPage() {
   return (
@@ -31,11 +33,13 @@ export default function SocialMediaContentSystemsPage() {
     >
       <Navbar />
       <div className="pt-[61px]">
-        <Breadcrumb currentPage="Social Media Content Systems" showSelectedWork={false} />
-        
+        <Breadcrumb
+          currentPage="Social Media Content Systems"
+          showSelectedWork={false}
+        />
+
         <div className="flex flex-col items-center justify-center w-full pb-20">
           <div className="content-stretch flex flex-col items-center justify-center pb-px px-8 md:px-12 xl:px-[72px] relative w-full max-w-[1344px]">
-            
             {/* Header Section */}
             <div className="w-full flex flex-col md:flex-row items-center gap-12 py-10 sm:py-16 md:py-24 border-b border-[rgba(0,0,0,0.1)]">
               <div className="flex flex-col gap-[32px] items-start flex-1 min-w-0">
@@ -50,18 +54,30 @@ export default function SocialMediaContentSystemsPage() {
                   </h1>
                 </div>
               </div>
-              
+
               {/* Hero Image Group */}
               <div className="relative shrink-0 w-full max-w-[366px] md:max-w-[480px] h-[260px] md:h-[305px] mx-auto md:mx-0 xl:mr-10">
-                 <div className="absolute top-0 right-0 w-[248px] h-[140px] md:w-[325px] md:h-[183px] rounded-[10px] md:rounded-[20px] shadow-sm">
-                   <img src={imgFgv1} alt="Mockup 1" className="size-full rounded-[10px] md:rounded-[20px] object-cover" />
-                 </div>
-                 <div className="absolute top-[93px] md:top-[121px] left-0 w-[248px] h-[139px] md:w-[325px] md:h-[183px] rounded-[10px] md:rounded-[20px] shadow-sm">
-                   <img src={imgMesaDeTrabajo14} alt="Mockup 2" className="size-full rounded-[10px] md:rounded-[20px] object-cover" />
-                 </div>
-                 <div className="absolute top-[152px] md:top-[192px] left-[267px] md:left-[337px] w-[77px] h-[76px] md:w-[101px] md:h-[101px] rounded-[10px] md:rounded-[20px] shadow-md z-10">
-                   <img src={imgPerfilPld1} alt="Profile" className="size-full rounded-[10px] md:rounded-[20px] object-cover" />
-                 </div>
+                <div className="absolute top-0 right-0 w-[248px] h-[140px] md:w-[325px] md:h-[183px] rounded-[10px] md:rounded-[20px] shadow-sm">
+                  <img
+                    src={imgFgv1}
+                    alt="Mockup 1"
+                    className="size-full rounded-[10px] md:rounded-[20px] object-cover"
+                  />
+                </div>
+                <div className="absolute top-[93px] md:top-[121px] left-0 w-[248px] h-[139px] md:w-[325px] md:h-[183px] rounded-[10px] md:rounded-[20px] shadow-sm">
+                  <img
+                    src={imgMesaDeTrabajo14}
+                    alt="Mockup 2"
+                    className="size-full rounded-[10px] md:rounded-[20px] object-cover"
+                  />
+                </div>
+                <div className="absolute top-[152px] md:top-[192px] left-[267px] md:left-[337px] w-[77px] h-[76px] md:w-[101px] md:h-[101px] rounded-[10px] md:rounded-[20px] shadow-md z-10">
+                  <img
+                    src={imgPerfilPld1}
+                    alt="Profile"
+                    className="size-full rounded-[10px] md:rounded-[20px] object-cover"
+                  />
+                </div>
               </div>
             </div>
 
@@ -74,7 +90,14 @@ export default function SocialMediaContentSystemsPage() {
               </div>
               <div className="w-full md:w-2/3 pl-0 md:pl-[32px] font-montserrat text-[20px] leading-[32.5px] text-[rgba(10,10,10,0.8)]">
                 <p>
-                  At Houston Creative Studio, I collaborated in the development of monthly social media communication strategies focused on strengthening brand presence, improving audience engagement, and consolidating client positioning. My role involved designing visual content for feed and Instagram Story formats, creating adaptable and cohesive assets aligned with each brand’s identity and target audience within dynamic social media environments.
+                  At Houston Creative Studio, I collaborated in the development
+                  of monthly social media communication strategies focused on
+                  strengthening brand presence, improving audience engagement,
+                  and consolidating client positioning. My role involved
+                  designing visual content for feed and Instagram Story formats,
+                  creating adaptable and cohesive assets aligned with each
+                  brand’s identity and target audience within dynamic social
+                  media environments.
                 </p>
               </div>
             </div>
@@ -86,24 +109,62 @@ export default function SocialMediaContentSystemsPage() {
                   PLD Academy
                 </h3>
                 <p className="font-montserrat text-[20px] leading-[32.5px] text-[#0a0a0a] w-full">
-                  PLD Academy communicates energy, movement, and expressive identity of an urban dance community through bold visuals, high-contrast photography, and dynamic compositions. The content strategy focused on promoting classes, events, and workshops while building a recognizable and engaging digital presence aligned with the academy’s youthful and performance-driven spirit.
+                  PLD Academy communicates energy, movement, and expressive
+                  identity of an urban dance community through bold visuals,
+                  high-contrast photography, and dynamic compositions. The
+                  content strategy focused on promoting classes, events, and
+                  workshops while building a recognizable and engaging digital
+                  presence aligned with the academy’s youthful and
+                  performance-driven spirit.
                 </p>
               </div>
-              
+
               <div className="grid grid-cols-3 gap-1 md:gap-[10px] w-full">
-                <div className="aspect-square bg-gray-200 shadow-sm"><img src={imgMesaDeTrabajo13} className="size-full object-cover" /></div>
-                <div className="aspect-square bg-gray-300 shadow-sm"><img src={imgMesaDeTrabajo22} className="size-full object-cover" /></div>
-                <div className="aspect-square bg-gray-400 shadow-sm"><img src={imgMesaDeTrabajo31} className="size-full object-cover" /></div>
+                <div className="aspect-square bg-gray-200 shadow-sm">
+                  <img
+                    src={imgMesaDeTrabajo13}
+                    className="size-full object-cover"
+                  />
+                </div>
+                <div className="aspect-square bg-gray-300 shadow-sm">
+                  <img
+                    src={imgMesaDeTrabajo22}
+                    className="size-full object-cover"
+                  />
+                </div>
+                <div className="aspect-square bg-gray-400 shadow-sm">
+                  <img
+                    src={imgMesaDeTrabajo31}
+                    className="size-full object-cover"
+                  />
+                </div>
               </div>
               <div className="grid grid-cols-3 gap-1 md:gap-[10px] w-full">
-                <div className="aspect-square bg-gray-200 shadow-sm"><img src={imgMuv11} className="size-full object-cover" /></div>
-                <div className="aspect-square bg-gray-300 shadow-sm"><img src={imgMuv31} className="size-full object-cover" /></div>
-                <div className="aspect-square bg-gray-400 shadow-sm"><img src={imgMuv41} className="size-full object-cover" /></div>
+                <div className="aspect-square bg-gray-200 shadow-sm">
+                  <img src={imgMuv11} className="size-full object-cover" />
+                </div>
+                <div className="aspect-square bg-gray-300 shadow-sm">
+                  <img src={imgMuv31} className="size-full object-cover" />
+                </div>
+                <div className="aspect-square bg-gray-400 shadow-sm">
+                  <img src={imgMuv41} className="size-full object-cover" />
+                </div>
               </div>
               <div className="grid grid-cols-3 gap-1 md:gap-[10px] w-full">
-                <div className="aspect-[1080/1920] bg-gray-200 shadow-sm"><img src={imgDescuentoSabaDo1} className="size-full object-cover" /></div>
-                <div className="aspect-[1080/1920] bg-[#111] shadow-sm"></div>
-                <div className="aspect-[1080/1920] bg-gray-400 shadow-sm"><img src={imgBailalo11} className="size-full object-cover" /></div>
+                <div className="aspect-[1080/1920] bg-gray-200 shadow-sm">
+                  <img
+                    src={imgDescuentoSabaDo1}
+                    className="size-full object-cover"
+                  />
+                </div>
+                <VideoPlayer
+                  src={videoReel}
+                  maxWidth="342px"
+                  className="w-full rounded-none"
+                />
+                <div className="aspect-[1080/1920] bg-gray-400 shadow-sm">
+                  <img src={imgBailalo11} className="size-full object-cover" />
+                </div>
               </div>
             </div>
 
@@ -114,19 +175,44 @@ export default function SocialMediaContentSystemsPage() {
                   Maria Aidee Beauty Salon
                 </h3>
                 <p className="font-montserrat text-[16px] md:text-[20px] leading-[24px] md:leading-[32.5px] text-[#0a0a0a] w-full">
-                  Maria Aidee Beauty Salon’s social media communication was designed to reflect a warm, feminine, and approachable brand identity through soft color palettes, lifestyle-oriented photography, and elegant visual compositions. We focused on promoting beauty and self-care services — including makeup, hairstyling, and manicure treatments — while building an inviting digital presence that emphasized confidence, personal care, and client experience.
+                  Maria Aidee Beauty Salon’s social media communication was
+                  designed to reflect a warm, feminine, and approachable brand
+                  identity through soft color palettes, lifestyle-oriented
+                  photography, and elegant visual compositions. We focused on
+                  promoting beauty and self-care services — including makeup,
+                  hairstyling, and manicure treatments — while building an
+                  inviting digital presence that emphasized confidence, personal
+                  care, and client experience.
                 </p>
               </div>
-              
+
               <div className="grid grid-cols-3 gap-1 md:gap-[10px] w-full">
-                <div className="aspect-[1080/1920] bg-gray-200 shadow-sm"><img src={imgServicios11} className="size-full object-cover" /></div>
-                <div className="aspect-[1080/1920] bg-gray-300 shadow-sm"><img src={imgBuscamos1} className="size-full object-cover" /></div>
-                <div className="aspect-[1080/1920] bg-gray-400 shadow-sm"><img src={imgMaquillaje31} className="size-full object-cover" /></div>
+                <div className="aspect-[1080/1920] bg-gray-200 shadow-sm">
+                  <img
+                    src={imgServicios11}
+                    className="size-full object-cover"
+                  />
+                </div>
+                <div className="aspect-[1080/1920] bg-gray-300 shadow-sm">
+                  <img src={imgBuscamos1} className="size-full object-cover" />
+                </div>
+                <div className="aspect-[1080/1920] bg-gray-400 shadow-sm">
+                  <img
+                    src={imgMaquillaje31}
+                    className="size-full object-cover"
+                  />
+                </div>
               </div>
               <div className="grid grid-cols-3 gap-1 md:gap-[10px] w-full">
-                <div className="aspect-square bg-gray-200 shadow-sm"><img src={imgFrase1} className="size-full object-cover" /></div>
-                <div className="aspect-square bg-gray-300 shadow-sm"><img src={imgGcard1} className="size-full object-cover" /></div>
-                <div className="aspect-square bg-gray-400 shadow-sm"><img src={imgHorarios1} className="size-full object-cover" /></div>
+                <div className="aspect-square bg-gray-200 shadow-sm">
+                  <img src={imgFrase1} className="size-full object-cover" />
+                </div>
+                <div className="aspect-square bg-gray-300 shadow-sm">
+                  <img src={imgGcard1} className="size-full object-cover" />
+                </div>
+                <div className="aspect-square bg-gray-400 shadow-sm">
+                  <img src={imgHorarios1} className="size-full object-cover" />
+                </div>
               </div>
             </div>
 
@@ -137,18 +223,26 @@ export default function SocialMediaContentSystemsPage() {
                   CUIDARTE
                 </h3>
                 <p className="font-montserrat text-[20px] leading-[32.5px] text-[#0a0a0a] w-full">
-                  The digital communication for CUIDARTE was developed to convey a sense of professionalism, trust, and human-centered care through clear visual systems and approachable social media content. We emphasized on rehabilitation and therapeutic services, the communication strategy combined informative messaging, and emotionally conscious visuals to strengthen the institution’s digital presence and connect with patients and families in a supportive and empathetic way.
+                  The digital communication for CUIDARTE was developed to convey
+                  a sense of professionalism, trust, and human-centered care
+                  through clear visual systems and approachable social media
+                  content. We emphasized on rehabilitation and therapeutic
+                  services, the communication strategy combined informative
+                  messaging, and emotionally conscious visuals to strengthen the
+                  institution’s digital presence and connect with patients and
+                  families in a supportive and empathetic way.
                 </p>
               </div>
-              
+
               <div className="w-full aspect-[1080/1074] bg-gray-200 shadow-md">
-                 <img src={imgMesaDeTrabajo52} className="size-full object-cover" />
+                <img
+                  src={imgMesaDeTrabajo52}
+                  className="size-full object-cover"
+                />
               </div>
             </div>
-
           </div>
         </div>
-
       </div>
     </motion.div>
   );

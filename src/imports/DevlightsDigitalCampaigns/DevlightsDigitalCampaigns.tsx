@@ -23,7 +23,7 @@ import imgBootcampMobile1 from "./851d64ff942ddff12c38b078a4b4fe30e153e8e5.png";
 import imgBootmockup1 from "./702db0600ec7963e7fb73d354f069cfc9e4ecfc3.png";
 import videoSpotSponsors from "./SpotSponsors.mp4";
 import videoReel from "./Reel_1.mp4";
-import VideoPlayer from "./VideoPlayer";
+import VideoPlayer from "../../app/components/VideoPlayer";
 
 function Link() {
   return (

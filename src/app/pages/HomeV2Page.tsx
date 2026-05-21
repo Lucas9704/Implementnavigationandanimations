@@ -170,7 +170,7 @@ function FadeInSection({
   delay?: number;
 }) {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const isInView = useInView(ref, { once: true, amount: 0.05 });
 
   return (
     <motion.div
