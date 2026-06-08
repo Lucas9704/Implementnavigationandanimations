@@ -1,0 +1,50 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - paragraph [ref=e11]: Home
+      - paragraph [ref=e14]: /
+      - link "Selected Work" [ref=e15] [cursor=pointer]:
+        - /url: /#selected-work
+        - paragraph [ref=e17]: Selected Work
+      - paragraph [ref=e20]: /
+      - paragraph [ref=e23]: Natural Parks Licensing Platform
+    - generic [ref=e27]:
+      - generic [ref=e34]:
+        - paragraph [ref=e36]: UX/UI Design · Government Systems · Digital Product Design
+        - generic [ref=e38]:
+          - paragraph [ref=e39]: Natural
+          - paragraph [ref=e40]: Parks
+          - paragraph [ref=e41]: Licensing
+          - paragraph [ref=e42]: Platform
+      - generic [ref=e47]:
+        - paragraph [ref=e50]: Project Overview
+        - generic [ref=e52]:
+          - paragraph [ref=e53]: This project involved the design and implementation of a web-based platform for managing hunting and fishing licenses, conceived as an integrated digital ecosystem. The solution included an administrative backoffice, a mobile application for inspectors, a citizen-facing license management platform, and a modern institutional website providing access to relevant information about parks and natural reserves.
+          - paragraph [ref=e54]
+          - paragraph [ref=e55]: The system was designed to support end-to-end license management, including user registration, payments, license validation, fines, and reporting, ensuring consistency, usability, and efficient workflows across all interfaces.
+      - generic [ref=e59]:
+        - generic [ref=e61]:
+          - paragraph [ref=e63]: Illustrations and avatars
+          - paragraph [ref=e65]: Inspired by native fauna and flora
+        - generic [ref=e79]:
+          - paragraph [ref=e81]: Design System
+          - paragraph [ref=e83]: Field sets
+        - generic [ref=e86]:
+          - paragraph [ref=e88]: Desktop
+          - paragraph [ref=e90]: User | License acquisition
+        - generic [ref=e97]:
+          - paragraph [ref=e99]: Mobile
+          - paragraph [ref=e101]: Admin | User Details
+  - generic [ref=e112]:
+    - link "AnaPaulaChurruarin." [ref=e113] [cursor=pointer]:
+      - /url: /
+      - paragraph [ref=e115]: AnaPaulaChurruarin.
+    - generic [ref=e117] [cursor=pointer]:
+      - link "Work" [ref=e118]:
+        - /url: /#selected-work
+        - paragraph [ref=e120]: Work
+      - link "Resume" [ref=e121]:
+        - /url: /#resume
+        - paragraph [ref=e123]: Resume

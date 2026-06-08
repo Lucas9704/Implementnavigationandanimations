@@ -444,6 +444,43 @@ function Container9() {
     >
       <Heading3 />
       <Container10 />
+      {/* Mobile-only illustrations: mosaics, animals, header image */}
+      <div className="md:hidden flex flex-col gap-[69px] items-center w-full">
+        {/* Mosaics grid */}
+        <div className="grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 w-full">
+          <div className="aspect-[333/167] col-1 ml-0 mt-0 relative row-1 w-[63.76%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMosaicoNatural4} />
+          </div>
+          <div className="aspect-[332/167] col-1 ml-[0.29%] mt-[136.61px] relative row-1 w-[63.52%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMosaicoNatural2} />
+          </div>
+          <div className="aspect-[167/333] col-1 ml-[66.04%] mt-0 relative row-1 w-[33.96%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgMosaicoNatural1} />
+          </div>
+        </div>
+        {/* Animal sprites grid */}
+        <div className="grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0 w-full">
+          <div className="aspect-[203/166] col-1 ml-0 mt-0 relative row-1 w-[21.92%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgSurubi} />
+          </div>
+          <div className="aspect-[209/160] col-1 ml-[30.19%] mt-0 relative row-1 w-[22.93%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgYacare} />
+          </div>
+          <div className="aspect-[145/160] col-1 ml-[33.83%] mt-[114.66px] relative row-1 w-[15.88%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgZorrito} />
+          </div>
+          <div className="aspect-[160/160] col-1 ml-0 mt-[114.52px] relative row-1 w-[17.45%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCarpincho} />
+          </div>
+          <div className="aspect-[219/269] col-1 ml-[61.46%] mt-0 relative row-1 w-[38.54%]">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgCiervo} />
+          </div>
+        </div>
+        {/* Header-Solicitud full-width */}
+        <div className="aspect-[600/274] relative rounded-[8px] shadow-[0px_7px_10px_0px_rgba(0,0,0,0.05)] shrink-0 w-full">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[8px] size-full" src={imgHeaderSolicitud1} />
+        </div>
+      </div>
       <Container13 />
     </div>
   );
@@ -504,66 +541,36 @@ function Container17() {
   );
 }
 
-function Container19() {
-  return (
-    <div
-      className="col-1 grid-rows-[max-content] inline-grid ml-0 mt-[0.76px] place-items-start relative row-1 w-[50.03%]"
-      data-name="Container"
-    >
-      <div
-        className="aspect-[1286/815] col-1 ml-0 mt-0 relative row-1 w-[94.87%]"
-        data-name="Adquirir Licencias"
-      >
-        <img
-          alt=""
-          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
-          src={imgAdquirirLicencias}
-        />
-      </div>
-      <div
-        className="aspect-[810/386] col-1 ml-[40.29%] mt-[224.14px] relative row-1 w-[59.71%]"
-        data-name="Adquirir Licencias-1"
-      >
-        <img
-          alt=""
-          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
-          src={imgAdquirirLicencias1}
-        />
-      </div>
-    </div>
-  );
-}
 
 function Container18() {
   return (
     <div
-      className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6"
+      className="grid-rows-[max-content] inline-grid place-items-start relative shrink-0 w-full"
       data-name="Container"
     >
-      <div className="hidden md:block">
-        <Container19 />
-      </div>
-      <div className="relative md:hidden aspect-[1286/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
-        <img
-          alt=""
-          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
-          src={imgAdquirirLicencias}
-        />
-      </div>
-      <div className="relative md:hidden aspect-[810/386] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)]">
-        <img
-          alt=""
-          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
-          src={imgAdquirirLicencias1}
-        />
+      <div className="col-1 grid-rows-[max-content] inline-grid ml-0 mt-[0.23px] place-items-start relative row-1 w-[50.03%]">
+        <div className="aspect-[1286/815] col-1 ml-0 mt-0 relative row-1 w-[94.87%]">
+          <img
+            alt=""
+            className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+            src={imgAdquirirLicencias}
+          />
+        </div>
+        <div className="aspect-[810/386] col-1 ml-[40.29%] mt-[68.61px] relative row-1 w-[59.71%]">
+          <img
+            alt=""
+            className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
+            src={imgAdquirirLicencias1}
+          />
+        </div>
       </div>
       <div
-        className="relative aspect-[1287/815] rounded-[16px] shadow-[0px_9px_24px_0px_rgba(0,0,0,0.1)] md:translate-y-6"
+        className="aspect-[1287/815] col-1 ml-[52.47%] mt-0 relative row-1 w-[47.53%]"
         data-name="Dashboard Revendedor Version 5"
       >
         <img
           alt=""
-          className="absolute inset-0 size-full rounded-[16px] object-cover pointer-events-none"
+          className="absolute inset-0 max-w-none object-cover pointer-events-none size-full"
           src={imgDashboardRevendedorVersion5}
         />
       </div>

@@ -1,0 +1,113 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - link "Home" [ref=e9] [cursor=pointer]:
+        - /url: /
+        - paragraph [ref=e11]: Home
+      - paragraph [ref=e14]: /
+      - link "Selected Work" [ref=e15] [cursor=pointer]:
+        - /url: /#selected-work
+        - paragraph [ref=e17]: Selected Work
+      - paragraph [ref=e20]: /
+      - paragraph [ref=e23]: Public Communication Campaigns
+    - generic [ref=e24]:
+      - generic [ref=e29]:
+        - paragraph [ref=e31]: Google & META Ads · Public Sector Communication · Campaign Design
+        - paragraph [ref=e32]: Public Communication Campaigns
+      - generic [ref=e38]:
+        - paragraph [ref=e40]: Project Overview
+        - paragraph [ref=e41]: This series of public communication projects was developed with the goal of informing the citizens of Corrientes about government initiatives, public programs, and provincial benefits through clear, accessible, and strategically structured digital experiences. Each campaign combined landing page design with Google and META advertising systems, connecting paid media efforts with informative digital platforms designed to simplify complex information and improve audience reach across diverse user groups. It was developed by a multidisciplinary team specialized in design, web development, marketing, and SEO optimization,
+      - generic [ref=e42]:
+        - generic [ref=e44]:
+          - paragraph: Public Health Landing Page
+          - generic [ref=e45]:
+            - link "Desktop prototype" [ref=e46] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=98-25&viewport=495%2C74%2C0.09&t=5M04j2Vj31mWnaOF-1&scaling=scale-down&mode=design
+              - paragraph [ref=e47]: Desktop prototype
+            - link "Mobile prototype" [ref=e48] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/Re8UBksl9CIInfFTEDwKlq/LANDING-SALUD?page-id=0%3A1&type=design&node-id=1-2&viewport=495%2C74%2C0.09&t=Aj8PKEfHzdJ04Jo6-1&scaling=scale-down&mode=design
+              - paragraph [ref=e49]: Mobile prototype
+        - generic [ref=e61]:
+          - paragraph: Public Infrastructure Landing Page
+          - generic [ref=e62]:
+            - link "Desktop prototype" [ref=e63] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-3&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design
+              - paragraph [ref=e64]: Desktop prototype
+            - link "Mobile prototype" [ref=e65] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-2&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design
+              - paragraph [ref=e66]: Mobile prototype
+        - generic [ref=e84]:
+          - paragraph: Education Landing Page
+          - generic [ref=e85]:
+            - link "Desktop prototype" [ref=e86] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=202-143&viewport=405%2C1003%2C0.46&t=wJyMNEeGCSnJY1Ph-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design
+              - paragraph [ref=e87]: Desktop prototype
+            - link "Mobile prototype" [ref=e88] [cursor=pointer]:
+              - /url: https://www.figma.com/proto/8d0Az3YSJ9eZcqbPoKZcxI/LANDING-EDUCACION?page-id=0%3A1&type=design&node-id=1-2&viewport=727%2C-1286%2C0.46&t=bcfL6hilJqskBlJd-1&scaling=min-zoom&starting-point-node-id=202%3A147&mode=design
+              - paragraph [ref=e89]: Mobile prototype
+        - generic [ref=e100]:
+          - paragraph: Electoral Communication Campaign
+        - generic [ref=e119]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - paragraph [ref=e125]: Design Focus
+              - paragraph [ref=e127]: Landing page
+            - paragraph [ref=e128]: A scalable visual system built around a dynamic design language, adapted across a landing page and multiple Meta and Google Ads formats to ensure visual consistency, clarity, and functional effectiveness.
+            - generic [ref=e129]:
+              - link "Landing page" [ref=e130] [cursor=pointer]:
+                - /url: https://gustavovaldes.com.ar/planes-productivos/
+                - paragraph [ref=e132]: Landing page
+              - link "Desktop prototype" [ref=e136] [cursor=pointer]:
+                - /url: https://www.figma.com/proto/6nVHPyKv5NBdvk5g7pOpig/PLANES-PROD?page-id=0%3A1&type=design&node-id=3-9&viewport=-170%2C-1279%2C0.39&t=fczDaY8Kbm5Vcjeh-1&scaling=min-zoom&mode=design
+                - paragraph [ref=e138]: Desktop prototype
+          - paragraph [ref=e158]: ADS
+          - paragraph [ref=e169]: Colors and elements
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - paragraph [ref=e174]: "#FCF673"
+              - paragraph [ref=e178]: "#D0E571"
+            - generic [ref=e179]:
+              - paragraph [ref=e180]: "#ECD9C7"
+              - paragraph [ref=e184]: "#EE9336"
+            - generic [ref=e185]:
+              - paragraph [ref=e186]: "#1E1E1E"
+              - paragraph [ref=e190]: "#FCF8F4"
+          - paragraph [ref=e252]: FONT/BUTTONS
+          - generic [ref=e253]:
+            - paragraph [ref=e256]: DM Sans Black / DM Sans Bold / DM Sans Regular
+            - paragraph [ref=e257]: Títulos 128pt
+            - generic [ref=e259]:
+              - paragraph [ref=e260]: Plan
+              - paragraph [ref=e261]: Limón
+            - generic [ref=e262]:
+              - generic [ref=e263]:
+                - paragraph [ref=e264]: Botón primario
+                - paragraph [ref=e265]: Hover
+                - paragraph [ref=e272]: Más sobre este plan
+                - paragraph [ref=e275]: Inactive
+                - paragraph [ref=e282]: Más sobre este plan
+              - generic [ref=e286]:
+                - paragraph [ref=e287]: Botón secundario
+                - paragraph [ref=e288]: Hover
+                - generic [ref=e290]:
+                  - paragraph [ref=e291]: Plan
+                  - paragraph [ref=e292]: Palta
+                - paragraph [ref=e293]: Inactive
+                - generic [ref=e295]:
+                  - paragraph [ref=e296]: Plan
+                  - paragraph [ref=e297]: Palta
+            - paragraph [ref=e298]: Texto 32pt
+            - paragraph [ref=e300]: Trabajamos en más de 26 localidades de todo Corrientes. Brindamos herramientas de preparación del suelo y plantación para beneficiar a los pequeños productores.
+            - paragraph [ref=e301]: Botones 24pt
+            - paragraph [ref=e307]: Más sobre este plan
+  - generic [ref=e310]:
+    - link "AnaPaulaChurruarin." [ref=e311] [cursor=pointer]:
+      - /url: /
+      - paragraph [ref=e313]: AnaPaulaChurruarin.
+    - generic [ref=e315] [cursor=pointer]:
+      - link "Work" [ref=e316]:
+        - /url: /#selected-work
+        - paragraph [ref=e318]: Work
+      - link "Resume" [ref=e319]:
+        - /url: /#resume
+        - paragraph [ref=e321]: Resume
