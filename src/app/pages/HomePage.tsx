@@ -351,111 +351,111 @@ export default function HomePage() {
 							</div>
 						</FadeInSection>
 
-						<FadeInSection delay={0.1}>
-							<div className="relative shrink-0 w-full">
-								<div
-									aria-hidden="true"
-									className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
-								/>
-								<div className="content-stretch flex flex-col items-start pb-px px-5 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] relative size-full">
-									<div className="relative shrink-0 w-full">
-										<div
-											aria-hidden="true"
-											className="absolute border-[rgba(0,0,0,0.1)] border-l border-r border-solid inset-0 pointer-events-none hidden md:block"
-										/>
-										<div className="content-stretch flex flex-col items-start px-0 md:px-px relative size-full">
-											<div className="relative shrink-0 w-full grid grid-cols-1 lg:grid-cols-[320px_1fr] xl:grid-cols-[415px_1fr] gap-0 lg:gap-0">
-												<div className="content-stretch flex flex-col items-start pb-px border-b border-[rgba(0,0,0,0.1)] lg:border-b-0">
-													<div className="h-auto lg:h-[603px] relative shrink-0 w-full">
-														<div
-															aria-hidden="true"
-															className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none lg:hidden"
-														/>
-														<div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full p-5 sm:p-6 md:p-8 lg:p-[32px]">
-															<div className="bg-[rgba(0,0,0,0.05)] content-stretch flex flex-col items-start overflow-clip rounded-[12px] sm:rounded-[16px] mb-5 sm:mb-6 lg:mb-[24px]">
-																<div className="relative shrink-0 w-full aspect-[4/5] max-h-[280px] sm:max-h-[340px] lg:h-[437.906px]">
-																	<div className="absolute inset-0 overflow-hidden pointer-events-none rounded-t-[12px] sm:rounded-t-[16px]">
-																		<img
-																			alt="Profile"
-																			className="absolute md:h-[120%] h-[150%] left-0 max-w-none top-0 w-full object-cover"
-																			src={imgImageWithFallback}
-																		/>
-																	</div>
-																</div>
-															</div>
-															<h2 className="font-groteska-medium leading-[1.3] sm:leading-[36px] not-italic text-xl sm:text-2xl md:text-[30px] text-black mb-1 sm:mb-2 lg:mb-[8px]">
-																Ana Paula Churruarin
-															</h2>
-															<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.6)]">
-																Graphic Designer
-															</p>
-														</div>
-													</div>
-													<div className="relative shrink-0 w-full">
-														<div
-															aria-hidden="true"
-															className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
-														/>
-														<div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-4 sm:gap-5 lg:gap-[16px] items-start p-5 sm:p-6 md:p-8 lg:p-[32px] relative size-full">
-															<h3 className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black">
-																Personal Information
-															</h3>
-															<div className="content-stretch flex flex-col font-montserrat font-normal gap-4 sm:gap-5 lg:gap-[16px] items-start relative shrink-0 w-full">
-																<div className="w-full">
-																	<p className="leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-1 lg:mb-[4px]">
-																		Location
-																	</p>
-																	<p className="leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
-																		Corrientes, Argentina
-																	</p>
-																</div>
-																<div className="w-full">
-																	<p className="leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-1 lg:mb-[4px]">
-																		Contact
-																	</p>
-																	<p className="leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
-																		anapau.ch@icloud.com
-																	</p>
-																	<p className="leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
-																		+549 3777 229333
-																	</p>
-																</div>
-																<div className="w-full">
-																	<p className="leading-[1.3] sm:leading-[16px] text-[11px] sm:text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-1 lg:mb-[4px]">
-																		Interests
-																	</p>
-																	<p className="leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
-																		Contemporary Art, Architecture, Analog
-																		Photography, Vinyl Collecting
-																	</p>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div className="relative shrink-0 w-full p-5 sm:p-6 md:p-8 lg:p-[32px]">
-														<h3 className="font-groteska-medium leading-[1.4] sm:leading-[28px] not-italic text-base sm:text-lg lg:text-[20px] text-black mb-4 lg:mb-[16px]">
-															Languages
-														</h3>
-														<div className="content-stretch flex flex-col gap-3 sm:gap-4 lg:gap-[12px] items-start relative shrink-0 w-full">
-															<div className="content-stretch flex items-center justify-between pb-2 sm:pb-[9px] relative shrink-0 w-full border-b border-[rgba(0,0,0,0.05)]">
-																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
-																	English
-																</p>
-																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.4)]">
-																	C2
-																</p>
-															</div>
-															<div className="content-stretch flex items-center justify-between pb-2 sm:pb-[9px] relative shrink-0 w-full border-b border-[rgba(0,0,0,0.05)]">
-																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.8)]">
-																	Spanish
-																</p>
-																<p className="font-montserrat font-normal leading-[1.5] sm:leading-[20px] text-[13px] sm:text-[14px] text-[rgba(0,0,0,0.4)]">
-																	Native
-																</p>
-															</div>
-														</div>
-													</div>
-												</div>
+            <FadeInSection delay={0.1}>
+              <div className="relative shrink-0 w-full">
+                <div
+                  aria-hidden="true"
+                  className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                />
+                <div className="content-stretch flex flex-col items-start pb-px px-6 sm:px-8 md:px-12 lg:px-16 xl:px-[48px] relative size-full">
+                  <div className="relative shrink-0 w-full">
+                    <div
+                      aria-hidden="true"
+                      className="absolute border-[rgba(0,0,0,0.1)] border-l border-r border-solid inset-0 pointer-events-none hidden md:block"
+                    />
+                    <div className="content-stretch flex flex-col items-start px-0 md:px-px relative size-full">
+                      <div className="relative shrink-0 w-full grid grid-cols-1 md:grid-cols-[300px_1fr] lg:grid-cols-[415px_1fr] gap-8 md:gap-0">
+                        <div className="content-stretch flex flex-col items-start pb-px">
+                          <div className="h-auto md:h-[603px] relative shrink-0 w-full">
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid relative size-full p-[32px]">
+                              <div className="bg-[rgba(0,0,0,0.05)] content-stretch flex flex-col items-start overflow-clip rounded-[16px] mb-[24px]">
+                                <div className="h-[437.906px] relative shrink-0 w-full">
+                                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                                    <img
+                                      alt="Profile"
+                                      className="absolute h-[115%] left-0 max-w-none top-0 w-full"
+                                      src={imgImageWithFallback}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                              <h2 className="font-['Groteska:Medium',sans-serif] leading-[36px] not-italic text-[30px] text-black mb-[8px]">
+                                Ana Paula Churruarin
+                              </h2>
+                              <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.6)]">
+                                Graphic Designer
+                              </p>
+                            </div>
+                          </div>
+                          <div className="relative shrink-0 w-full">
+                            <div
+                              aria-hidden="true"
+                              className="absolute border-[rgba(0,0,0,0.1)] border-b border-solid inset-0 pointer-events-none"
+                            />
+                            <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col gap-[16px] items-start p-[32px] relative size-full">
+                              <h3 className="font-['Groteska:Medium',sans-serif] leading-[28px] not-italic text-[20px] text-black">
+                                Personal Information
+                              </h3>
+                              <div className="content-stretch flex flex-col font-['Montserrat:Regular',sans-serif] font-normal gap-[16px] items-start relative shrink-0 w-full">
+                                <div className="w-full">
+                                  <p className="leading-[16px] text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-[4px]">
+                                    Location
+                                  </p>
+                                  <p className="leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
+                                    Corrientes, Argentina
+                                  </p>
+                                </div>
+                                <div className="w-full">
+                                  <p className="leading-[16px] text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-[4px]">
+                                    Contact
+                                  </p>
+                                  <p className="leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
+                                    anapau.ch@icloud.com
+                                  </p>
+                                  <p className="leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
+                                    +549 3777 229333
+                                  </p>
+                                </div>
+                                <div className="w-full">
+                                  <p className="leading-[16px] text-[12px] text-[rgba(0,0,0,0.4)] tracking-[0.6px] uppercase mb-[4px]">
+                                    Interests
+                                  </p>
+                                  <p className="leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
+                                    Contemporary Art, Architecture, Analog
+                                    Photography, Vinyl Collecting
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div className="relative shrink-0 w-full p-[32px]">
+                            <h3 className="font-['Groteska:Medium',sans-serif] leading-[28px] not-italic text-[20px] text-black mb-[16px]">
+                              Languages
+                            </h3>
+                            <div className="content-stretch flex flex-col gap-[12px] items-start relative shrink-0 w-full">
+                              <div className="content-stretch flex items-center justify-between pb-[9px] relative shrink-0 w-full border-b border-[rgba(0,0,0,0.05)]">
+                                <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
+                                  English
+                                </p>
+                                <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.4)]">
+                                  C2
+                                </p>
+                              </div>
+                              <div className="content-stretch flex items-center justify-between pb-[9px] relative shrink-0 w-full border-b border-[rgba(0,0,0,0.05)]">
+                                <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.8)]">
+                                  Spanish
+                                </p>
+                                <p className="font-['Montserrat:Regular',sans-serif] font-normal leading-[20px] text-[14px] text-[rgba(0,0,0,0.4)]">
+                                  Native
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
 												<div className="content-stretch flex flex-col items-start pb-px">
 													<div className="relative shrink-0 w-full">
