@@ -33,10 +33,7 @@ export default function SocialMediaContentSystemsPage() {
     >
       <Navbar />
       <div className="pt-[61px]">
-        <Breadcrumb
-          currentPage="Social Media Content Systems"
-          showSelectedWork={false}
-        />
+        <Breadcrumb currentPage="Social Media Content Systems" />
 
         <div className="flex flex-col items-center justify-center w-full pb-20">
           <div className="content-stretch flex flex-col items-center justify-center pb-px px-8 md:px-12 xl:px-[72px] relative w-full max-w-[1344px]">

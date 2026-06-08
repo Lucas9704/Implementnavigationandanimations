@@ -554,8 +554,9 @@ function Group10() {
 function Group15() {
   return (
     <div className="flex w-full max-w-[900px] flex-col items-center gap-6 text-center">
-      <div className="flex flex-col font-montserrat font-normal justify-center text-[32px] text-black sm:text-[44px]">
-        <p className="leading-[normal]">Public Infrastructure Landing Page</p>
+      <div className="flex flex-col font-montserrat font-semibold justify-center text-[24px] text-black whitespace-pre-wrap sm:text-[32px]">
+        <p className="leading-[normal] mb-0">{`Public Infrastructure `}</p>
+        <p className="leading-[normal]">Landing Page</p>
       </div>
       <div className="flex flex-col items-center gap-4 text-[#76b729] sm:flex-row sm:gap-8">
         <a
@@ -1106,7 +1107,7 @@ function AdsPolitical() {
       className="content-stretch flex flex-col gap-[48px] items-center justify-center relative shrink-0 w-full"
       data-name="Ads Political"
     >
-      <div className="flex flex-col font-montserrat font-normal justify-center leading-[0] relative shrink-0 text-[32px] text-black text-center sm:text-[44px]">
+      <div className="flex flex-col font-montserrat font-semibold justify-center leading-[0] relative shrink-0 text-[24px] text-black text-center sm:text-[32px]">
         <p className="leading-[normal]">Electoral Communication Campaign</p>
       </div>
       <Container8 />
@@ -3010,7 +3011,7 @@ function Plan() {
         </div>
       </div>
       <div className="relative shrink-0 text-center font-montserrat text-[14px] font-normal uppercase text-[#a1a1a1] md:text-[16px]">
-        <p className="leading-[41px]">Colors and elements</p>
+        <p className="leading-[41px]">ADS</p>
       </div>
       <div className="hidden xl:block">
         <Ads3 />

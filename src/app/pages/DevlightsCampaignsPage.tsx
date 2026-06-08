@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import Navbar from "../components/Navbar";
 import Breadcrumb from "../components/Breadcrumb";
 import DevlightsDigitalCampaigns from "../../imports/DevlightsDigitalCampaigns/DevlightsDigitalCampaigns";
+import DevlightsDigitalCampaignsMobile from "../../imports/DevlightsDigitalCampaigns/DevlightsDigitalCampaignsMobile";
 
 export default function DevlightsCampaignsPage() {
   return (
@@ -11,7 +12,12 @@ export default function DevlightsCampaignsPage() {
       transition={{ duration: 0.5 }}
       className="bg-white relative size-full overflow-y-auto"
     >
-      <div className="md:pt-[60px] sm:pt-0">
+      <div className="xl:hidden pt-[60px]">
+        <Breadcrumb currentPage="Devlights Digital Campaigns" />
+        <DevlightsDigitalCampaignsMobile />
+      </div>
+
+      <div className="hidden xl:block pt-[60px]">
         <Breadcrumb currentPage="Devlights Digital Campaigns" />
         <DevlightsDigitalCampaigns />
       </div>

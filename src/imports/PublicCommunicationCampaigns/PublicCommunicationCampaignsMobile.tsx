@@ -100,7 +100,7 @@ import imgIconArrowRight1 from "./e47a2530b6e85309b00c4780796b20eb5ea8df1e.svg";
 
 export default function PublicCommunicationCampaignsMobile() {
   return (
-    <div className="bg-white w-full overflow-x-hidden">
+    <div className="bg-white w-full">
       {/* ── Hero ─────────────────────────────────────────── */}
       <div className="border-[rgba(0,0,0,0.1)] border-b border-solid flex flex-col items-start justify-center pb-px px-6 w-full">
         <div className="w-full">
@@ -195,9 +195,10 @@ export default function PublicCommunicationCampaignsMobile() {
         {/* Infrastructure */}
         <div className="flex flex-col gap-12 items-center w-full">
           <div className="flex flex-col gap-8 items-center leading-[0]">
-            <p className="font-montserrat font-semibold text-[24px] text-black text-center whitespace-pre-wrap">
-              {`Public Infrastructure \nLanding Page`}
-            </p>
+            <div className="flex flex-col font-montserrat font-semibold justify-center text-[24px] text-black text-center w-[382px] whitespace-pre-wrap">
+              <p className="leading-[normal] mb-0">{`Public Infrastructure `}</p>
+              <p className="leading-[normal]">Landing Page</p>
+            </div>
             <div className="flex font-montserrat font-medium items-end justify-between text-[#76b729] text-[16px] w-full whitespace-nowrap">
               <a className="flex flex-col justify-center" href="https://www.figma.com/proto/GO0rcsT1xgQdrHAhxaDtUU/OBRAS?page-id=0%3A1&type=design&node-id=102-3&viewport=842%2C254%2C0.07&t=7RqfXkC0HQEe1Yex-1&scaling=min-zoom&starting-point-node-id=102%3A2&mode=design" target="_blank" rel="noopener noreferrer">
                 <p className="decoration-solid leading-[36px] underline">Desktop prototype</p>
@@ -298,9 +299,9 @@ export default function PublicCommunicationCampaignsMobile() {
 
         {/* Electoral */}
         <div className="flex flex-col gap-12 items-center justify-center w-full">
-          <p className="font-montserrat font-semibold leading-[0] text-[24px] text-black text-center w-full">
-            Electoral Communication Campaign
-          </p>
+          <div className="flex flex-col font-montserrat font-semibold justify-center text-[24px] text-black text-center w-full">
+            <p className="leading-[normal]">Electoral Communication Campaign</p>
+          </div>
           <div className="flex flex-col items-end w-full">
             <div className="flex flex-wrap gap-3 items-start justify-center w-full">
               <div className="flex flex-col gap-3 items-start w-[300px]">
@@ -697,7 +698,7 @@ export default function PublicCommunicationCampaignsMobile() {
           <p className="font-montserrat font-normal leading-[41px] text-[#a1a1a1] text-[16px] uppercase">FONT/BUTTONS</p>
 
           {/* Typography + Buttons */}
-          <div className="flex flex-col gap-6 items-start px-6 w-full">
+          <div className="flex flex-col gap-[24px] items-start w-full">
             <div className="bg-[#ecd9c7] flex h-[51px] items-center justify-center px-[22px] py-[7px] rounded-[60px] w-full">
               <div className="flex flex-[1_0_0] flex-col font-bold h-[37px] justify-center leading-[0] min-w-px text-[#1e1e1e] text-[0px] text-center" style={{ fontFamily: 'DM Sans', fontVariationSettings: '"opsz" 14' }}>
                 <p className="text-[14px]">
